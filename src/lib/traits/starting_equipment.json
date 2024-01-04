@@ -1,0 +1,128 @@
+[
+        {
+                "id": "ccfefd38-e5f3-40b2-8005-9233de9eedc4",
+                "name": "Well-equipped",
+                "category": "Starting Equipment",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Your starting wealth is doubled.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "7e396959-c1dd-4c66-a285-122ce0ffa3af",
+                "name": "Ill-equipped",
+                "category": "Starting Equipment",
+                "cost": -1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Your starting wealth is halved.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c2fec404-8731-4cb8-88e4-4679a12791ab",
+                "name": "Scraping the Barrel",
+                "category": "Starting Equipment",
+                "cost": -2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You only start with a quarter of the regular starting wealth.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "1955d493-64ba-47e8-8a96-9ae87db80459",
+                "name": "Destitute",
+                "category": "Starting Equipment",
+                "cost": -3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You start with no starting wealth.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "641b40d8-38c4-48e6-9e0a-6a269d6e0c59",
+                "name": "Weapon of Quality (fine)",
+                "category": "Starting Equipment",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "One of your weapons is of fine quality.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "8fc8b0b9-b773-4438-aa88-8f64deb23758",
+                "name": "Weapon of Quality (very fine)",
+                "category": "Starting Equipment",
+                "cost": 6,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "One of your weapons is of very fine quality.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

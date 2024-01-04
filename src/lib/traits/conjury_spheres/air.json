@@ -1,0 +1,106 @@
+[
+        {
+                "id": "f09d6e5c-3130-4759-a53c-16b3edd5e72a",
+                "name": "Air 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of air magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Magery",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "8a8ae103-dcd8-44e3-9f6f-08bf54ff008a",
+                "name": "Air 2",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Second sphere of air magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Air 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "7837f2af-2ad7-465b-a4bd-b4871fbe4757",
+                "name": "Air 3",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Third sphere of air magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Air 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "4f29b5db-f76e-41df-8d89-75172bdc13ad",
+                "name": "Air 4",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Fourth sphere of air magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Air 3",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

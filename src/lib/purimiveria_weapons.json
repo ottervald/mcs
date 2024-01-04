@@ -1,0 +1,672 @@
+[
+        {
+                "id": "e619c3da-b0d9-4334-8ef8-856d382e7e40",
+                "name": "Light Club",
+                "description": "Something to go clubbing with",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 20,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d B",
+                                "reach": "S",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "ce3225fd-f4a4-4b86-94a9-8dc1847d6d1c",
+                "name": "Heavy Club",
+                "description": "Something to really go clubbing with",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 60,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d B",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 4,
+                                "damage_modifier": "d B",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "4b37f5c9-c3ae-43ae-99d3-1296479b0850",
+                "name": "Spiked Mace",
+                "description": "Nice to meet you, mace to face",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 30,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d PB",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "196ef497-6f3c-42c9-94e1-e409b190e55a",
+                "name": "Flanged Mace",
+                "description": "Nice to meet you, mace to face",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 30,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d SB",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "157b63de-7640-483c-8128-c1d57972132d",
+                "name": "Hatchet",
+                "description": "Hatchet man",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 20,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d S",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "3223701c-6e8a-4b0e-955e-5e01aa5d1cf0",
+                "name": "Battle Axe",
+                "description": "Kiss my axe",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 60,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 4,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "0ee6e8bd-7b47-48ec-9c86-5804362482ab",
+                "name": "Warhammer",
+                "description": "It's hammer time",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 95,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d PB ap1",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d PB ap2",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "cb0188f0-657d-413b-bec7-2273c68642b8",
+                "name": "Shovel",
+                "description": "Shovelling things, or kith",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 9,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- SB",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "cf2fad0a-8d0d-4cff-9663-dbd60d79f79c",
+                "name": "Unarmed",
+                "description": "Do it all on your own",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 0,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d-- B",
+                                "reach": "S",
+                                "strength_requirement": 0,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "71beef22-e26f-4df6-802c-0de2403a35c0",
+                "name": "Brass Knuckles",
+                "description": "Knuckle dusters",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 5,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "716caf85-e164-41a1-a4a9-b4eab7fb5d7f",
+                "name": "Punching Dagger",
+                "description": "Punching spike, or spiking the punch",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d P",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "dde1c908-637d-44c2-bb31-64c1f7140986",
+                "name": "Knife",
+                "description": "Knife to meet you",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 7,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- S",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "d4e89921-2e11-4e32-bd8f-d6732e0b8df0",
+                "name": "Stiletto",
+                "description": "Pointy, pointy",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 45,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- P ap2",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "bbd132ed-4a20-41f2-a719-aa77753f35ad",
+                "name": "Dagger",
+                "description": "Cloak and dagger",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 30,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d S",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d P",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "55598c85-c94a-4e07-b216-fabad01a3864",
+                "name": "Short Sword",
+                "description": "Swording shortly",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 40,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d P",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "1a0976f3-44af-45b6-8c96-ad35f0859099",
+                "name": "Small Sword",
+                "description": "Swording smally",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 100,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d P ap2",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "f7a8e85f-0ff7-4390-a55a-6de564920a77",
+                "name": "Rapier",
+                "description": "Rapier, of the witty kind",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 125,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d P ap2",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "e39e04e9-e19d-4da8-bcdb-bceb1e80cb57",
+                "name": "Arming Sword / Sabre",
+                "description": "Arm the Sabre",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 60,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "0a0dd24c-fd2e-45cc-9025-8cd84c56a816",
+                "name": "Longsword",
+                "description": "Sworing longly",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 90,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "18212f22-a076-4598-8d38-c91efbfbf0db",
+                "name": "Greatsword",
+                "description": "Sword greatly",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 150,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 5,
+                                "damage_modifier": "d S",
+                                "reach": "L",
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d P",
+                                "reach": "L",
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "8c0ced71-cb2e-45bb-ab0d-6feb5f62ed40",
+                "name": "Staff",
+                "description": "Nice stick",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 12,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "f00b7e38-cf67-4814-af86-3cc553b1eef3",
+                "name": "Quarterstaff",
+                "description": "A quarter of a stick",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 25,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d B",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "f0ce5253-c287-4687-9eb6-ac9a2da10768",
+                "name": "Spear",
+                "description": "Spear on",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 45,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d P",
+                                "reach": "L",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "f18e02cd-3e4b-405b-91dc-7792c461719f",
+                "name": "Swordstaff",
+                "description": "Sword from a distance",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 45,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d S",
+                                "reach": "L",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d P",
+                                "reach": "L",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "cbbb23d7-260c-4e3e-94df-c68e423257c2",
+                "name": "Long Axe",
+                "description": "Axe from a distance",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 45,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 4,
+                                "damage_modifier": "d S",
+                                "reach": "L",
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "a00f8341-6556-455f-83f2-30125b75319a",
+                "name": "Halberd",
+                "description": "Hill that bard",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 60,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 4,
+                                "damage_modifier": "d P",
+                                "reach": "L",
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d S",
+                                "reach": "L",
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "ca509804-dd61-474b-b652-94112494f33b",
+                "name": "Pitchfork",
+                "description": "Join the angry mob!",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 7,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "L",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "536ccf71-46f9-4390-be1b-fb72b3f33da9",
+                "name": "Short Bow",
+                "description": "Stab somebody over there",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 27,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 0,
+                                "damage_modifier": "d P ap1",
+                                "reach": "N/M",
+                                "strength_requirement": 1,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "3073107c-7f24-4ff1-a99d-beb939531d01",
+                "name": "Regular Bow",
+                "description": "Regularly stab afar",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 35,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 1,
+                                "damage_modifier": "d P ap1",
+                                "reach": "M/F",
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "3f09f3f2-eda4-45ff-9895-527204236fec",
+                "name": "Warbow",
+                "description": "Military distinction stab from afar",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 50,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 2,
+                                "damage_modifier": "d P ap2",
+                                "reach": "M/F",
+                                "strength_requirement": 4,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "",
+                "description": "",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 20,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d B",
+                                "reach": "S",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        }
+]

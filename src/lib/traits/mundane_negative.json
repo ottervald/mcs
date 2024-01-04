@@ -1,0 +1,527 @@
+[
+        {
+                "id": "01d58fbb-31b0-4e57-a53e-b66e79a3d3c8",
+                "name": "Alcohol Intolerance",
+                "category": "Mundane",
+                "cost": -1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "No Body save to resist getting drunk, and hangovers are almost always guaranteed",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "25a9e7bc-d661-40d1-b1e8-915e817f98ce",
+                "name": "Bad Back",
+                "category": "Mundane",
+                "cost": -4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Every time you do a physical action that stresses your back you may end up getting hit by a strong surge of pain that incapacitates you whether you succeeded with the task or not. Roll a Body save vs. 10. On failure you are incapacitated for 3d6 minutes. On a critical failure 3d6 hours.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9a07727f-1796-4d59-9d22-70495f79567a",
+                "name": "Bad Knees",
+                "category": "Mundane",
+                "cost": -4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Every time you do a physical action that stresses your knees you may end up getting hit by a strong surge of pain that incapacitates you whether you succeeded with the task or not. Roll a Body save vs. 10. On failure you are incapacitated for 3d6 minutes. On a critical failure 3d6 hours.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "ddcef682-4f17-470a-9b17-256d3dd018dd",
+                "name": "Bad Smell",
+                "category": "Mundane",
+                "cost": -4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have a bad body odor",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "2b16ccc5-5db4-4655-ae86-1196b2472e0d",
+                "name": "Bad looks",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "You look worse than average",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "214e1090-e859-437c-b7b5-a96270d4c887",
+                "name": "Blurter",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have a bad habit of blurting things out often best not said when talking to others. This is mostly benign or simply awkward, but occasionally it can be damning. When you fail a social category skill check you accidentally tell the person(s) you are interacting with some fact that would have been best not said in addition to simply failing. If there is one thing you absolutely should not have said and you knew it, then that was what was said.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "50f68267-f75f-4276-be73-2c8b155809c7",
+                "name": "Easy to Read",
+                "category": "Mundane",
+                "cost": -4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your body or your expressions betray your feelings",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "e90dc103-7984-4de1-bc31-2993b9363a0d",
+                "name": "Hamfisted",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your fine motor skills are not as good as they could be. Any skill check involving fine manipulation is subject to a disadvantage.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c8549ceb-aba8-413f-aa91-8d0d7602478a",
+                "name": "Heavyweight",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "For every level of overweight you count as having an extra level of Size carried and you also receive an equal penalty to applicable skill checks. As a bonus though, every level also counts as one level of Body when starving",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "3d346790-025e-41a1-ab1a-ac40d48f81d5",
+                "name": "Increased Consumption",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "You need about a third more food each day compared to the baseline. You are not gluttonous, your body needs the extra food. This means your food expenses are increased by a third per level of this trait. Maximum level is three",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "dfae3f3e-36d2-4feb-bab0-3dff023f6bff",
+                "name": "Insomniac",
+                "category": "Mundane",
+                "cost": -4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You periodically find it very hard to sleep for whatever reason. A period of insomnia can be triggered by anxiety or stress but will also start seemingly out of nowhere. This disadvantage is a catch-all for all varieties of periodic sleep dysfunctions regardless of cause. Every night when you go to sleep, roll a Chance roll vs. 8. On a failure, reduce the amount of sleep you would get by 1d hours. On a critical failure you do not get any sleep that night.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9af016b1-f4c3-408a-b36a-bbe606265404",
+                "name": "Lackadaisical",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "It is incredibly hard for you to motivate yourself to perform solitary tasks without outside motivation. For long term tasks like training, researching or studying you can only spend at most 4 hours a day (half of what a normal person could) without spending willpower to maintain concentration.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "f8c5d860-738b-4fd1-8039-cb874d5a4f91",
+                "name": "Lightweight",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You are either malnourished or of a naturally light frame. You are easily displaced physically. An added upside would be that you more easily fit into tight spaces. You receive a penalty of two to resist displacement attacks such as throws and pushes as well as being pinned in a grapple. When starving, count your Body attribute as one lower than it is",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "614dc7c9-71b1-407f-84da-d4b8b16822fc",
+                "name": "Light Sleeper",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have great trouble sleeping in noisy or otherwise animated environments. You can be assumed to lose 1d-3 hours of sleep when not sleeping isolated. On the bright side you are also likely to wake up if there is actual trouble afoot as well",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c28eab17-f875-4ea0-b5f9-0ffbfc943fda",
+                "name": "Mean Looking",
+                "category": "Mundane",
+                "cost": -1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Regardless of how you actually act, you look mean or dishonest, and strangers may therefore be wary of you. This may occasionally net you an advantage to intimidation and good initial reactions from shady types",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "a31a17e1-da2a-40ff-8806-a6cbb866b0e1",
+                "name": "More Sleep",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "You require one extra hour of sleep per day for every level of this trait. Max level is three",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9bd2c11f-a6f1-41c9-9934-ef2acbb23ddf",
+                "name": "Nearsighted",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You are nearsighted, double all penalties for ranged attacks. You cannot read text or spot detail as easily as others, what others can see from across the room, you would have to stand next to.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "04ca8abd-927d-4273-92f8-6fd6ae83dadb",
+                "name": "Night Blindness",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You see particularly bad in dark conditions. You see normally in daylight and well lit areas. But otherwise you count the brightness level as one level darker. Negates ancestral Nightvison. Mutually exclusive with Darkvision.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c04eb85a-f1fe-4577-b478-4ef29d5a41d5",
+                "name": "Pacifism (No Innocents)",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You may not hurt innocents or bystanders. You may however use violence to defend yourself and your companions. Any bandits or outlaws are fair game",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "834199cf-6516-427e-b93d-f66a214244cd",
+                "name": "Pain Synesthesia",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You sympathize strongly with your friends and companions. In fact, you do this so strongly that whenever you see or hear them take Vitality Damage you take Willpower damage. If they take any amount of Lasting damage, you receive one point of Lasting Willpower damage. If they only take regular Vitaly damage, you receive one point of regular Willpower damage.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9ce2258e-a3e0-4219-934a-bf6a7b99bab6",
+                "name": "Sensitive Hearing",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have a particularly sensitive sense of hearing. In quiet circumstances you hear normal conversation fine enough, but in loud  and busy areas you hear nothing as all the sounds merge into incomprehensible rumbling. You get a disadvantage to alertness in busy areas such as bars and in very loud places such as in storms you can be effectively considered deaf. You cannot hear your friends shouting at you in intense combat.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "8d9c5e9e-18c6-45bc-8117-446f33b34437",
+                "name": "Sensitive Stomach",
+                "category": "Mundane",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Whenever you eat bad food you are at a disadvantage on the Body save to resist complications. The same applies to any toxins or poisons ingested. Spicy food counts as Bad food for you",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "aeaba71d-a180-45e6-8853-4d5e43f1dfd3",
+                "name": "Slow Reader",
+                "category": "Mundane",
+                "cost": -1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Reading is very slow for you. Extended tasks where you study or research from text takes twice the normal time. You can't read signs and such without slowing down and concentrating",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "701f65aa-a94d-49e8-896b-ba2cfa489f50",
+                "name": "Truthful",
+                "category": "Mundane",
+                "cost": -4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You hate to lie and you are also really bad at it. Daily small white lies are fine but any big lie is incredibly hard for you to tell. It is really easy for anyone to see when you force yourself to lie. Whenever a check requires you to tell falsehoods you are at a disadvantage, two levels of disadvantage if you lie directly to someone's face. This almost always comes up when using the Subterfuge skill and occasionally while using Charm or Commerce",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c6b33c52-9997-4d92-bbfe-5300a363d98c",
+                "name": "Unhealing",
+                "category": "Mundane",
+                "cost": -3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Your natural rate of Vitality recovery is lower than it should be. Base Vitality recovery is reduced by one.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

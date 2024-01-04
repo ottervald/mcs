@@ -1,0 +1,80 @@
+[
+        {
+                "id": "568e0324-4148-4037-87b4-2e648ac473cd",
+                "name": "Spirit 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of spirit magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Death 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "aad3f62f-14ae-47ec-84bc-a649577bedd7",
+                "name": "Spirit 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Second sphere of spirit magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Spirit 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "8f19879e-e015-4137-9a03-95cef944aac1",
+                "name": "Spirit 3",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Third sphere of spirit magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Spirit 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

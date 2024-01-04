@@ -1,0 +1,80 @@
+[
+        {
+                "id": "547d5d47-2115-40bd-b31b-17fb926b2b5a",
+                "name": "Mind 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of mind magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Darkness 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "d640a7fe-6e34-494c-aeba-ccc2daf0a35c",
+                "name": "Mind 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Second sphere of mind magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Mind 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "874e811d-1fe1-4929-8737-deb8cac16c69",
+                "name": "Mind 3",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Third sphere of mind magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Mind 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

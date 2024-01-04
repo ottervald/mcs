@@ -1,0 +1,106 @@
+[
+        {
+                "id": "88df55db-7679-436e-86e4-fa9c6e6e432c",
+                "name": "Earth 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of earth magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Magery",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "e1055470-4039-417e-b07b-ab15a3200039",
+                "name": "Earth 2",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Second sphere of earth magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Earth 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "b5ee817e-012d-4dd5-9021-e807927ff918",
+                "name": "Earth 3",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Third sphere of earth magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Earth 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "1a11fb7e-2556-4779-a754-c69d4a49fb8b",
+                "name": "Earth 4",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Fourth sphere of earth magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Earth 3",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

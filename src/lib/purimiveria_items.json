@@ -1,0 +1,290 @@
+[
+        {
+                "id": "c8d23f16-4232-40c9-9523-17102c26b2f8",
+                "name": "Artist's Tools",
+                "description": "Tools to create your art.",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 75
+        },
+        {
+                "id": "79928663-2e5f-45cf-9899-e81730218509",
+                "name": "Craftman's Tools",
+                "description": "Tools to do your craft.",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 50
+        },
+        {
+                "id": "e3e74bcf-65b8-41f5-8973-673d1c42cdaf",
+                "name": "Healer's kit",
+                "description": "A kit to heal kith with.",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 25
+        },
+        {
+                "id": "5e89e8d3-e48b-485d-99fd-5eb26c43b737",
+                "name": "Lockpicks",
+                "description": "Pick locks with these picks.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 25
+        },
+        {
+                "id": "554c5ea0-3f08-4352-9dca-a899d2020862",
+                "name": "Bedroll",
+                "description": "Something to sleep in while on the road",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 1
+        },
+        {
+                "id": "6834af0a-c4b7-4873-92a4-824845404869",
+                "name": "Bedroll, Insulated",
+                "description": "A bedroll for the cold.",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "631092d8-07e5-41c4-95a4-86758b2b4e09",
+                "name": "Small Tent, Light",
+                "description": "Fits 1-2 persons.",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "8e9f5898-c6c2-41c6-b38e-69176a403a4d",
+                "name": "Small Tent, Insulated",
+                "description": "Fits 1-2 persons. For cold climates.",
+                "size": 5,
+                "sturdiness": 3,
+                "cost": 25
+        },
+        {
+                "id": "6a806dec-a365-4e0d-8f7e-774e8ae8b20d",
+                "name": "Medium Tent, Light",
+                "description": "Fits 3-5 persons.",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 80
+        },
+        {
+                "id": "03cee195-6deb-44cc-bb94-0ca49e56f814",
+                "name": "Medium Tent, Insulated",
+                "description": "Fits 3-5 persons. For cold climates.",
+                "size": 7,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "0559720b-5f92-40ac-a51d-05dfecf7930e",
+                "name": "Personal Basics Kit",
+                "description": "A basic kit for your adventurer.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "de1348ac-f206-4136-bf2b-e92f315ad39a",
+                "name": "Group Cooking Kit",
+                "description": "Cook for your group of adventurers.",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 50
+        },
+        {
+                "id": "b3c701d6-ec9a-46aa-b6cd-b4dbb851dc52",
+                "name": "Caver's Kit",
+                "description": "Kit to climb around in caves.",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 50
+        },
+        {
+                "id": "7c221c02-d747-4a88-8a95-7305c7a9afc7",
+                "name": "Scribe's Kit",
+                "description": "Write things down, properly.",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 50
+        },
+        {
+                "id": "91f889d8-2ba8-4b8d-856f-37fc2e4a4cc7",
+                "name": "Personal Hygiene Kit",
+                "description": "Soap, brush, be clean!",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "9354f6a2-10f7-44a2-b506-0f6996ceb1c8",
+                "name": "Makeup Kit",
+                "description": "Look fancy.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "b7738be5-1fb7-4c44-931b-c868d314e601",
+                "name": "Small Sack",
+                "description": "Carries 5.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 1
+        },
+        {
+                "id": "5735667b-5450-493e-b565-442eb2e3b66d",
+                "name": "Small Backpack",
+                "description": "Carries 5.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "f49cb7e4-7a3e-4912-9586-4154b01229a4",
+                "name": "Satchel Bag",
+                "description": "Carries 5.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "77d62175-510c-4e49-ada6-04a1d815a9ee",
+                "name": "Regular Backpack",
+                "description": "Carries 10.",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "165c424c-2560-4593-98b1-e06f70f26f9d",
+                "name": "Frame Backpack",
+                "description": "Carries 20.",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 25
+        },
+        {
+                "id": "7fcd5b84-c1e6-432c-b002-79df778d03ac",
+                "name": "Trunk",
+                "description": "Carries 40.",
+                "size": 5,
+                "sturdiness": 3,
+                "cost": 60
+        },
+        {
+                "id": "37de079e-243f-4606-9d01-b780e652bc5b",
+                "name": "Carrying Harness",
+                "description": "Carries 5.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "02985558-fe7b-47f0-9e5d-3c07d9ffd62c",
+                "name": "Local Map",
+                "description": "Map of a small area",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "a543e7a8-8601-4ea4-9047-65462e6899a2",
+                "name": "Regional Map",
+                "description": "Map of a larger area, like a Duchy.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "f298b216-7197-4c4f-87d9-c64aca052576",
+                "name": "National Map",
+                "description": "Map of a Kingdom.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "9d1df9d3-4e5c-49be-a7b5-c04b2925d3dd",
+                "name": "World Map",
+                "description": "A map of the known world.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "a75ee694-dc2e-41eb-8578-86179fcf1c39",
+                "name": "Short Literature Book",
+                "description": "A short piece of writing, in book form.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 2
+        },
+        {
+                "id": "2014422a-27e8-4013-ad1c-c70aab32f793",
+                "name": "Thick Hardback Literature Book",
+                "description": "War & Peace.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "47d1668f-31a7-4212-baa2-f8643d171acc",
+                "name": "Lexicon",
+                "description": "+1 to skill for long term research.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 25
+        },
+        {
+                "id": "7ef03f4c-71a9-4dbf-bac8-59f3f9b0a22a",
+                "name": "Light Outfit",
+                "description": "Cold exposure protection 0.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 5
+        },
+        {
+                "id": "b770844d-da69-4866-9934-b1184aaf9f30",
+                "name": "Regular Outfit",
+                "description": "Cold exposure protection 1.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
+                "id": "04723924-aeb4-4187-a3d5-5c37677c4b1b",
+                "name": "Rugged Outfit",
+                "description": "Cold exposure protection 2.",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 20
+        },
+        {
+                "id": "1392f066-bfae-4ea3-86cd-d838250eef3e",
+                "name": "Cold Climate Outfit",
+                "description": "Cold exposure protection 3.",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 40
+        },
+        {
+                "id": "7d1df6bb-dbe8-48a2-adcc-01bcd73625d1",
+                "name": "Formal Outfit",
+                "description": "Cold exposure protection 1.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 25
+        },
+        {
+                "id": "a9d632f7-624f-4e11-8f24-846513bd760c",
+                "name": "Work Outfit",
+                "description": "Cold exposure protection 1.",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 20
+        }
+]

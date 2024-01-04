@@ -1,0 +1,247 @@
+[
+        {
+                "id": "c42946cf-f2a8-40d1-ad1f-83f98b59da6f",
+                "name": "Agile Fighter",
+                "category": "Expertise",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "When doing attack rolls with either of the following skills: Blades, Polearms and Unarmed, you may use Agility instead of Body. Prerequisite: Agility 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 3,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "a0aa37e3-154d-4dba-ba6b-c37c2eef5742",
+                "name": "Archery Training",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "For the purpose of using bows, count your Strength as 1 level higher. Prerequisite: Bow 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Bows",
+                                        "minimumValue": 3
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9b0faea6-d591-482c-bbd3-dd8dfef62a50",
+                "name": "Armor Training",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "Each level negates a level of Size from worn armor (total, not per part). It does not affect Shields. Max level is 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "817d9ce0-3135-4cfe-82b3-e8ef05bc9a7d",
+                "name": "Pack Mule",
+                "category": "Expertise",
+                "cost": 2,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "Increase Maximum Carry Limit by 2. Maximum level is 5",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "2a1d37e6-b6ce-4f0e-9a0c-e82002a80ed0",
+                "name": "Shield Mastery",
+                "category": "Expertise",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "When defending with a shield equipped you reduce defense penalties from flanking by two levels of disadvantage. Prerequisite: Shield 7",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Shield",
+                                        "minimumValue": 7
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
+                "id": "acc99e62-0b3f-46ed-a167-2a5c7c825c42",
+                "name": "Shield Training",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have trained to get the most out of your shield and therefore get a plus one defense bonus when using a shield. Prerequisite: Shield 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Shield",
+                                        "minimumValue": 3
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
+                "id": "6c7d18d5-6a9a-4f14-8e91-b9efb06b5539",
+                "name": "Swashbuckler",
+                "category": "Expertise",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You may use your Agility attribute instead of Body for Shield skill checks when using a size 1 shield. Prerequisite: Shield 2",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Shield",
+                                        "minimumValue": 2
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
+                "id": "25161d63-a600-413a-9994-9712cdde7534",
+                "name": "Weapon Specialization (Axe/Blunt)",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You get a plus one die of damage when using a specific weapon type. Prerequisite: Axe/Blunt 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Axe/Blunt",
+                                        "minimumValue": 3
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
+                "id": "ce7a227c-b463-4f5c-87fd-64d9e8a820fb",
+                "name": "Weapon Specialization (Blades)",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You get a plus one die of damage when using a specific weapon type. Prerequisite: Blades 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Blades",
+                                        "minimumValue": 3
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
+                "id": "18f07d0a-1d54-4702-8c4e-3d403ac77805",
+                "name": "Weapon Specialization (Polearms)",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You get a plus one die of damage when using a specific weapon type. Prerequisite: Polearms 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Polearms",
+                                        "minimumValue": 3
+                                }
+                        ],
+                        "traits": []
+                }
+        }
+]

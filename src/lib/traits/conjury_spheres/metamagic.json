@@ -1,0 +1,80 @@
+[
+        {
+                "id": "5921f068-17cd-4586-900b-0002d2261e0e",
+                "name": "Metamagic 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of meta magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Magery",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "b9116b99-cd3b-40ad-911c-bf57476ff827",
+                "name": "Metamagic 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Second sphere of meta magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Metamagic 1",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "9918b04a-2ed0-42dd-9b38-af27d189a974",
+                "name": "Metamagic 3",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Third sphere of meta magic",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Metamagic 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

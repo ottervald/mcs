@@ -1,0 +1,42 @@
+[
+        {
+                "id": "32cc4991-8079-4037-92ef-adcd45741854",
+                "name": "Small Shield",
+                "description": "Protect yourself a bit",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10,
+                "defense_bonus": 1,
+                "strength_requirement": 1
+        },
+        {
+                "id": "b2562d41-9ec6-4419-aaef-92c8e9487f73",
+                "name": "Medium Shield",
+                "description": "Protect yourself a bit more",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 20,
+                "defense_bonus": 2,
+                "strength_requirement": 2
+        },
+        {
+                "id": "d27cc0f2-5c21-44cd-9a1e-deef174d694f",
+                "name": "Large Shield",
+                "description": "Protect yourself a lot",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 40,
+                "defense_bonus": 3,
+                "strength_requirement": 3
+        },
+        {
+                "id": "796b02d1-bb18-4510-a36a-af64761a04c5",
+                "name": "Tower Shield",
+                "description": "Protect yourself as much as you can",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 60,
+                "defense_bonus": 4,
+                "strength_requirement": 4
+        }
+]

@@ -1,0 +1,558 @@
+[
+        {
+                "id": "ecdc44f8-de8c-40ee-a1dd-ccc466a9a0f5",
+                "name": "Pet (Tiny, 0 Strength)",
+                "category": "Allies & Companions",
+                "cost": 1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "8cff3307-6f09-461b-9c6f-236cdba32922",
+                "name": "Pet (Small, 1 Strength)",
+                "category": "Allies & Companions",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "64805c37-b75c-4234-8d3b-1a32dce7aaf7",
+                "name": "Pet (Medium, 2-3 Strength)",
+                "category": "Allies & Companions",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "71880e14-e75a-40da-8965-bde656542258",
+                "name": "Pet (Large, 4-6 Strength)",
+                "category": "Allies & Companions",
+                "cost": 6,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "8124a9ee-84ca-4dad-8f30-d64fa7102678",
+                "name": "Animal Companion (Tiny, 0 Strength)",
+                "category": "Allies & Companions",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9795e1b3-0ce0-47ad-9ddb-f96b8422ae80",
+                "name": "Animal Companion (Small, 1 Strength)",
+                "category": "Allies & Companions",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "652732f7-79e8-453b-a37e-3fc3861bcaa0",
+                "name": "Animal Companion (Medium, 2-3 Strength)",
+                "category": "Allies & Companions",
+                "cost": 10,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "a3094f5a-7476-4b21-b140-bb4a0af8b553",
+                "name": "Animal Companion (Large, 4-6 Strength)",
+                "category": "Allies & Companions",
+                "cost": 15,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "9caa00ce-df81-461d-b8dc-041a19fa6ecf",
+                "name": "Familiar (Tiny, 0 Strength)",
+                "category": "Allies & Companions",
+                "cost": 5,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "60d309a3-6cb2-411b-b549-5057fd6dd034",
+                "name": "Familiar (Small, 1 Strength)",
+                "category": "Allies & Companions",
+                "cost": 10,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "8f7185ff-0a83-4029-b220-89dbd3f5060d",
+                "name": "Familiar (Medium, 2-3 Strength)",
+                "category": "Allies & Companions",
+                "cost": 20,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "4969dc1b-5567-4447-886f-2042b60627f7",
+                "name": "Familiar (Large, 4-6 Strength)",
+                "category": "Allies & Companions",
+                "cost": 30,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "f9083b82-ad58-4f29-acd7-cacdb70317c5",
+                "name": "Tracking Ability",
+                "category": "Allies & Companions",
+                "cost": 1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your Pet/Animal Companion/Familiar can track.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Pet (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "ad37c3f5-1c03-4c04-9069-cb2249b1fd0d",
+                "name": "Mount",
+                "category": "Allies & Companions",
+                "cost": 1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your Pet/Animal Companion/Familiar is an animal breed and trained for riding and carrying luggage. Only for Size Medium or Large.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Pet (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "b59fcf44-d080-45d5-8c01-16c9bb314a9a",
+                "name": "Flying",
+                "category": "Allies & Companions",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your Pet/Animal Companion/Familiar can fly.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Pet (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Pet (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Animal Companion (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "a2d3bc3d-23df-4b1a-ac68-70ece1dfc307",
+                "name": "Familiar Speech",
+                "category": "Allies & Companions",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your familiar is capable of speech.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Familiar (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "93b611d0-2bf0-4a5c-a198-6151494f72c5",
+                "name": "Familiar Spellcasting",
+                "category": "Allies & Companions",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your familiar has access to a specific sphere of tier 1 conjury.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Familiar (Tiny, 0 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Small, 1 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Medium, 2-3 Strength)",
+                                        "minimumValue": 0
+                                },
+                                {
+                                        "name": "Familiar (Large, 4-6 Strength)",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "4ba4577f-44a1-45fd-a75e-e5838e276ba5",
+                "name": "Retainer (Basic)",
+                "category": "Allies & Companions",
+                "cost": 5,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Only skilled at domestic tasks.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "42a99dd4-6f26-4ee4-a72e-033f65af46c4",
+                "name": "Retainer (Skilled)",
+                "category": "Allies & Companions",
+                "cost": 10,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Has a specific skill or talent.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

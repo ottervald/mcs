@@ -1,0 +1,254 @@
+[
+        {
+                "id": "3b755e53-b006-4b69-8f40-eb33248d32da",
+                "name": "Axe/Blunt",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Swing axes and blunt melee weapons"
+        },
+        {
+                "id": "f57eaf92-a624-4b80-abbd-3afec319c97c",
+                "name": "Blades",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Swing swords and other balanced bladed weapons"
+        },
+        {
+                "id": "37852d8e-6cd6-4e83-a9a9-f92d94d50cb3",
+                "name": "Bows",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Shoot arrows with a bow"
+        },
+        {
+                "id": "a1896b36-6ea7-4fb1-91f8-5e72b59bf4b8",
+                "name": "Crossbows",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Shoot bolts with a crossbows"
+        },
+        {
+                "id": "23522b66-23a6-440b-a5fc-710e5d5d044b",
+                "name": "Dodge",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Dodge incoming attacks"
+        },
+        {
+                "id": "16aee6ab-b0a3-4824-b95b-06bfda88805a",
+                "name": "Polearms",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Swing polearms at people"
+        },
+        {
+                "id": "549d13d5-b11e-4056-b819-07a07238dc67",
+                "name": "Shield",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Protect yourself with a shield"
+        },
+        {
+                "id": "9a5fd315-3a47-4bf9-b3c2-537a7cd72171",
+                "name": "Slings",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Throw stones and pebbles, but harder, with a sling"
+        },
+        {
+                "id": "65eac50d-5ed1-4d11-be37-b3fd16c1c311",
+                "name": "Throwing Weapons",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Throw weapons made to be thrown"
+        },
+        {
+                "id": "00cc648e-301d-4541-9dd4-c22150c2f7c2",
+                "name": "Unarmed",
+                "category": "Combat",
+                "specialized": false,
+                "description": "Bonk somebody with your fists, or kick them"
+        },
+        {
+                "id": "d40ba42a-1973-4438-81a4-a5179d238204",
+                "name": "Charm",
+                "category": "Social",
+                "specialized": false,
+                "description": "Charm people"
+        },
+        {
+                "id": "f41245a8-0bc8-4482-88c3-29fda7901cab",
+                "name": "Etiquette",
+                "category": "Social",
+                "specialized": false,
+                "description": "Know how to behave yourself in polite society"
+        },
+        {
+                "id": "31cb7378-1390-4194-a1e7-6496d995df8e",
+                "name": "Intimidation",
+                "category": "Social",
+                "specialized": false,
+                "description": "Intimidate people to do what you want"
+        },
+        {
+                "id": "8142e56c-21d7-4a46-aca1-18ea1c30e32d",
+                "name": "Persuasion",
+                "category": "Social",
+                "specialized": false,
+                "description": "Use words to convince people to do what you want"
+        },
+        {
+                "id": "27e62474-b745-4881-a3d3-0c24c6cb553a",
+                "name": "Streetwise",
+                "category": "Social",
+                "specialized": false,
+                "description": "Know how to behave in rough company on the streets"
+        },
+        {
+                "id": "e43df6f1-daca-4507-ae75-2011d9590926",
+                "name": "Subterfuge",
+                "category": "Social",
+                "specialized": false,
+                "description": "Lie and deceive"
+        },
+        {
+                "id": "9a2ba889-9a8d-4b08-89d3-ba235a674be9",
+                "name": "Alertness",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Quickly react to things"
+        },
+        {
+                "id": "4acfda7a-2e0b-4c7b-8b06-411e0918ba02",
+                "name": "Athletics",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Jump, climb, and run"
+        },
+        {
+                "id": "eaf0a0ee-237f-4a82-84cc-f0abe2bc77f5",
+                "name": "Animal Ken",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Care for animals, and know how to behave around them"
+        },
+        {
+                "id": "cd5ba49d-8e22-4c38-97a4-ab3d39859117",
+                "name": "Commerce",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Buy! Sell!"
+        },
+        {
+                "id": "63afa941-c600-4416-b6b8-c1df7a9b3fe3",
+                "name": "Lore",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Very general education and understanding about how the world works, the big strokes of history, and other academic topics. It is the skill of general education in the world."
+        },
+        {
+                "id": "8f5bedf5-fe45-4d4c-9d41-da20fbcd847c",
+                "name": "Stealth",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Hide from people, and sneak past them"
+        },
+        {
+                "id": "2bc745b9-d6e8-4a4a-af32-13c56d901253",
+                "name": "Swimming",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Swim around in water, and other liquids?"
+        },
+        {
+                "id": "aa2ffb3b-dffc-4422-b51c-ae2f9e8a16a5",
+                "name": "Lockpicking",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Open locks, get into places and things you shouldn't have access to"
+        },
+        {
+                "id": "6bc4923e-615d-4bc7-8e30-3f01f082f714",
+                "name": "Traps",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Create, place, and disarm traps"
+        },
+        {
+                "id": "c28dcf46-3271-4c83-bd55-2b7fbf921271",
+                "name": "Healing",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Care for kith"
+        },
+        {
+                "id": "43235b58-aeae-494b-a175-c954e93661d8",
+                "name": "Naturalist",
+                "category": "Misc",
+                "specialized": false,
+                "description": "Know how to survive in nature"
+        },
+        {
+                "id": "9411b6a7-a297-42f1-bb75-1513d61b2596",
+                "name": "Alchemy",
+                "category": "Magic",
+                "specialized": false,
+                "description": "Create poitions of magical nature"
+        },
+        {
+                "id": "ae7d1a7e-c8d7-40ec-bfb3-b9c26f8cbda6",
+                "name": "Conjury",
+                "category": "Magic",
+                "specialized": false,
+                "description": "Cast magic"
+        },
+        {
+                "id": "e2123545-0a30-41f2-a155-77094da0a1d5",
+                "name": "Spell Attack",
+                "category": "Magic",
+                "specialized": false,
+                "description": "The skill to hit with ranged magic attacks. Used with Agility."
+        },
+        {
+                "id": "2ef1521f-4ca5-44ca-becd-b0c9ca111050",
+                "name": "Thaumatology",
+                "category": "Magic",
+                "specialized": false,
+                "description": "Theoretical knowledge about magic"
+        },
+        {
+                "id": "5a1f088b-d091-4de9-ad50-055d0ab6a201",
+                "name": "Language",
+                "category": "Specialized",
+                "specialized": true,
+                "description": "Language you know how to speak and read"
+        },
+        {
+                "id": "2aa90a65-6e51-4e7a-be4a-0119a4ad13d0",
+                "name": "Art",
+                "category": "Specialized",
+                "specialized": true,
+                "description": "Create some form of art"
+        },
+        {
+                "id": "657cdb21-8329-475f-8144-fae0ff2db0f6",
+                "name": "Craft",
+                "category": "Specialized",
+                "specialized": true,
+                "description": "You know a craft"
+        },
+        {
+                "id": "c6781721-a792-48b5-b548-9a7d387ddfa8",
+                "name": "Knowledge",
+                "category": "Specialized",
+                "specialized": true,
+                "description": "You have specialized knowledge about some subject"
+        },
+        {
+                "id": "390e8f91-9e02-4f78-aa6b-9606cc7b5081",
+                "name": "Performance",
+                "category": "Specialized",
+                "specialized": true,
+                "description": "Sing, dance, and so on..."
+        }
+]

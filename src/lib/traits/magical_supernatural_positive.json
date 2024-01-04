@@ -1,0 +1,128 @@
+[
+        {
+                "id": "b5133cca-b11e-407f-b910-6bde7aebdb17",
+                "name": "Elemental Attunement",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You are wholly attuned to one of the four elemental Resonances. +1 to chosen Resonance. You may not raise other Resonances",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "26579b1e-e128-4101-8879-0ab7d2f96b0c",
+                "name": "Manawell",
+                "category": "Magical & Supernatural",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Double mana generation, double mana storage. Every overfill counts as 1 point of Health Damage",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "3b2a9ba9-a957-48f7-b553-96ae4b3f4691",
+                "name": "Magery",
+                "category": "Magical & Supernatural",
+                "cost": 5,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You can cast magic, and/or create alchemical crafting. Starting with Magery gives you a free magic sphere or a basic grimoire binding",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "eb89e6f1-7e02-4eb0-a18a-57fe8931edd3",
+                "name": "Magic Resistance",
+                "category": "Magical & Supernatural",
+                "cost": 1,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "+1 to resist any sympathetic magic, including beneficial spells",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "a23ab06c-4e9a-4e17-9ed0-7d1c7220743a",
+                "name": "Spirit Empathy",
+                "category": "Magical & Supernatural",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You have awareness of spirits' presence and have a chance to see through glamors. Spirits are also a bit more friendly to you in general",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "30bff121-66fa-47c7-b7ba-ebee3b0e15c9",
+                "name": "Power",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of almost all spells. Requires Magery",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

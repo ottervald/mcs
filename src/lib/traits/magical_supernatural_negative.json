@@ -1,0 +1,44 @@
+[
+        {
+                "id": "a4e2f467-761c-46e1-92cf-d10211011a7b",
+                "name": "Hollow",
+                "category": "Magical & Supernatural",
+                "cost": -2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Your max mana is always 0. You do not get a starting resonance and may never get resonances. You get +5 in magic resistance. You may never have magery or learn magic. Many magical creatures fear or pity you. The high resistance to magic makes even beneficial magic likely to fail against you.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "05f77b7c-070d-4189-8478-13e445f4bb39",
+                "name": "Stigma",
+                "category": "Magical & Supernatural",
+                "cost": -5,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "For some reason the cosmic forces have marked you as aberrant.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

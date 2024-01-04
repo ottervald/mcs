@@ -1,0 +1,527 @@
+[
+        {
+                "id": "981a0d1c-0773-49b1-97b5-64471a5d9e58",
+                "name": "Acute Sense (Hearing)",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "+1 per level on any hearing based perception roll",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "788941f2-afc6-4907-8e58-c24381bb6b3e",
+                "name": "Acute Sense (Sight)",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "+1 per level on any sight based perception roll",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "591c5caa-6f7c-4d5a-a30a-4943fbd6c42e",
+                "name": "Acute Sense (Taste/Smell)",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "+1 per level on any taste/smell based perception roll",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "a2c9a10b-851c-4662-a141-f032d06c190b",
+                "name": "Ambidextrous",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "No penalty for using an off-hand",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "ef739881-32eb-4ad4-b590-815169f81d1b",
+                "name": "Animal Friend",
+                "category": "Mundane",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You can always tell an animal's emotional state and friendly animals tend towards trusting you. This ability works on mammals and birds.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "75063c0d-3fb0-48d5-90f9-b1b6d83b4889",
+                "name": "Barefooter",
+                "category": "Mundane",
+                "cost": 1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Do stuff barefoot without penalty",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "bd3f2024-1b58-460e-adab-fcda009d77dd",
+                "name": "Child of the Wild",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You feel more at home in nature. +1 Earth Resonance",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "6a90cece-681c-46f5-bc67-58b3d243801c",
+                "name": "Firebug",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You like fires. +1 Fire Resonance. Soak fire damage equal to your fire resonance.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "08d678ac-a95b-4865-9a98-562c30e20cf3",
+                "name": "Flexibility (Flexible)",
+                "category": "Mundane",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You can ignore up to -3 penalties on skill checks given for operating in small spaces",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "5b931bda-b69b-4595-9bb8-0383a6e65cfd",
+                "name": "Flexibility (Very Flexible)",
+                "category": "Mundane",
+                "cost": 5,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You can ignore up to -5 penalties on skill checks given for operating in small spaces",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "2c4d87ec-d68b-43c3-963c-1cffeba50359",
+                "name": "Good Looks",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "You look better, others' disposition to you tend to be 1 level higher per level",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "1fc069cc-9c52-4d45-9a9f-737e47cc9782",
+                "name": "Hard to Read",
+                "category": "Mundane",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your face and body never betrays your emotions",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "416e791a-70fc-45f9-9eb8-21a9da4d2e4f",
+                "name": "Honest Looking",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You look trustworthy and honest",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "8a65d6a0-4f05-4f39-a60f-372238ee80f8",
+                "name": "Less Sleep",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "You get by with one hour less sleep per night per level. Max level is 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "18b7680a-58bb-46ba-9b43-f7613181e8a8",
+                "name": "Iron Stomach",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Eat bad stuff",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "108be052-5957-4e88-8b70-52457bba6bb1",
+                "name": "Nightvision",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "For purposes of determining penalties for darkness count the lighting levels as 1 level brighter. Total darkness affects you normally",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "2ead46bf-af1e-41c7-847f-955d93547a5f",
+                "name": "Nomadic",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You like to travel. +1 Air Resonance",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c2f45a98-2fe2-4cd8-bf52-eb9bf96d1f10",
+                "name": "Pathfinder",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have an unnatural ability to navigate in the wilderness",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "20a96e54-c267-48bb-81e3-67735ab7395e",
+                "name": "Perfect Balance",
+                "category": "Mundane",
+                "cost": 5,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You automatically succeeds rolls to keep your balance, or at the very least get an advantage on those rolls",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "7e43a973-bb83-4dc8-99bc-1269dd3c3cd3",
+                "name": "Pitiable",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "People take pity on you, they want to protect and care for you",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "f86a39ce-477c-46e8-a5c6-a44d14704013",
+                "name": "Rapid Healer",
+                "category": "Mundane",
+                "cost": 3,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "Your base recovery is 1 point higher per level. Max level is 3",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "61ef321c-fcc1-483a-aaf4-78ff1d5379ab",
+                "name": "Reduced Consumption",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "You need about a third less food per day. In effect this means your food expenses are that much lower per level of this trait. Max level is 3. On level 3 you only need to eat a third of a ration every other day.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "cc79951a-fc90-4414-80c5-b552df887118",
+                "name": "Versatile",
+                "category": "Mundane",
+                "cost": 6,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "All specialized skills are tagged for you, except for Language",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "1876ab7b-a5ce-40f9-9c28-83a80c7e5ab3",
+                "name": "Voice",
+                "category": "Mundane",
+                "cost": 6,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You have a clear and resonant voice generally considered pleasant. You get an advantage on Charm checks (and other befitting skills) where the other party can hear your voice",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "521e3cf4-a640-403e-9f55-b11d9299b39d",
+                "name": "Waterborne",
+                "category": "Mundane",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You like water. Swimming is tagged. +1 Water Resonance",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

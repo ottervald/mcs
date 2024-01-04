@@ -1,0 +1,44 @@
+[
+        {
+                "id": "fdac4751-623d-4a5a-ae0d-9fe8574a9608",
+                "name": "Vampirism",
+                "category": "MEGA SPECIAL",
+                "cost": 10,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Suck blood, blah!",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "a9d5101c-6f17-4dfb-a2cb-38466d7dc55a",
+                "name": "Lycanthropy",
+                "category": "MEGA SPECIAL",
+                "cost": 15,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Become some other mammal!",
+                "requirements": {
+                        "attributes": {
+                                "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]
