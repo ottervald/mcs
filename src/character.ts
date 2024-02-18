@@ -115,11 +115,11 @@ class CharacterStore {
   }
   get passiveMeleeDefense() {
     return derived(
-      [this.agility, this.specie, this.characterSkills],
-      ([$agility, $specie, $skills]) => {
+      [this.body, this.specie, this.characterSkills],
+      ([$body, $specie, $skills]) => {
         const dodge:number = $skills.find(s => s.skill.name === 'Dodge' )?.level | 0;
-        const tagility:number = $agility + $specie.attribute_modifiers.agility + dodge;
-        return tagility + 3;
+        const tbody:number = $body + $specie.attribute_modifiers.body + dodge;
+        return tbody + 3;
       }
     )
   }

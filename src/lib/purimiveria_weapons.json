@@ -44,6 +44,24 @@
                 ]
         },
         {
+                "id": "e87f9bb9-1127-4776-ad77-7d525516c016",
+                "name": "Great Club",
+                "description": "Something great to go clubbing with",
+                "size": 4,
+                "sturdiness": 3,
+                "cost": 60,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 5,
+                                "damage_modifier": "d B",
+                                "reach": "M",
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
                 "id": "4b37f5c9-c3ae-43ae-99d3-1296479b0850",
                 "name": "Spiked Mace",
                 "description": "Nice to meet you, mace to face",

@@ -1,26 +1,5 @@
 [
         {
-                "id": "c42946cf-f2a8-40d1-ad1f-83f98b59da6f",
-                "name": "Agile Fighter",
-                "category": "Expertise",
-                "cost": 4,
-                "levels": false,
-                "removable": true,
-                "exponential": false,
-                "description": "When doing attack rolls with either of the following skills: Blades, Polearms and Unarmed, you may use Agility instead of Body. Prerequisite: Agility 3",
-                "requirements": {
-                        "attributes": {
-                                "agility": 3,
-                                "body": 0,
-                                "mind": 0,
-                                "spirit": 0,
-                                "strength": 0
-                        },
-                        "skills": [],
-                        "traits": []
-                }
-        },
-        {
                 "id": "a0aa37e3-154d-4dba-ba6b-c37c2eef5742",
                 "name": "Archery Training",
                 "category": "Expertise",
@@ -58,6 +37,27 @@
                 "requirements": {
                         "attributes": {
                                 "agility": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "c42946cf-f2a8-40d1-ad1f-83f98b59da6f",
+                "name": "Finesse Fighter",
+                "category": "Expertise",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You fight with minimally wasted movement and the most precise strikes. When doing melee attack rolls with either of the following skills: Blades, Polearms and Unarmed, you may us Dexterity instead of Body.",
+                "requirements": {
+                        "attributes": {
+                                "agility": 3,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

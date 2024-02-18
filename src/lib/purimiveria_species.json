@@ -4,20 +4,20 @@
                 "name": "Tiarnai",
                 "attribute_modifiers": {
                         "agility": 0,
-                        "body": 1,
+                        "body": 0,
                         "mind": 0,
                         "spirit": -1,
                         "strength": 1
                 },
                 "attribute_caps": {
                         "agility": 10,
-                        "body": 11,
+                        "body": 10,
                         "mind": 10,
                         "spirit": 9,
                         "strength": 11
                 },
-                "traits": ["Cold Adapted"],
-                "starting_experience": 25
+                "traits": ["Cold Adapted", "Resilient"],
+                "starting_experience": 30
         },
         {
                 "id": "ac3ce6f2-799e-4c46-aa89-05f4edce77ae",
@@ -30,7 +30,7 @@
                         "strength": 0
                 },
                 "attribute_caps": {
-                        "agility": 11,
+                        "agility": 10,
                         "body": 10,
                         "mind": 10,
                         "spirit": 10,
@@ -44,7 +44,7 @@
                 "name": "Bed'nari",
                 "attribute_modifiers": {
                         "agility": 0,
-                        "body": 1,
+                        "body": 0,
                         "mind": 0,
                         "spirit": 0,
                         "strength": 0
@@ -52,12 +52,12 @@
                 "attribute_caps": {
                         "agility": 10,
                         "body": 10,
-                        "mind": 11,
+                        "mind": 10,
                         "spirit": 10,
                         "strength": 10
                 },
                 "traits": ["Heat Adapted"],
-                "starting_experience": 25
+                "starting_experience": 30
         },
         {
                 "id": "808f115c-04d7-4e8c-8a48-be407ac2cf01",
@@ -83,16 +83,16 @@
                 "id": "5d23eead-5da8-4235-ab68-870537df2384",
                 "name": "Elf",
                 "attribute_modifiers": {
-                        "agility": 0,
+                        "agility": 1,
                         "body": -1,
                         "mind": 1,
                         "spirit": 0,
                         "strength": -1
                 },
                 "attribute_caps": {
-                        "agility": 10,
+                        "agility": 11,
                         "body": 8,
-                        "mind": 11,
+                        "mind": 12,
                         "spirit": 10,
                         "strength": 8
                 },
@@ -157,7 +157,7 @@
                         "strength": 8
                 },
                 "traits": ["Tail", "Acute Hearing 1", "Acute Vision 1", "Catfall", "Nictating Membrane", "Nightvision", "Very Flexible"],
-                "starting_experience": 25
+                "starting_experience": 30
         },
         {
                 "id": "7e0f0179-6b3b-4d3e-b77d-26ab04e4fdc3",
@@ -274,7 +274,7 @@
                         "body": 10,
                         "mind": 10,
                         "spirit": 11,
-                        "strength": 13
+                        "strength": 15
                 },
                 "traits": ["Fur", "Fangs", "Acute Sense of Smell 1", "Regarded", "Horned", "Increased Consumption 2", "Unusual Biochemistry", "Large"],
                 "starting_experience": 20
@@ -307,7 +307,7 @@
                         "body": 0,
                         "mind": 0,
                         "spirit": 0,
-                        "strength": -1
+                        "strength": -2
                 },
                 "attribute_caps": {
                         "agility": 11,
@@ -316,8 +316,8 @@
                         "spirit": 10,
                         "strength": 3
                 },
-                "traits": ["Acute Vision 1", "Acute Hearing 1", "Talons", "Flexibility", "Lightweight", "Stigmatized", "Unusual Biochemistry", "Silent", "Reduced Consumption 2", "Small"],
-                "starting_experience": 25
+                "traits": ["Acute Vision 1", "Acute Hearing 1", "Talons", "Flexibility", "Lightweight", "Stigmatized", "Unusual Biochemistry", "Silent", "Reduced Consumption 2", "Small", "Tail"],
+                "starting_experience": 30
         },
         {
                 "id": "43d572bd-98f9-4759-8ed3-4e137b3bbd6a",
@@ -372,7 +372,7 @@
                 "attribute_caps": {
                         "agility": 8,
                         "body": 10,
-                        "mind": 11,
+                        "mind": 12,
                         "spirit": 6,
                         "strength": 11
                 },
