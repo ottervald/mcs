@@ -1,4 +1,6 @@
 <script lang="ts">
+        import Modal from './shared/Modal.svelte'
+        import ListRow from './shared/ListRow.svelte';
         import {characterStore} from '../character.ts';
         import {purimiveria_armours, purimiveria_items, purimiveria_weapons, purimiveria_shields} from '../lib/libraries.ts';
         import type {Item} from '../lib/libraries.ts';
@@ -8,6 +10,7 @@
         let amountItems:number = 1;
         let filters:string[] = ['All', 'Basic Items', 'Weapons', 'Armours', 'Shields']
         let selectedFilter:string = filters[0];
+        let openModal:boolean = false;
 
         function changeFilter() {
                 switch (selectedFilter) {
@@ -32,51 +35,82 @@
         function addItem() {
                 characterStore.addItem(selectedItem, amountItems);
         }
+        function toggleModal() {
+                openModal = !openModal;
+        }
 </script>
 
-<div>
-        <label>
-                Filter:
-                <select
-                        bind:value={selectedFilter}
-                        on:change={changeFilter}
-                >
-                        {#each filters as filter (filter)}
-                                <option value={filter}>
-                                        {filter}
-                                </option>
-                        {/each}
-                </select>
-        </label>
-        <label>
-                Item:
-                <select
-                        bind:value={selectedItem}
-                >
-                        {#each items as item (item.id)}
-                                <option value={item}>
-                                        {item.name}
-                                </option>
-                        {/each}
-                </select>
-        </label>
-        <label>
-                Amount:
-                <input type="number" bind:value={amountItems}>
-        </label>
-
-        <button on:click={addItem}>
+<Modal open={openModal} onClose={toggleModal}>
+        <div class="content-holder">
+                <div class="content">
+                        <div class="filter-holder">
+                                <label>
+                                        Filter:
+                                        <select
+                                                bind:value={selectedFilter}
+                                                on:change={changeFilter}
+                                                id="item-filter"
+                                        >
+                                                {#each filters as filter (filter)}
+                                                        <option value={filter} id={filter}>
+                                                                {filter}
+                                                        </option>
+                                                {/each}
+                                        </select>
+                                </label>
+                        </div>
+                        <div class="item-list">
+                                {#each items as item, i}
+                                        <ListRow other={i % 2 == 0}>
+                                                <div class="item-select" on:click={() => {selectedItem = item;}}>
+                                                        {item.name}
+                                                </div>
+                                        </ListRow>
+                                {/each}
+                        </div>
+                </div>
+                <div class="content">
+                        <h2 class="item-header">
+                                {selectedItem.name}
+                        </h2>
+                        <div class="item-description">
+                                {selectedItem.description}
+                        </div>
+                </div>
+        </div>
+        <div>
+                <label>
+                        Amount:
+                        <input type="number" bind:value={amountItems} id="selected-item-amount">
+                </label>
+        </div>
+        <button on:click={() => {toggleModal(); addItem();}}>
                 Add
         </button>
-        <div class="description">
-                {selectedItem.description}
-        </div>
-</div>
+</Modal>
+<button on:click={toggleModal}>
+        Add Item
+</button>
 
 <style>
-        .description {
+        .content-holder {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 1em;
+                align-items: baseline;
+        }
+        .content {
+                width: 45%;
                 margin: 0 auto;
-                overflow-wrap: break-word;
-                width: 400px;
+        }
+        .filter-holder {
+                margin-bottom: 0.3em;
+        }
+        .item-list {
+                max-height: 48em;
+                overflow-y: auto;
+        }
+        .item-select {
+                cursor: pointer;
         }
 </style>

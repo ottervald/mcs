@@ -5,7 +5,7 @@
         import TableRow from './shared/TableRow.svelte';
         const {shields, strength, specie} = characterStore;
 
-        let visible:boolean = true;
+        let visible:boolean = false;
 </script>
 {#if visible}
         <button on:click={() => visible = !visible}>Hide Shields</button>

@@ -42,7 +42,7 @@
                         Native Language
                 </div>
                 <div class="skill-cell name">
-                        <input bind:value={$nativeLanguage}>
+                        <input bind:value={$nativeLanguage} id="character-native-language">
                 </div>
                 <div class="skill-cell">
                         {$nativeLanguageBaseLevel}

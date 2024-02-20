@@ -47,24 +47,25 @@
 
 <label>
         Player:
-        <input bind:value={$player}>
+        <input bind:value={$player} id="player-name">
 </label>
 <label>
         Name:
-        <input bind:value={$name}>
+        <input bind:value={$name} id="character-name">
 </label>
 <label>
         Title:
-        <input bind:value={$title}>
+        <input bind:value={$title} id="character-title">
 </label>
 <label>
         Specie:
         <select
                 bind:value={$specie}
                 on:change={recalculate}
+                id="ancestry-select"
         >
                 {#each purimiveria_species as specie (specie.id)}
-                        <option value={specie}>
+                        <option value={specie} id={specie.id}>
                                 {specie.name}
                         </option>
                 {/each}
