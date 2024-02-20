@@ -10,7 +10,7 @@
                 "description": "First sphere of death magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -29,14 +29,14 @@
                 "id": "ff6a2964-35a0-4361-9526-4f6e17ab5f89",
                 "name": "Death 2",
                 "category": "Conjury Sphere",
-                "cost": 5,
+                "cost": 10,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Second sphere of death magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -55,14 +55,14 @@
                 "id": "17ef4f02-97aa-48b7-ac63-c5f0b276a674",
                 "name": "Death 3",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 15,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Third sphere of death magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -81,14 +81,14 @@
                 "id": "10549c07-b571-4e9b-9bb8-787187e3cab9",
                 "name": "Death 4",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Fourth sphere of death magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

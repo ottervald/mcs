@@ -10,7 +10,7 @@
                 "description": "First sphere of light magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -29,14 +29,14 @@
                 "id": "2dd6ae6d-9aae-478a-bbe4-a304ec138994",
                 "name": "Light 2",
                 "category": "Conjury Sphere",
-                "cost": 5,
+                "cost": 10,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Second sphere of light magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -55,14 +55,14 @@
                 "id": "71b962df-65d1-47a2-9441-2fa1d13efd79",
                 "name": "Light 3",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 15,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Third sphere of light magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -81,14 +81,14 @@
                 "id": "029c4759-b368-4360-857f-cd586bc35ced",
                 "name": "Light 4",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Fourth sphere of light magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

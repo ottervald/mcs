@@ -10,7 +10,7 @@
                 "description": "Your starting wealth is doubled.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -31,7 +31,7 @@
                 "description": "Your starting wealth is halved.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -52,7 +52,7 @@
                 "description": "You only start with a quarter of the regular starting wealth.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -73,7 +73,7 @@
                 "description": "You start with no starting wealth.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -94,7 +94,7 @@
                 "description": "One of your weapons is of fine quality.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -115,7 +115,7 @@
                 "description": "One of your weapons is of very fine quality.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

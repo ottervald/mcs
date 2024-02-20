@@ -10,7 +10,7 @@
                 "description": "Your max mana is always 0. You do not get a starting resonance and may never get resonances. You get +5 in magic resistance. You may never have magery or learn magic. Many magical creatures fear or pity you. The high resistance to magic makes even beneficial magic likely to fail against you.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -31,7 +31,7 @@
                 "description": "For some reason the cosmic forces have marked you as aberrant.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

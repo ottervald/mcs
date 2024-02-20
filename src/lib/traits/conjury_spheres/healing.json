@@ -10,7 +10,7 @@
                 "description": "First sphere of healing magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -29,14 +29,14 @@
                 "id": "df63cd2e-b007-4698-9b9d-32685690dace",
                 "name": "Healing 2",
                 "category": "Conjury Sphere",
-                "cost": 5,
+                "cost": 10,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Second sphere of healing magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -55,14 +55,14 @@
                 "id": "66925df9-3deb-483d-9fc9-141033c49e15",
                 "name": "Healing 3",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 15,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Third sphere of healing magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -81,14 +81,14 @@
                 "id": "2514ab20-09d4-4ae1-bf6b-470516eaa801",
                 "name": "Healing 4",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Fourth sphere of healing magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

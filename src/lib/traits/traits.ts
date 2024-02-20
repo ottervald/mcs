@@ -39,7 +39,7 @@ interface RequiredTrait {
 }
 
 interface AttributeModifiers {
-  agility: number;
+  dexterity: number;
   body: number;
   mind: number;
   spirit: number;

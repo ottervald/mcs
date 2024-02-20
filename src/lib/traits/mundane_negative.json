@@ -10,7 +10,7 @@
                 "description": "No Body save to resist getting drunk, and hangovers are almost always guaranteed",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -31,7 +31,7 @@
                 "description": "Every time you do a physical action that stresses your back you may end up getting hit by a strong surge of pain that incapacitates you whether you succeeded with the task or not. Roll a Body save vs. 10. On failure you are incapacitated for 3d6 minutes. On a critical failure 3d6 hours.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -52,7 +52,7 @@
                 "description": "Every time you do a physical action that stresses your knees you may end up getting hit by a strong surge of pain that incapacitates you whether you succeeded with the task or not. Roll a Body save vs. 10. On failure you are incapacitated for 3d6 minutes. On a critical failure 3d6 hours.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -73,7 +73,7 @@
                 "description": "You have a bad body odor",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -94,7 +94,7 @@
                 "description": "You look worse than average",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -115,7 +115,7 @@
                 "description": "You have a bad habit of blurting things out often best not said when talking to others. This is mostly benign or simply awkward, but occasionally it can be damning. When you fail a social category skill check you accidentally tell the person(s) you are interacting with some fact that would have been best not said in addition to simply failing. If there is one thing you absolutely should not have said and you knew it, then that was what was said.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -136,7 +136,7 @@
                 "description": "Your body or your expressions betray your feelings",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -157,7 +157,7 @@
                 "description": "Your fine motor skills are not as good as they could be. Any skill check involving fine manipulation is subject to a disadvantage.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -178,7 +178,7 @@
                 "description": "For every level of overweight you count as having an extra level of Size carried and you also receive an equal penalty to applicable skill checks. As a bonus though, every level also counts as one level of Body when starving",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -199,7 +199,7 @@
                 "description": "You need about a third more food each day compared to the baseline. You are not gluttonous, your body needs the extra food. This means your food expenses are increased by a third per level of this trait. Maximum level is three",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -220,7 +220,7 @@
                 "description": "You periodically find it very hard to sleep for whatever reason. A period of insomnia can be triggered by anxiety or stress but will also start seemingly out of nowhere. This disadvantage is a catch-all for all varieties of periodic sleep dysfunctions regardless of cause. Every night when you go to sleep, roll a Chance roll vs. 8. On a failure, reduce the amount of sleep you would get by 1d hours. On a critical failure you do not get any sleep that night.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -241,7 +241,7 @@
                 "description": "It is incredibly hard for you to motivate yourself to perform solitary tasks without outside motivation. For long term tasks like training, researching or studying you can only spend at most 4 hours a day (half of what a normal person could) without spending willpower to maintain concentration.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -262,7 +262,7 @@
                 "description": "You are either malnourished or of a naturally light frame. You are easily displaced physically. An added upside would be that you more easily fit into tight spaces. You receive a penalty of two to resist displacement attacks such as throws and pushes as well as being pinned in a grapple. When starving, count your Body attribute as one lower than it is",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -283,7 +283,7 @@
                 "description": "You have great trouble sleeping in noisy or otherwise animated environments. You can be assumed to lose 1d-3 hours of sleep when not sleeping isolated. On the bright side you are also likely to wake up if there is actual trouble afoot as well",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -304,7 +304,7 @@
                 "description": "Regardless of how you actually act, you look mean or dishonest, and strangers may therefore be wary of you. This may occasionally net you an advantage to intimidation and good initial reactions from shady types",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -325,7 +325,7 @@
                 "description": "You require one extra hour of sleep per day for every level of this trait. Max level is three",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -346,7 +346,7 @@
                 "description": "You are nearsighted, double all penalties for ranged attacks. You cannot read text or spot detail as easily as others, what others can see from across the room, you would have to stand next to.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -367,7 +367,7 @@
                 "description": "You see particularly bad in dark conditions. You see normally in daylight and well lit areas. But otherwise you count the brightness level as one level darker. Negates ancestral Nightvison. Mutually exclusive with Darkvision.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -388,7 +388,7 @@
                 "description": "You may not hurt innocents or bystanders. You may however use violence to defend yourself and your companions. Any bandits or outlaws are fair game",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -409,7 +409,7 @@
                 "description": "You sympathize strongly with your friends and companions. In fact, you do this so strongly that whenever you see or hear them take Vitality Damage you take Willpower damage. If they take any amount of Lasting damage, you receive one point of Lasting Willpower damage. If they only take regular Vitaly damage, you receive one point of regular Willpower damage.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -430,7 +430,7 @@
                 "description": "You have a particularly sensitive sense of hearing. In quiet circumstances you hear normal conversation fine enough, but in loud  and busy areas you hear nothing as all the sounds merge into incomprehensible rumbling. You get a disadvantage to alertness in busy areas such as bars and in very loud places such as in storms you can be effectively considered deaf. You cannot hear your friends shouting at you in intense combat.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -451,7 +451,7 @@
                 "description": "Whenever you eat bad food you are at a disadvantage on the Body save to resist complications. The same applies to any toxins or poisons ingested. Spicy food counts as Bad food for you",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -472,7 +472,7 @@
                 "description": "Reading is very slow for you. Extended tasks where you study or research from text takes twice the normal time. You can't read signs and such without slowing down and concentrating",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -493,7 +493,7 @@
                 "description": "You hate to lie and you are also really bad at it. Daily small white lies are fine but any big lie is incredibly hard for you to tell. It is really easy for anyone to see when you force yourself to lie. Whenever a check requires you to tell falsehoods you are at a disadvantage, two levels of disadvantage if you lie directly to someone's face. This almost always comes up when using the Subterfuge skill and occasionally while using Charm or Commerce",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -514,7 +514,7 @@
                 "description": "Your natural rate of Vitality recovery is lower than it should be. Base Vitality recovery is reduced by one.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

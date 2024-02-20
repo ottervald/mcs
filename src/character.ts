@@ -15,7 +15,7 @@ class CharacterStore {
   name: Writable<string>;
   title: Writable<string>;
   specie: Writable<Specie>;
-  agility: Writable<number>;
+  dexterity: Writable<number>;
   body: Writable<number>;
   mind: Writable<number>;
   spirit: Writable<number>;
@@ -26,7 +26,7 @@ class CharacterStore {
   characterTraits: Writable<CharacterTrait[]>;
   // Internal counters
   attributePoints: Writable<number>;
-  agilityExp: Writable<number>;
+  dexterityExp: Writable<number>;
   bodyExp: Writable<number>;
   mindExp: Writable<number>;
   spiritExp: Writable<number>;
@@ -41,7 +41,7 @@ class CharacterStore {
     this.name = writable('');
     this.title = writable('');
     this.specie = writable(purimiveria_species[0]);
-    this.agility = writable(0);
+    this.dexterity = writable(0);
     this.body = writable(0);
     this.mind = writable(0);
     this.spirit = writable(0);
@@ -52,7 +52,7 @@ class CharacterStore {
     this.characterTraits = writable([]);
     // Internal counters
     this.attributePoints = writable(startAttributePoints);
-    this.agilityExp = writable(0);
+    this.dexterityExp = writable(0);
     this.bodyExp = writable(0);
     this.mindExp = writable(0);
     this.spiritExp = writable(0);
@@ -62,7 +62,7 @@ class CharacterStore {
     this.skillExperience = writable(startSkillExperience);
     this.traitExperience = writable(0);
     // Subscriptions
-    this.agility.subscribe((value:number) => {
+    this.dexterity.subscribe((value:number) => {
       this.updateTraits();
     });
     this.body.subscribe((value:number) => {
@@ -88,11 +88,11 @@ class CharacterStore {
   // Derived stats
   get initiative() {
     return derived(
-      [this.body, this.agility, this.specie],
-      ([$body, $agility, $specie]) => {
+      [this.body, this.dexterity, this.specie],
+      ([$body, $dexterity, $specie]) => {
         const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tagility:number = $agility + $specie.attribute_modifiers.agility;
-        return tbody + tagility + 2;
+        const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity;
+        return tbody + tdexterity + 2;
       }
     )
   }
@@ -125,11 +125,11 @@ class CharacterStore {
   }
   get passiveRangedDefense() {
     return derived(
-      [this.agility, this.specie, this.characterSkills],
-      ([$agility, $specie, $skills]) => {
+      [this.dexterity, this.specie, this.characterSkills],
+      ([$dexterity, $specie, $skills]) => {
         const alertness:number = $skills.find(s => s.skill.name === 'Alertness' )?.level | 0;
-        const tagility:number = $agility + $specie.attribute_modifiers.agility + alertness;
-        return tagility + 3;
+        const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity + alertness;
+        return tdexterity + 3;
       }
     )
   }
@@ -306,9 +306,9 @@ class CharacterStore {
   }
   get attributeExperience() {
     return derived(
-      [this.agilityExp, this.bodyExp, this.mindExp, this.spiritExp, this.strengthExp],
-      ([$agilityExp, $bodyExp, $mindExp, $spiritExp, $strengthExp]) => {
-        return $agilityExp + $bodyExp + $mindExp + $spiritExp + $strengthExp;
+      [this.dexterityExp, this.bodyExp, this.mindExp, this.spiritExp, this.strengthExp],
+      ([$dexterityExp, $bodyExp, $mindExp, $spiritExp, $strengthExp]) => {
+        return $dexterityExp + $bodyExp + $mindExp + $spiritExp + $strengthExp;
       }
     )
   }
@@ -321,24 +321,24 @@ class CharacterStore {
     )
   }
 
-  increaseAgility() {
-    const startValue = get(this.agility);
-    this.agility.update((n) => n + 1);
+  increaseDexterity() {
+    const startValue = get(this.dexterity);
+    this.dexterity.update((n) => n + 1);
     if (get(this.attributePoints) > 0) {
       this.attributePoints.update((n) => n - 1);
     } else {
       const cost = getAttributeCost(startValue, true);
-      this.agilityExp.update((n) => n - cost);
+      this.dexterityExp.update((n) => n - cost);
     }
   }
-  decreaseAgility() {
-    const startValue = get(this.agility);
-    this.agility.update((n) => n - 1);
-    if (get(this.agilityExp) === 0) {
+  decreaseDexterity() {
+    const startValue = get(this.dexterity);
+    this.dexterity.update((n) => n - 1);
+    if (get(this.dexterityExp) === 0) {
       this.attributePoints.update((n) => n + 1);
     } else {
       const cost = getAttributeCost(startValue, false);
-      this.agilityExp.update((n) => n + cost);
+      this.dexterityExp.update((n) => n + cost);
     }
   }
 
@@ -428,12 +428,12 @@ class CharacterStore {
 
   resetAttributes() {
     this.attributePoints.set(startAttributePoints);
-    this.agility.set(0);
+    this.dexterity.set(0);
     this.body.set(0);
     this.mind.set(0);
     this.spirit.set(0);
     this.strength.set(0);
-    this.agilityExp.set(0);
+    this.dexterityExp.set(0);
     this.bodyExp.set(0);
     this.mindExp.set(0);
     this.spiritExp.set(0);
@@ -613,7 +613,7 @@ class CharacterStore {
   traitRequirementsMet(trait:Trait):boolean {
     const requirements = trait.requirements;
     const ancestry_attributes = get(this.specie).attribute_modifiers;
-    if ((get(this.agility) + ancestry_attributes.agility) < requirements.attributes.agility) {
+    if ((get(this.dexterity) + ancestry_attributes.dexterity) < requirements.attributes.dexterity) {
       return false;
     }
     if ((get(this.body) + ancestry_attributes.body) < requirements.attributes.body) {
@@ -714,7 +714,12 @@ class CharacterStore {
       }
     }
     // Standard again
-    this.agility.set(character_object.agility);
+    // Backwards compatibility after changing agility -> dexterity
+    if ('agility' in character_object) {
+      this.dexterity.set(character_object.agility);
+    } else {
+      this.dexterity.set(character_object.dexterity);
+    }
     this.body.set(character_object.body);
     this.mind.set(character_object.mind);
     this.spirit.set(character_object.spirit);
@@ -736,7 +741,12 @@ class CharacterStore {
     this.characterTraits.set(character_object.characterTraits);
     // Internal count
     this.attributePoints.set(character_object.attributePoints);
-    this.agilityExp.set(character_object.agilityExp);
+    // Backwards compatibility after changing agility -> dexterity
+    if ('agilityExp' in character_object) {
+      this.dexterityExp.set(character_object.agilityExp);
+    } else {
+      this.dexterityExp.set(character_object.dexterityExp);
+    }
     this.bodyExp.set(character_object.bodyExp);
     this.mindExp.set(character_object.mindExp);
     this.spiritExp.set(character_object.spiritExp);
@@ -753,7 +763,7 @@ class CharacterStore {
       name: get(this.name),
       title: get(this.title),
       specie: get(this.specie),
-      agility: get(this.agility),
+      dexterity: get(this.dexterity),
       body: get(this.body),
       mind: get(this.mind),
       spirit: get(this.spirit),
@@ -764,7 +774,7 @@ class CharacterStore {
       characterTraits: get(this.characterTraits),
       // Internal count
       attributePoints: get(this.attributePoints),
-      agilityExp: get(this.agilityExp),
+      dexterityExp: get(this.dexterityExp),
       bodyExp: get(this.bodyExp),
       mindExp: get(this.mindExp),
       spiritExp: get(this.spiritExp),

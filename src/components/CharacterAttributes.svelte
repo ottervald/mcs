@@ -1,8 +1,8 @@
 <script lang="ts">
         import {characterStore} from '../character.ts';
         const {
-                agility,
-                agilityExp,
+                dexterity,
+                dexterityExp,
                 body,
                 bodyExp,
                 mind,
@@ -44,25 +44,25 @@
                         <button on:click={() => characterStore.resetAttributes() }>Reset</button>
                 </div>
         </TableHeader>
-        <TableRow underRequirement={($agility + $specie.attribute_modifiers.agility) < 0 || ($agility + $specie.attribute_modifiers.agility) > $specie.attribute_caps.agility}>
+        <TableRow underRequirement={($dexterity + $specie.attribute_modifiers.dexterity) < 0 || ($dexterity + $specie.attribute_modifiers.dexterity) > $specie.attribute_caps.dexterity}>
                 <div class="attribute-cell name">
-                        Agility
+                        Dexterity
                 </div>
                 <div class="attribute-cell">
-                        {$agility + $specie.attribute_modifiers.agility}
+                        {$dexterity + $specie.attribute_modifiers.dexterity}
                 </div>
                 <div class="attribute-cell">
-                        {$specie.attribute_modifiers.agility}
+                        {$specie.attribute_modifiers.dexterity}
                 </div>
                 <div class="attribute-cell">
-                        {$agility}
+                        {$dexterity}
                 </div>
                 <div class="attribute-cell">
-                        {-($agilityExp)}
+                        {-($dexterityExp)}
                 </div>
                 <div class="attribute-cell">
-                        <button on:click={() => characterStore.increaseAgility() }>+</button>
-                        <button disabled={$agility < 1} on:click={() => characterStore.decreaseAgility() } class="decrease">-</button>
+                        <button on:click={() => characterStore.increaseDexterity() }>+</button>
+                        <button disabled={$dexterity < 1} on:click={() => characterStore.decreaseDexterity() } class="decrease">-</button>
                 </div>
         </TableRow>
         <TableRow underRequirement={($body + $specie.attribute_modifiers.body) < 0 || ($body + $specie.attribute_modifiers.body) > $specie.attribute_caps.body}>

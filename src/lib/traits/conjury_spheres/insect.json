@@ -3,14 +3,14 @@
                 "id": "407611e0-e66c-4b33-9dd7-e966b8ea9e12",
                 "name": "Insect 1",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 15,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "First sphere of insect magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -33,14 +33,14 @@
                 "id": "a156ebcd-5820-4cbf-a4fb-b02d5f378431",
                 "name": "Insect 2",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Second sphere of insect magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

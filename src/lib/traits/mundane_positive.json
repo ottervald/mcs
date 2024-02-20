@@ -10,7 +10,7 @@
                 "description": "+1 per level on any hearing based perception roll",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -31,7 +31,7 @@
                 "description": "+1 per level on any sight based perception roll",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -52,7 +52,7 @@
                 "description": "+1 per level on any taste/smell based perception roll",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -73,7 +73,7 @@
                 "description": "No penalty for using an off-hand",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -94,7 +94,7 @@
                 "description": "You can always tell an animal's emotional state and friendly animals tend towards trusting you. This ability works on mammals and birds.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -115,7 +115,7 @@
                 "description": "Do stuff barefoot without penalty",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -136,7 +136,7 @@
                 "description": "You feel more at home in nature. +1 Earth Resonance",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -157,7 +157,7 @@
                 "description": "You like fires. +1 Fire Resonance. Soak fire damage equal to your fire resonance.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -178,7 +178,7 @@
                 "description": "You can ignore up to -3 penalties on skill checks given for operating in small spaces",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -199,7 +199,7 @@
                 "description": "You can ignore up to -5 penalties on skill checks given for operating in small spaces",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -220,7 +220,7 @@
                 "description": "You look better, others' disposition to you tend to be 1 level higher per level",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -241,7 +241,7 @@
                 "description": "Your face and body never betrays your emotions",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -262,7 +262,7 @@
                 "description": "You look trustworthy and honest",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -283,7 +283,7 @@
                 "description": "You get by with one hour less sleep per night per level. Max level is 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -304,7 +304,7 @@
                 "description": "Eat bad stuff",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -325,7 +325,7 @@
                 "description": "For purposes of determining penalties for darkness count the lighting levels as 1 level brighter. Total darkness affects you normally",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -346,7 +346,7 @@
                 "description": "You like to travel. +1 Air Resonance",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -367,7 +367,7 @@
                 "description": "You have an unnatural ability to navigate in the wilderness",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -388,7 +388,7 @@
                 "description": "You automatically succeeds rolls to keep your balance, or at the very least get an advantage on those rolls",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -409,7 +409,7 @@
                 "description": "People take pity on you, they want to protect and care for you",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -430,7 +430,7 @@
                 "description": "Your base recovery is 1 point higher per level. Max level is 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -451,7 +451,7 @@
                 "description": "You need about a third less food per day. In effect this means your food expenses are that much lower per level of this trait. Max level is 3. On level 3 you only need to eat a third of a ration every other day.",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -472,7 +472,7 @@
                 "description": "All specialized skills are tagged for you, except for Language",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -493,7 +493,7 @@
                 "description": "You have a clear and resonant voice generally considered pleasant. You get an advantage on Charm checks (and other befitting skills) where the other party can hear your voice",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -514,7 +514,7 @@
                 "description": "You like water. Swimming is tagged. +1 Water Resonance",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

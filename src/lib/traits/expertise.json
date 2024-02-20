@@ -10,7 +10,7 @@
                 "description": "For the purpose of using bows, count your Strength as 1 level higher. Prerequisite: Bow 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -36,7 +36,7 @@
                 "description": "Each level negates a level of Size from worn armor (total, not per part). It does not affect Shields. Max level is 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -57,7 +57,7 @@
                 "description": "You fight with minimally wasted movement and the most precise strikes. When doing melee attack rolls with either of the following skills: Blades, Polearms and Unarmed, you may us Dexterity instead of Body.",
                 "requirements": {
                         "attributes": {
-                                "agility": 3,
+                                "dexterity": 3,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -78,7 +78,7 @@
                 "description": "Increase Maximum Carry Limit by 2. Maximum level is 5",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -99,7 +99,7 @@
                 "description": "When defending with a shield equipped you reduce defense penalties from flanking by two levels of disadvantage. Prerequisite: Shield 7",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -125,7 +125,7 @@
                 "description": "You have trained to get the most out of your shield and therefore get a plus one defense bonus when using a shield. Prerequisite: Shield 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -148,10 +148,10 @@
                 "levels": false,
                 "removable": true,
                 "exponential": false,
-                "description": "You may use your Agility attribute instead of Body for Shield skill checks when using a size 1 shield. Prerequisite: Shield 2",
+                "description": "You may use your Dexterity attribute instead of Body for Shield skill checks when using a size 1 shield. Prerequisite: Shield 2",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -177,7 +177,7 @@
                 "description": "You get a plus one die of damage when using a specific weapon type. Prerequisite: Axe/Blunt 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -203,7 +203,7 @@
                 "description": "You get a plus one die of damage when using a specific weapon type. Prerequisite: Blades 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -229,7 +229,7 @@
                 "description": "You get a plus one die of damage when using a specific weapon type. Prerequisite: Polearms 3",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

@@ -10,7 +10,7 @@
                 "description": "First sphere of water magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -29,14 +29,14 @@
                 "id": "016e163f-f034-4651-a512-57b577a37a4d",
                 "name": "Water 2",
                 "category": "Conjury Sphere",
-                "cost": 5,
+                "cost": 10,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Second sphere of water magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -55,14 +55,14 @@
                 "id": "894d2584-19f2-4028-88a0-2d7f26f0f498",
                 "name": "Water 3",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 15,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Third sphere of water magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -81,14 +81,14 @@
                 "id": "1e5b7697-f744-4ce3-8952-0cd37eec25b5",
                 "name": "Water 4",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Fourth sphere of water magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

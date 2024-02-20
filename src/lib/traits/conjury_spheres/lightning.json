@@ -3,14 +3,14 @@
                 "id": "aec630a9-73c5-4787-ba9b-04bb507673e0",
                 "name": "Lightning 1",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "First sphere of lightning magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

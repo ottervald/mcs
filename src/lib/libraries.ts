@@ -7,7 +7,7 @@ import purimiveria_armours_json from './purimiveria_armours.json';
 import purimiveria_shields_json from './purimiveria_shields.json';
 
 interface AttributeModifiers {
-  agility: number;
+  dexterity: number;
   body: number;
   mind: number;
   spirit: number;

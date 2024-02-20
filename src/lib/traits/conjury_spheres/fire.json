@@ -10,7 +10,7 @@
                 "description": "First sphere of fire magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -29,14 +29,14 @@
                 "id": "ed3be4a5-d47a-4d6b-bc61-3d8ab6473164",
                 "name": "Fire 2",
                 "category": "Conjury Sphere",
-                "cost": 5,
+                "cost": 10,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Second sphere of fire magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -55,14 +55,14 @@
                 "id": "f023419c-9bb9-46a5-b8b5-18169cf82b53",
                 "name": "Fire 3",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 15,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Third sphere of fire magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,
@@ -81,14 +81,14 @@
                 "id": "1fa5b134-b288-4314-96b1-2e1e742eba5f",
                 "name": "Fire 4",
                 "category": "Conjury Sphere",
-                "cost": 10,
+                "cost": 20,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
                 "description": "Fourth sphere of fire magic",
                 "requirements": {
                         "attributes": {
-                                "agility": 0,
+                                "dexterity": 0,
                                 "body": 0,
                                 "mind": 0,
                                 "spirit": 0,

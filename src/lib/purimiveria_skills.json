@@ -207,7 +207,7 @@
                 "name": "Spell Attack",
                 "category": "Magic",
                 "specialized": false,
-                "description": "The skill to hit with ranged magic attacks. Used with Agility."
+                "description": "The skill to hit with ranged magic attacks. Used with Dexterity."
         },
         {
                 "id": "2ef1521f-4ca5-44ca-becd-b0c9ca111050",
