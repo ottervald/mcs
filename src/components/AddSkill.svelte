@@ -53,9 +53,9 @@
                         <div class="skill-list">
                                 {#each skills as skill, i}
                                         <ListRow other={i % 2 == 0}>
-                                                <div class="skill-select" on:click={() => {specialization = ''; selectedSkill = skill;}}>
+                                                <button class="skill-select" on:click={() => {specialization = ''; selectedSkill = skill;}}>
                                                         {skill.name}
-                                                </div>
+                                                </button>
                                         </ListRow>
                                 {/each}
                         </div>
@@ -108,6 +108,13 @@
                 overflow-y: auto;
         }
         .skill-select {
+                width: 100%;
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                font: inherit;
                 cursor: pointer;
+                outline: inherit;
         }
 </style>

@@ -62,9 +62,9 @@
                         <div class="item-list">
                                 {#each items as item, i}
                                         <ListRow other={i % 2 == 0}>
-                                                <div class="item-select" on:click={() => {selectedItem = item;}}>
+                                                <button class="item-select" on:click={() => {selectedItem = item;}}>
                                                         {item.name}
-                                                </div>
+                                                </button>
                                         </ListRow>
                                 {/each}
                         </div>
@@ -75,6 +75,70 @@
                         </h2>
                         <div class="item-description">
                                 {selectedItem.description}
+                        </div>
+                        <div class="item-info">
+                                {#if 'location' in selectedItem}
+                                        <h4>Armour</h4>
+                                        <div class="item-container">
+                                                <div class="item-row">
+                                                        <div class="item-cell name">Location:</div>
+                                                        <div class="item-cell">{selectedItem.location}</div>
+                                                </div>
+                                                <div class="item-row">
+                                                        <div class="item-cell name">Physical Protection:</div>
+                                                        <div class="item-cell">{selectedItem.physical_protection}</div>
+                                                </div>
+                                                <div class="item-row">
+                                                        <div class="item-cell name">Energy Protection:</div>
+                                                        <div class="item-cell">{selectedItem.physical_protection}</div>
+                                                </div>
+                                        </div>
+                                {/if}
+                                {#if 'defense_bonus' in selectedItem}
+                                        <h4>Shield</h4>
+                                        <div class="item-container">
+                                                <div class="item-row">
+                                                        <div class="item-cell name">Defense Bonus:</div>
+                                                        <div class="item-cell">{selectedItem.defense_bonus}</div>
+                                                </div>
+                                                <div class="item-row">
+                                                        <div class="item-cell name">Strength Requirement:</div>
+                                                        <div class="item-cell">{selectedItem.strength_requirement}</div>
+                                                </div>
+                                        </div>
+                                {/if}
+                                {#if 'attacks' in selectedItem}
+                                        <h4>Weapon</h4>
+                                        <div class="item-container">
+                                                <div class="item-row">
+                                                        <div class="item-cell">Attack</div>
+                                                        <div class="item-cell">Damage</div>
+                                                        <div class="item-cell">Damage Type</div>
+                                                        <div class="item-cell">Reach</div>
+                                                        <div class="item-cell">Strength Requirement</div>
+                                                </div>
+                                                {#each selectedItem.attacks as attack}
+                                                        <div class="item-row">
+                                                                <div class="item-cell">{attack.type}</div>
+                                                                <div class="item-cell">{attack.damage}</div>
+                                                                <div class="item-cell">{attack.damage_modifier}</div>
+                                                                <div class="item-cell">{attack.reach}</div>
+                                                                <div class="item-cell">{attack.strength_requirement}{#if attack.two_handed}*{/if}</div>
+                                                        </div>
+                                                {/each}
+                                        </div>
+                                {/if}
+                                <h4>Basic Info</h4>
+                                <div class="item-container">
+                                        <div class="item-row">
+                                                <div class="item-cell name">Cost:</div>
+                                                <div class="item-cell">{selectedItem.cost}</div>
+                                        </div>
+                                        <div class="item-row">
+                                                <div class="item-cell name">Size:</div>
+                                                <div class="item-cell">{selectedItem.size}</div>
+                                        </div>
+                                </div>
                         </div>
                 </div>
         </div>
@@ -111,6 +175,26 @@
                 overflow-y: auto;
         }
         .item-select {
+                width: 100%;
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                font: inherit;
                 cursor: pointer;
+                outline: inherit;
+        }
+        .item-container {
+                display: table;
+                width: 100%;
+        }
+        .item-row {
+                display: table-row;
+        }
+        .item-cell {
+                display: table-cell;
+        }
+        .name {
+                text-align: left;
         }
 </style>

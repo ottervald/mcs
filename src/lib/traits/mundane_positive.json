@@ -420,6 +420,27 @@
                 }
         },
         {
+                "id": "e1b5a69f-e9d3-414b-b6bc-a342c1088d16",
+                "name": "Prehensile Feet",
+                "category": "Mundane",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You can use your feet almost as well as your hands for many tasks. With this trait you can perform dexterity skill checks even if your hands are unavailable, but at disadvantage.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 4,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
                 "id": "f86a39ce-477c-46e8-a5c6-a44d14704013",
                 "name": "Rapid Healer",
                 "category": "Mundane",
