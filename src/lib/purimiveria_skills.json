@@ -84,13 +84,6 @@
                 "description": "Know how to behave yourself in polite society"
         },
         {
-                "id": "31cb7378-1390-4194-a1e7-6496d995df8e",
-                "name": "Intimidation",
-                "category": "Social",
-                "specialized": false,
-                "description": "Intimidate people to do what you want"
-        },
-        {
                 "id": "8142e56c-21d7-4a46-aca1-18ea1c30e32d",
                 "name": "Persuasion",
                 "category": "Social",
@@ -200,7 +193,14 @@
                 "name": "Conjury",
                 "category": "Magic",
                 "specialized": false,
-                "description": "Cast magic"
+                "description": "Cast magic as a conjurer"
+        },
+        {
+                "id": "13b84de5-1f23-484a-bd9f-d473775adb8f",
+                "name": "Invocation",
+                "category": "Magic",
+                "specialized": false,
+                "description": "Cast magic as a grimoire mage"
         },
         {
                 "id": "e2123545-0a30-41f2-a155-77094da0a1d5",
