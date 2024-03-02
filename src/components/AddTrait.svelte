@@ -63,6 +63,7 @@
                         <div class="trait-description">
                                 {selectedTrait.description}
                         </div>
+                        <div class="trait-cost">Cost: {selectedTrait.cost} exp{#if selectedTrait.levels}&nbsp;per level{/if}</div>
                         <div class="trait-requirements">
                                 <h4>Requirements</h4>
                                 <h5>Attributes</h5>
@@ -148,6 +149,9 @@
                 font: inherit;
                 cursor: pointer;
                 outline: inherit;
+        }
+        .trait-cost {
+                font-weight: bold;
         }
         .attribute-container {
                 display: table;

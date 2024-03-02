@@ -21,14 +21,14 @@
                 }
         },
         {
-                "id": "26579b1e-e128-4101-8879-0ab7d2f96b0c",
-                "name": "Manawell",
+                "id": "cfe4a35f-3377-4b2a-a2aa-dc65701fa0f9",
+                "name": "Magical Lineage",
                 "category": "Magical & Supernatural",
                 "cost": 5,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "Double mana generation, double mana storage. Every overfill counts as 1 point of Health Damage",
+                "description": "You come from a long line of mages, whether conjurers or invokers. This counts as a level of power without adding on to the cost of that trait. You get a sigil with the family emblem and you are known as a member of your family across magic circles and probably across nobility.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -42,14 +42,14 @@
                 }
         },
         {
-                "id": "3b2a9ba9-a957-48f7-b553-96ae4b3f4691",
-                "name": "Magery",
+                "id": "26579b1e-e128-4101-8879-0ab7d2f96b0c",
+                "name": "Manawell",
                 "category": "Magical & Supernatural",
                 "cost": 5,
                 "levels": false,
-                "removable": true,
+                "removable": false,
                 "exponential": false,
-                "description": "You can cast magic, and/or create alchemical crafting. Starting with Magery gives you a free magic sphere or a basic grimoire binding",
+                "description": "Double mana generation, double mana storage. Every overfill counts as 1 point of Health Damage",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

@@ -1,5 +1,26 @@
 [
         {
+                "id": "e5c3885d-eb19-4dbe-a3b5-60c5b216a4ae",
+                "name": "Appetite for Magic",
+                "category": "Magical & Supernatural",
+                "cost": -2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Your passive mana recovery is strongly based on your food intake. Since your food goes to both your mana and your body you must eat twice as much to satisfy both. Having not eaten enough in a day means you get no passive mana recovery that day and being starving drains your mana as well. Not available for Meleni or Hollow.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
                 "id": "a4e2f467-761c-46e1-92cf-d10211011a7b",
                 "name": "Hollow",
                 "category": "Magical & Supernatural",
@@ -8,6 +29,27 @@
                 "removable": false,
                 "exponential": false,
                 "description": "Your max mana is always 0. You do not get a starting resonance and may never get resonances. You get +5 in magic resistance. You may never have magery or learn magic. Many magical creatures fear or pity you. The high resistance to magic makes even beneficial magic likely to fail against you.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "5f6e362d-51d0-41df-af37-5dac8ace516b",
+                "name": "Mundane",
+                "category": "Magical & Supernatural",
+                "cost": -2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You do not start with any points in any resonance. You have lived an unexceptionally banal life so far and have no connections to the spiritual forces of the world. Mutually exclusive with any ancestry that has any resonance in their ancestral template. You may not start with any conjury or magical items.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

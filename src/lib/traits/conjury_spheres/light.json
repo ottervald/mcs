@@ -17,12 +17,7 @@
                                 "strength": 0
                         },
                         "skills": [],
-                        "traits": [
-                                {
-                                        "name": "Magery",
-                                        "minimumValue": 0
-                                }
-                        ]
+                        "traits": []
                 }
         },
         {
