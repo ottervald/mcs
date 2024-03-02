@@ -15,6 +15,7 @@ class CharacterStore {
   name: Writable<string>;
   title: Writable<string>;
   specie: Writable<Specie>;
+  characterExperience: Writable<string>;
   dexterity: Writable<number>;
   body: Writable<number>;
   mind: Writable<number>;
@@ -34,13 +35,13 @@ class CharacterStore {
   itemCostTotal: Writable<number>;
   itemSizeTotal: Writable<number>;
   skillExperience: Writable<number>;
-  traitExperience: Writable<number>;
   
   constructor() {
     this.player = writable('');
     this.name = writable('');
     this.title = writable('');
     this.specie = writable(purimiveria_species[0]);
+    this.characterExperience = writable('Default');
     this.dexterity = writable(0);
     this.body = writable(0);
     this.mind = writable(0);
@@ -60,7 +61,6 @@ class CharacterStore {
     this.itemCostTotal = writable(0);
     this.itemSizeTotal = writable(0);
     this.skillExperience = writable(startSkillExperience);
-    this.traitExperience = writable(0);
     // Subscriptions
     this.dexterity.subscribe((value:number) => {
       this.updateTraits();
@@ -83,6 +83,25 @@ class CharacterStore {
     this.characterTraits.subscribe((value:CharacterTrait[]) => {
       this.updateTraits();
     });
+    this.characterExperience.subscribe((value:string) => {
+      switch (value) {
+        case 'Veteran':
+          this.attributePoints.set(18);
+          this.skillExperience.set(40);
+          break;
+        case 'Experienced':
+          this.attributePoints.set(17);
+          this.skillExperience.set(30);
+          break;
+        case 'Established':
+          this.attributePoints.set(16);
+          this.skillExperience.set(25);
+          break;
+        default:
+          this.attributePoints.set(startAttributePoints);
+          this.skillExperience.set(startSkillExperience);
+      }
+    })
   }
 
   // Derived stats
@@ -130,6 +149,16 @@ class CharacterStore {
         const alertness:number = $skills.find(s => s.skill.name === 'Alertness' )?.level | 0;
         const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity + alertness;
         return tdexterity + 3;
+      }
+    )
+  }
+  get passiveMagicResistance() {
+    return derived(
+      [this.characterTraits],
+      ([$traits]) => {
+        const resistance:number = $traits.find(t => t.trait.name === 'Magic Resistance')?.level | 0;
+        const hollow:number = $traits.find(t => t.trait.name === 'Hollow') ? 5 : 0;
+        return 8 + hollow + resistance;
       }
     )
   }
@@ -272,11 +301,32 @@ class CharacterStore {
       }
     )
   }
+  get traitExperience() {
+    return derived(
+      [this.characterTraits],
+      ([$traits]) => {
+        return $traits.reduce( (acc, cur) => {
+          return acc - cur.cost;
+        }, 0)
+      }
+    )
+  }
   get totalExperience() {
     return derived(
-      [this.specie, this.skillExperience, this.traitExperience, this.attributeExperience],
-      ([$specie, $skillExperience, $traitExperience, $attributeExperience]) => {
-        return $specie.starting_experience + $skillExperience + $traitExperience + $attributeExperience;
+      [this.specie, this.skillExperience, this.traitExperience, this.attributeExperience, this.characterExperience],
+      ([$specie, $skillExperience, $traitExperience, $attributeExperience, $characterExperience]) => {
+        let addedExperience:number = 0;
+        switch ($characterExperience) {
+          case 'Veteran':
+            addedExperience = 30;
+            break;
+          case 'Experienced':
+            addedExperience = 20;
+            break;
+          case 'Established':
+            addedExperience = 10;
+        }
+        return $specie.starting_experience + $skillExperience + $traitExperience + $attributeExperience + addedExperience;
       }
     )
   }
@@ -540,12 +590,7 @@ class CharacterStore {
 
   addTrait(trait:Trait) {
     this.characterTraits.update((n) => {
-      let exists:boolean = false;
-      for (const t of n) {
-        if (t.trait.id === trait.id) {
-          exists = true;
-        }
-      }
+      const exists:boolean = !!n.find(t => t.trait.id === trait.id);
       if (exists) {
         return n;
       }
@@ -560,14 +605,12 @@ class CharacterStore {
         requirementsMet: this.traitRequirementsMet(trait)
       }];
     });
-    this.traitExperience.update((n) => n -= trait.cost)
   }
 
   removeTrait(trait:CharacterTrait, position:number) {
     this.characterTraits.update((n) => {
       return n.filter((t, i) => i != position);
     });
-    this.traitExperience.update((n) => n += trait.cost)
   }
 
   increaseTrait(trait:CharacterTrait, position:number) {
@@ -587,7 +630,6 @@ class CharacterStore {
         return t;
       });
     });
-    this.traitExperience.update((n) => n -= addedCost);
   }
 
   decreaseTrait(trait:CharacterTrait, position:number) {
@@ -607,7 +649,6 @@ class CharacterStore {
         return t;
       });
     });
-    this.traitExperience.update((n) => n += loweredCost);
   }
 
   traitRequirementsMet(trait:Trait):boolean {
@@ -714,6 +755,12 @@ class CharacterStore {
       }
     }
     // Standard again
+    // Backwards compatibility
+    if ('characterExperience' in character_object) {
+      this.characterExperience.set(character_object.characterExperience);
+    } else {
+      this.characterExperience.set('Default');
+    }
     // Backwards compatibility after changing agility -> dexterity
     if ('agility' in character_object) {
       this.dexterity.set(character_object.agility);
@@ -754,7 +801,6 @@ class CharacterStore {
     this.itemCostTotal.set(character_object.itemCostTotal);
     this.itemSizeTotal.set(character_object.itemSizeTotal);
     this.skillExperience.set(character_object.skillExperience);
-    this.traitExperience.set(character_object.traitExperience);
   }
 
   stringify():string {
@@ -763,6 +809,7 @@ class CharacterStore {
       name: get(this.name),
       title: get(this.title),
       specie: get(this.specie),
+      characterExperience: get(this.characterExperience),
       dexterity: get(this.dexterity),
       body: get(this.body),
       mind: get(this.mind),
@@ -782,7 +829,6 @@ class CharacterStore {
       itemCostTotal: get(this.itemCostTotal),
       itemSizeTotal: get(this.itemSizeTotal),
       skillExperience: get(this.skillExperience),
-      traitExperience: get(this.traitExperience),
     };
     return JSON.stringify(stringObj, null, 2)
   }

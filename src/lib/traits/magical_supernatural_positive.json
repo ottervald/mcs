@@ -124,5 +124,257 @@
                         "skills": [],
                         "traits": []
                 }
+        },
+        {
+                "id": "17168c73-0207-49de-955d-544c011fc60e",
+                "name": "Gray Order Initiate",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have studied and mastered the basics of a given school. You will not get penalties from transcribing or learning spells from that school. You also increase the Magnitude of spells from that school by 1. Prerequisite: Three spells from the specific school known.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "b9236c55-56a8-41ae-b22f-640981f87562",
+                "name": "Gray Order Mastery",
+                "category": "Magical & Supernatural",
+                "cost": 8,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the Magnitude of spells from that school by an additional 1. When creating original spells you may make them using the style of the school. Prerequisite: Ten spells from known and initiate in the specific school.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "820cabb3-695f-4865-9b0d-113f8ef77c77",
+                "name": "Royal Parow Initiate",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have studied and mastered the basics of a given school. You will not get penalties from transcribing or learning spells from that school. You also increase the Magnitude of spells from that school by 1. Prerequisite: Three spells from the specific school known.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "89cfc5f6-3c12-4e94-abef-ba8a1806befc",
+                "name": "Royal Parow Mastery",
+                "category": "Magical & Supernatural",
+                "cost": 8,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the Magnitude of spells from that school by an additional 1. When creating original spells you may make them using the style of the school. Prerequisite: Ten spells from known and initiate in the specific school.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "4bbadbdd-406c-4eb7-884e-c1370802a9b5",
+                "name": "Isunian(Ancient Elven) Initiate",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have studied and mastered the basics of a given school. You will not get penalties from transcribing or learning spells from that school. You also increase the Magnitude of spells from that school by 1. Prerequisite: Three spells from the specific school known.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "b3cae688-22f7-423e-aeb7-d3887534e4ea",
+                "name": "Isunian(Ancient Elven) Mastery",
+                "category": "Magical & Supernatural",
+                "cost": 8,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the Magnitude of spells from that school by an additional 1. When creating original spells you may make them using the style of the school. Prerequisite: Ten spells from known and initiate in the specific school.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "f9f096b6-1321-48bc-bda5-670e59420215",
+                "name": "Savant Order Initiate",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have studied and mastered the basics of a given school. You will not get penalties from transcribing or learning spells from that school. You also increase the Magnitude of spells from that school by 1. Prerequisite: Three spells from the specific school known.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "84faeb65-079c-469f-8982-10a71e9b4c2e",
+                "name": "Savant Order Mastery",
+                "category": "Magical & Supernatural",
+                "cost": 8,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the Magnitude of spells from that school by an additional 1. When creating original spells you may make them using the style of the school. Prerequisite: Ten spells from known and initiate in the specific school.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "38ad5cc8-45e7-406c-b568-99de958e8422",
+                "name": "Southern(Volar) Initiate",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have studied and mastered the basics of a given school. You will not get penalties from transcribing or learning spells from that school. You also increase the Magnitude of spells from that school by 1. Prerequisite: Three spells from the specific school known.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "353eb442-6d3f-4a53-aceb-46f43dc2adce",
+                "name": "Southern(Volar) Mastery",
+                "category": "Magical & Supernatural",
+                "cost": 8,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the Magnitude of spells from that school by an additional 1. When creating original spells you may make them using the style of the school. Prerequisite: Ten spells from known and initiate in the specific school.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "89de91af-9624-46c9-b30a-4bad2dd6d14c",
+                "name": "Northern Hedge Magic Initiate",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have studied and mastered the basics of a given school. You will not get penalties from transcribing or learning spells from that school. You also increase the Magnitude of spells from that school by 1. Prerequisite: Three spells from the specific school known.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "05c3ab27-0832-452d-9552-37d1a5431cf8",
+                "name": "Northern Hedge Magic Mastery",
+                "category": "Magical & Supernatural",
+                "cost": 8,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the Magnitude of spells from that school by an additional 1. When creating original spells you may make them using the style of the school. Prerequisite: Ten spells from known and initiate in the specific school.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
         }
 ]

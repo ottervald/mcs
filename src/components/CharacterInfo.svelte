@@ -1,10 +1,7 @@
 <script lang="ts">
         import {characterStore} from '../character.ts';
         import {purimiveria_species} from '../lib/libraries.ts';
-        const { player, name, title, specie, totalExperience } = characterStore;
-        const recalculate = () => {
-                console.log($specie);
-        }
+        const { player, name, title, specie, totalExperience, characterExperience } = characterStore;
         const export_character = () => {
                 var file_name = 'mcs_character.json';
                 if ($name) {
@@ -38,6 +35,7 @@
                 characterStore.importCharacter(import_character);
                 document.getElementById('import-file').value = '';
         }
+        const experience_levels = ['Default', 'Established', 'Experienced', 'Veteran'];
 </script>
 <div>
         <input on:change={start_import} id="import-file" type="file" accept=".json, text/json" hidden/>
@@ -61,12 +59,24 @@
         Specie:
         <select
                 bind:value={$specie}
-                on:change={recalculate}
                 id="ancestry-select"
         >
                 {#each purimiveria_species as specie (specie.id)}
                         <option value={specie} id={specie.id}>
                                 {specie.name}
+                        </option>
+                {/each}
+        </select>
+</label>
+<label>
+        Experience:
+        <select
+                bind:value={$characterExperience}
+                id="experience-select"
+        >
+                {#each experience_levels as experience}
+                        <option value={experience} id={experience}>
+                                {experience}
                         </option>
                 {/each}
         </select>

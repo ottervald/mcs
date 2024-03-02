@@ -9,6 +9,7 @@
                 energySoak,
                 passiveMeleeDefense,
                 passiveRangedDefense,
+                passiveMagicResistance,
                 manaMax,
                 manaBaseRecovery,
                 vitalityColumns,
@@ -83,13 +84,21 @@
         </TableRow>
         <TableRow>
                 <div class="attribute-cell name">
+                        Passive Magic Resistance
+                </div>
+                <div class="attribute-cell">
+                        {$passiveMagicResistance}
+                </div>
+        </TableRow>
+        <TableRow other={true}>
+                <div class="attribute-cell name">
                         Mana Max
                 </div>
                 <div class="attribute-cell">
                         {$manaMax}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow>
                 <div class="attribute-cell name">
                         Mana Base Recovery
                 </div>
@@ -97,7 +106,7 @@
                         {$manaBaseRecovery}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow other={true}>
                 <div class="attribute-cell name">
                         Vitality Columns
                 </div>
@@ -105,7 +114,7 @@
                         {$vitalityColumns}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow>
                 <div class="attribute-cell name">
                         Vitality Base Recovery
                 </div>
@@ -113,7 +122,7 @@
                         {$vitalityBaseRecovery}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow other={true}>
                 <div class="attribute-cell name">
                         Willpower Columns
                 </div>
@@ -121,7 +130,7 @@
                         {$willpowerColumns}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow>
                 <div class="attribute-cell name">
                         Willpower Base Recovery
                 </div>
@@ -129,7 +138,7 @@
                         {$willpowerBaseRecovery}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow other={true}>
                 <div class="attribute-cell name">
                         Carry Base
                 </div>
@@ -137,7 +146,7 @@
                         {$carryBase}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow>
                 <div class="attribute-cell name">
                         Carry Light
                 </div>
