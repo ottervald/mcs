@@ -364,9 +364,10 @@ class CharacterStore {
   }
   get nativeLanguageBaseLevel() {
     return derived(
-      [this.mind],
-      ([$mind]) => {
-        return $mind + 2;
+      [this.mind, this.specie],
+      ([$mind, $specie]) => {
+        const tmind:number = $mind + $specie.attribute_modifiers.mind;
+        return tmind + 2;
       }
     )
   }
