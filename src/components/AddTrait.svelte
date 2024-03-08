@@ -7,7 +7,7 @@
 
         let traits:Trait[] = purimiveria_traits;
         let selectedTrait:Trait = purimiveria_traits[0];
-        let filters:string[] = ['All', 'Mundane', 'Expertise', 'Magical & Supernatural', 'Conjury Sphere', 'Allies & Companions', 'Starting Equipment', 'MEGA SPECIAL'];
+        let filters:string[] = ['All', 'Mundane', 'Expertise', 'Magical & Supernatural', 'Conjury Sphere', 'Grimoire Spell', 'Allies & Companions', 'Starting Equipment', 'MEGA SPECIAL'];
         let selectedFilter:string = filters[0];
         let openModal:boolean = false;
 
@@ -149,6 +149,9 @@
                 font: inherit;
                 cursor: pointer;
                 outline: inherit;
+        }
+        .trait-description {
+                white-space: pre-line;
         }
         .trait-cost {
                 font-weight: bold;

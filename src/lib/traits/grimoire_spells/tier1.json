@@ -1,0 +1,366 @@
+[
+        {
+                "id": "07bee104-b796-4d3d-a881-5ee1d855dbda",
+                "name": "Cantrips",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "Three cantrips (tier 0) spells",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "f3d84c8a-00de-4697-a608-61e2504e28d8",
+                "name": "Check for Poison",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic, Royal Parow\n\nThe caster targets a prepared meal or drink container and is made aware of if the target contains any mundane and alchemical poisons. The spell may be unable to detect wholly new and unique poisons.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "6822aeef-1ce8-43b9-93ee-3c699c9616a0",
+                "name": "Cooking Circle",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe targets an area with flat ground and in there creates several magical circles on which pots and pans can be heated. The circles have runes around them which can be used by anyone to adjust the heat emitted.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "72f3035d-ed56-4137-850c-20019b52f10f",
+                "name": "Impale",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nLaunches a targeted item towards an enemy as a ranged attack. The attack is a static 10 + Magnitude. The item does damage as if it was thrown or launched by a Strength 5 + Magnitude damage. Items that are not aerodynamic(basically anything not intended as a ranged weapon or not doing piercing damage normally) is limited to Close range.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "da3a87cb-cd76-4004-975c-6d03b0eeacd2",
+                "name": "Homunculus",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: \"Southern\"/Volar\n\nThe caster targets a pile of biologic matter and turns it into a small fleshy creature which will serve the caster for the duration of the spell. It has no skill set and is only suitable for menial tasks. Add one point of mana to the cost to create a winged variant capable of slow flight.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "8dbf6d51-3697-4798-a66a-0aa8c0334da0",
+                "name": "Gillian's holographic map",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Savant Order\n\nThe caster summons a flat, transparent, holographic map in front of themself. The map can be visible or closed during the duration of the spell. The map is initially empty. But the caster can with little mental effort simply draw lines, pattern fill, as they go whether the map is closed or not. The spell has little support for drawing more complex curves such as in text and is therefore bad for note taking. The holographic map is visible to all onlookers when open and can be panned, zoomed and rotated by the caster. The caster may choose to save the state of their map and bring it back the same next casting. But they can only save one per instance of this spell in their grimoire.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "5fefbc8c-7ac7-4ee0-9133-e5f141b3058d",
+                "name": "Glow Up",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nThe caster applies their makeup, fixes their haircut, manicures, pedicures and applies a light perfume all in one spell.It also cleans and moisturizes skin. It does not clean them and is therefore best cast after a proper bath.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "e11d43f8-77d0-479f-b4e7-217fe4ffd519",
+                "name": "Light Sprite",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster summons a floating sphere of light which either follows and hovers slightly above the caster, lighting their local area, or commanded to move and stay in place somewhere. The sphere can be dimmed and change color by will of the caster, and even deactivated and reactivated during the duration of the spell.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "807e1f2e-4748-4a1c-8ba0-2f20cb6d8d80",
+                "name": "Lord's Voice",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nFor the duration of the spell the caster's voice is magnified greatly enabling them to speak to large crowds and be heard clearly. The caster may activate and deactivate the spell freely under the duration of the spell.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "98bb4637-4927-4b39-bf93-3f35efc5df03",
+                "name": "Mystic Armor",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nA holographic suit of armor is projected over the caster protecting them from damage. It gives 2 + Magnitude armor against both physical and energy based attacks.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "a4b4680b-b441-4271-83f1-2643e0ee6fd8",
+                "name": "Shield",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster summons a floating shield of mana that protects them, granting 3 in defense bonus not stacking with a regular shield.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "84dc17e5-b76e-48c1-b485-a3d8f6eb3cb3",
+                "name": "Sigil",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster loudly proclaims who they are and projects a large emblem in front of them. The sigil spell comes in as many variants as there are mages using it. It reflects the casters' persona and their lineage. It is used as a way for mages to id themself, introduce themself to other mages or to prepare them for combat. For the duration of the spell the casters get an increased magnitude of one.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "c69ba02e-3589-4801-80c8-6ab5da52fe47",
+                "name": "Rend Magic",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Gray Order, Isunian-ancient elven\n\nThe caster fires an anti-magic bolt that damages active spells on the target. It reduces the Magnitude of active spells on the target by 3 + Magnitude d (damage mechanics).",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "a089bee8-78b0-4bfb-aa4d-e7f9b34c9842",
+                "name": "Turn Their Blades",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nAttacking the target during the duration costs Magnitude extra initiative.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

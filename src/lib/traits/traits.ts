@@ -28,6 +28,12 @@ import conjury_light_json from './conjury_spheres/light.json';
 import conjury_darkness_json from './conjury_spheres/darkness.json';
 import conjury_mind_json from './conjury_spheres/mind.json';
 
+// Grimoire Magic
+import grimoire_spells_tier_1_json from './grimoire_spells/tier1.json';
+import grimoire_spells_tier_2_json from './grimoire_spells/tier2.json';
+import grimoire_spells_tier_3_json from './grimoire_spells/tier3.json';
+import grimoire_spells_tier_4_json from './grimoire_spells/tier4.json';
+
 interface RequiredSkill {
   name: string;
   minimumValue: number;
@@ -93,6 +99,11 @@ const conjury_light = conjury_light_json as Trait[];
 const conjury_darkness = conjury_darkness_json as Trait[];
 const conjury_mind = conjury_mind_json as Trait[];
 
+const grimoire_1 = grimoire_spells_tier_1_json as Trait[];
+const grimoire_2 = grimoire_spells_tier_2_json as Trait[];
+const grimoire_3 = grimoire_spells_tier_3_json as Trait[];
+const grimoire_4 = grimoire_spells_tier_4_json as Trait[];
+
 export const purimiveria_traits = [
   ...mundane_positive_traits,
   ...expertise_traits,
@@ -121,4 +132,8 @@ export const purimiveria_traits = [
   ...conjury_light,
   ...conjury_darkness,
   ...conjury_mind,
+  ...grimoire_1,
+  ...grimoire_2,
+  ...grimoire_3,
+  ...grimoire_4,
 ];

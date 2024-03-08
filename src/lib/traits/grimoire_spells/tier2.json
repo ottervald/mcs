@@ -1,0 +1,158 @@
+[
+        {
+                "id": "12436703-6a7b-4f5e-957b-8c44841a90f3",
+                "name": "Boulder Throw",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nMust be cast in an area either with earhern ground or with readily available rocks. The caster levitates and  launches rocks towards the target. The base damage is based on the size of the rocks. The caster can decide to either target a specific target or ro rain rocks down on a whole targeted area. The damage the spell can do depends on the terrain.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "e907c485-a114-43f9-b152-d0c119f12339",
+                "name": "Fire Bird",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nOnce cast the bird of fire attacks the target by itself, with an ranged attack roll of 8 + Casters Magnitude. On a hit it does 4 + Magnitude d E damage, fire aspected. Caster may command the bird to strike any particular body part on the target.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "a09a3e14-9031-4742-a331-931310c02193",
+                "name": "Gillian's Cloak of the Night",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Savant Order\n\nThis lesser known spell of Gillian wraps the caster in a dark shroud that hides their identity when looked upon from far. Any onlooker more than a few meters away(adjacent zone or further), sees only a hooded figure of approximate size without any personal signifiers. When near any onlooker sees the true visage of the caster below the shroud. The spell is dispelled by sunlight.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "9f31365a-2faf-4bca-8a70-7b90b7feeba7",
+                "name": "Gillian's Topographic Map",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Savant Order\n\nThe caster, standing outside, or at least in an large open area with a very high ceiling, projects local topography onto a holographic map, which after the initial casting functions similar to Gillian´s holographic map. The initial casting sends a light sprite high up in the air which can be visible from great distances. The initial map reaches a kilometer in each direction.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "0e67f7e7-b68a-41c5-a3e4-044980e4803d",
+                "name": "Guardian Stones",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe caster summons a number of guardian stones equal to spent mana that start to hover above their head. If the caster is attacked a stone will try to block the attack with a roll of 8+Magnitude, success or not the stone is spent. The caster may also on their turn fire the stones as ranged attacks using the Spell attack skill + Dexterity, on a hit it does 4d P damage. They may fire how many stones they have in any one attack, each additional stone spent increases the rate of fire by one, and the attack has a size of 2 for purposes of hitting with multiple projectiles.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "38e13ac2-1a47-4832-8f84-e1183c4c81d6",
+                "name": "Soldier on (O Brave Warriors of the North)",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nAny allies in the targeted area can ignore penalties from Vitality damage and receive 1 point  armor for the duration of the spell.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]

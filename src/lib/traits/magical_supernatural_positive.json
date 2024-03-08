@@ -21,6 +21,27 @@
                 }
         },
         {
+                "id": "573ae67d-ddc0-4cf3-a01a-7bb78380189e",
+                "name": "Grimoire",
+                "category": "Magical & Supernatural",
+                "cost": 1,
+                "levels": true,
+                "removable": false,
+                "exponential": false,
+                "description": "This is a basic Grimoire, in the shape of a book. It has 1 size per level, and can hold [PLACEHOLDER] amount of spells per level.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
                 "id": "cfe4a35f-3377-4b2a-a2aa-dc65701fa0f9",
                 "name": "Magical Lineage",
                 "category": "Magical & Supernatural",

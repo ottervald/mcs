@@ -1,0 +1,132 @@
+[
+        {
+                "id": "8a2ba51a-476a-466c-8af2-9c39ecca3e2d",
+                "name": "Advanced Defense Magic",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Isunian-ancient elven\n\nThe elven advanced defensive magic is designed to be very flexible. This spell is primarily used as a defensive action instead of dodging or blocking. Against mundane attacks a successful cast avoids damage as per a dodge. Against magical attacks it reduces the incoming spell attack by Magnitude Magnitude (the Magnitude of the incoming spell is reduced by this spell's Magnitude). The caster may add extra Magnitude to the spell at a cost of 1 per Magnitude added.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "7cc06f94-ae32-4979-a2a7-33cbd6c4178f",
+                "name": "Anchor & Recall",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: “Southern”/Volar\n\nWhence cast, the spot the caster stands in is marked as the anchor for the duration of the spell. At any point during the duration of the spell the caster may instantly transport themself back to the anchored point. Doing this ends the spell. The spell cannot bring back more items or people than the caster can carry.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "1d6035d3-c946-4315-a058-146e0e609458",
+                "name": "Killing Magic",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Isunian-ancient elven\n\nThe standard offensive spell of the ancient elves for close quarter fighting. Quick and always useful. The spell does 3*Magnitude d E Vitality damage and Magnitude d Mana damage.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "7c709497-272c-41f9-8e50-efe5a2d7bec7",
+                "name": "Murgot's Portable Kitchen",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Savant Order\n\nThe spell summons forth a fully functioning, fully stocked kitchen in the targeted area. It comes with ovens and stoves which run without the use of externally supplied fuel. Food items are not included in the spell. The summoned kitchen is modeled after a traditional Parowian variant.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "f88c818b-a1fb-4b7d-a71d-1371608280f2",
+                "name": "RITUAL Seasons Pass (~and so shall you)",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe caster (and other willing targets in the area) enters a deep slumber that can last up to Magnitude years. The spell is dispelled if the caster is anyhow disturbed. While they sleep they are properly nourished and somewhat protected from cold. They do not age during the slumber.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]
