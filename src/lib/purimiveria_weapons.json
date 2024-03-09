@@ -670,7 +670,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "1803467b-bbc7-4b38-a00d-f63ae99be46c",
                 "name": "Battlemage Initiate Short Staff",
                 "description": "+1 Magnitude to Missile spells and +1 to Spell attack",
                 "size": 2,
@@ -688,7 +688,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "0cbc86be-cfc3-4663-af63-22db7c3ed9b0",
                 "name": "Battlemage Initiate Staff",
                 "description": "+1 Magnitude to Missile spells and +1 to Spell attack",
                 "size": 3,
@@ -706,7 +706,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "4887658d-09d6-49b2-867b-e0547b33c543",
                 "name": "Wand of <school> Initiate Short Staff",
                 "description": "+1 Magnitude to spells of specific school",
                 "size": 2,
@@ -724,7 +724,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "35a7014f-fbc9-4d10-8fcb-d598938937b8",
                 "name": "Wand of <school> Initiate Staff",
                 "description": "+1 Magnitude to spells of specific school",
                 "size": 3,
@@ -742,7 +742,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "097a486a-b5fa-43fb-a8d8-0ace4f70656b",
                 "name": "Channeling Wand of <school> Initiate Short Staff",
                 "description": "+1 Magnitude to spells of specific school and 1pt mana free per spell cast",
                 "size": 2,
@@ -760,7 +760,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "1f7308b2-7f3b-418d-8e75-a145957f72c3",
                 "name": "Channeling Wand of <school> Initiate Staff",
                 "description": "+1 Magnitude to spells of specific school and 1pt mana free per spell cast",
                 "size": 3,
@@ -778,7 +778,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "a2dfc691-38e6-485e-b99d-94bbb153d77a",
                 "name": "Wand of <resonance> Short Staff",
                 "description": "+1 Magnitude to conjury spells based of particular resonance",
                 "size": 2,
@@ -796,7 +796,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "d765cc17-1c52-480f-96db-6cc7aff9745b",
                 "name": "Wand of <resonance> Staff",
                 "description": "+1 Magnitude to conjury spells based of particular resonance",
                 "size": 3,
@@ -814,7 +814,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "9acc8539-f5c8-40f1-a58e-32c324c1e601",
                 "name": "Wand of Power Short Staff",
                 "description": "+1 Magnitude to spells",
                 "size": 2,
@@ -832,7 +832,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "41805432-9252-4fa7-a344-825fcbaef799",
                 "name": "Wand of Power Staff",
                 "description": "+1 Magnitude to spells",
                 "size": 3,
@@ -850,7 +850,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "a5316080-df2e-46ba-af59-5018d526708b",
                 "name": "Channeling Wand of Power Short Staff",
                 "description": "+1 Magnitude to spells and 1pt mana free per spell cast",
                 "size": 2,
@@ -868,7 +868,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "b4317b33-45dd-4070-bb83-b0f83918a84d",
                 "name": "Channeling Wand of Power Staff",
                 "description": "+1 Magnitude to spells and 1pt mana free per spell cast",
                 "size": 3,
