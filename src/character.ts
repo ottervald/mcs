@@ -481,7 +481,20 @@ class CharacterStore {
   }
 
   resetAttributes() {
-    this.attributePoints.set(startAttributePoints);
+    const characterExperience = get(this.characterExperience);
+        switch (characterExperience) {
+          case 'Veteran':
+            this.attributePoints.set(18);
+            break;
+          case 'Experienced':
+            this.attributePoints.set(17);
+            break;
+          case 'Established':
+            this.attributePoints.set(16);
+            break;
+          default:
+            this.attributePoints.set(startAttributePoints);
+        }
     this.dexterity.set(0);
     this.body.set(0);
     this.mind.set(0);

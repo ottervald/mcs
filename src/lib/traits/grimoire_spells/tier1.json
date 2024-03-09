@@ -4,10 +4,10 @@
                 "name": "Cantrips",
                 "category": "Grimoire Spell",
                 "cost": 1,
-                "levels": false,
+                "levels": true,
                 "removable": false,
                 "exponential": false,
-                "description": "Two cantrips (tier 0) spells",
+                "description": "Two cantrips (tier 0) spells per level of this trait",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
