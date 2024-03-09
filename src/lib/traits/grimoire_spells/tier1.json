@@ -52,6 +52,32 @@
                 }
         },
         {
+                "id": "6822aeef-1ce8-43b9-93ee-3c699c9616a0",
+                "name": "Cooking Circle",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe targets an area with flat ground and in there creates several magical circles on which pots and pans can be heated. The circles have runes around them which can be used by anyone to adjust the heat emitted.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "bfb9f1d4-8e94-4f2f-a34a-d3dd29eb2717",
                 "name": "Detect Magic",
                 "category": "Grimoire Spell",
@@ -78,14 +104,14 @@
                 }
         },
         {
-                "id": "6822aeef-1ce8-43b9-93ee-3c699c9616a0",
-                "name": "Cooking Circle",
+                "id": "fa6cfa8a-473f-486d-96f5-8aae70a06913",
+                "name": "Evil Eye",
                 "category": "Grimoire Spell",
                 "cost": 1,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: Northern hedge magic\n\nThe targets an area with flat ground and in there creates several magical circles on which pots and pans can be heated. The circles have runes around them which can be used by anyone to adjust the heat emitted.",
+                "description": "School: Northern hedge magic\n\nThe target receives disadvantage on all Saves and Skill rolls while under the effect of the evil eye. The effect lasts as long as the caster concentrates(is not interrupted or decides to perform another action) and maintains sight of the target.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -450,6 +476,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: -\n\nThe caster loudly proclaims who they are and projects a large emblem in front of them. The sigil spell comes in as many variants as there are mages using it. It reflects the casters' persona and their lineage. It is used as a way for mages to id themself, introduce themself to other mages or to prepare them for combat. For the duration of the spell the casters get an increased magnitude of one.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "26768547-b316-49d7-89d9-82e3a919707c",
+                "name": "Spell Bolt",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nA basic offensive missile spell. The caster fires a bolt of charged mana at a target for 1 + Magnitude d E. Variants of spell bolt appear across all schools and traditions. It is mostly used for learning and practice as more experienced combat mages tend to learn more lethal spells quite quickly.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

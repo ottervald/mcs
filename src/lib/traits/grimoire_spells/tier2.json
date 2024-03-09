@@ -52,6 +52,32 @@
                 }
         },
         {
+                "id": "814539c3-7913-4756-8c45-5cae2f547e4f",
+                "name": "Dancing Blade",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nThe caster animates the target item to fight for them for the duration of the spell. The caster can device whom the dancing blade targets, otherwise the dancing blade acts autonomously and attacks the casters enemies  with a skill roll of 7 + Magnitude and a Strength score of 2+ Magnitude. Max size of the targeted item is 3 + Magnitude. It does the same damage as if wielded by someone with the before mentioned strength.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "e907c485-a114-43f9-b152-d0c119f12339",
                 "name": "Fire Bird",
                 "category": "Grimoire Spell",
@@ -112,6 +138,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Savant Order\n\nThe caster, standing outside, or at least in an large open area with a very high ceiling, projects local topography onto a holographic map, which after the initial casting functions similar to Gillian´s holographic map. The initial casting sends a light sprite high up in the air which can be visible from great distances. The initial map reaches a kilometer in each direction.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "7fbaa710-5939-467e-aeed-ab660b57c5b6",
+                "name": "Ghastly Visage",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: \"Southern\"/Volar\n\nThe casters' very presence becomes horrifying to onlookers. The caster may choose to exclude allies from the effects of the spell when casting. For those affected by the spell the caster counts as having Magnitude levels of terror. The effect of the spell follows sympathetic rules, meaning the casters casting roll must overcome the magic resistance of the individuals affected.\n\nThe spell effect counts as an illusion.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
