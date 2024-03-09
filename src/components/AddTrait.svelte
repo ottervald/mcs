@@ -128,19 +128,19 @@
                 flex-wrap: wrap;
                 margin-bottom: 1em;
                 align-items: baseline;
-                height: 95%;
+                height: calc(100% - 3em);
         }
         .content {
                 width: 45%;
                 margin: 0 auto;
-                max-height: 100%;
+                height: 100%;
                 overflow-y: auto;
         }
         .filter-holder {
                 margin-bottom: 0.3em;
         }
         .trait-list {
-                max-height: 48em;
+                max-height: calc(100% - 5em);
                 overflow-y: auto;
         }
         .trait-select {

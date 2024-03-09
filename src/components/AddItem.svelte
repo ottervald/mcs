@@ -162,19 +162,19 @@
                 flex-wrap: wrap;
                 margin-bottom: 1em;
                 align-items: baseline;
-                height: 93%;
+                height: calc(100% - 5em);
         }
         .content {
                 width: 45%;
                 margin: 0 auto;
-                max-height: 100%;
+                height: 100%;
                 overflow-y: auto;
         }
         .filter-holder {
                 margin-bottom: 0.3em;
         }
         .item-list {
-                max-height: 48em;
+                max-height: calc(100% - 3em);
                 overflow-y: auto;
         }
         .item-select {

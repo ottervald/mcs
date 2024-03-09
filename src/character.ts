@@ -167,11 +167,14 @@ class CharacterStore {
       [this.spirit, this.mind, this.specie, this.characterTraits],
       ([$spirit, $mind, $specie, $traits]) => {
         const power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        const increasedTrait:number = $traits.find(t => t.trait.name === 'Increased Mana' )?.level | 0;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
         const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
         const tmind:number = $mind + $specie.attribute_modifiers.mind;
-        let mananumber = 10 + tspirit + tmind + power;
+        const increasedBase:number = (tspirit + tmind + power) * increasedTrait;
+        const spherestotal:number = $traits.filter(t => t.trait.category === 'Conjury Sphere').length;
+        let mananumber = 10 + tspirit + tmind + power + increasedBase + spherestotal;
         if (manawell) mananumber = mananumber * 2;
         if ($traits.find(t => t.trait.name === 'Hollow')) return 0;
         return mananumber;
