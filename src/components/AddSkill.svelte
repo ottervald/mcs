@@ -95,10 +95,13 @@
                 flex-wrap: wrap;
                 margin-bottom: 1em;
                 align-items: baseline;
+                height: 93%;
         }
         .content {
                 width: 45%;
                 margin: 0 auto;
+                max-height: 100%;
+                overflow-y: auto;
         }
         .filter-holder {
                 margin-bottom: 0.3em;
