@@ -1,5 +1,31 @@
 [
         {
+                "id": "a133d287-72f2-4060-8af3-989f43bab374",
+                "name": "Beast Frenzy",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe targeted animal immediately enters a frenzied berserker state and their Strength and Body attributes are raised by Magnitude. They will attack the nearest target not of their same species. The caster is the least prioritized target but not safe.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "12436703-6a7b-4f5e-957b-8c44841a90f3",
                 "name": "Boulder Throw",
                 "category": "Grimoire Spell",
@@ -112,6 +138,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Northern hedge magic\n\nThe caster summons a number of guardian stones equal to spent mana that start to hover above their head. If the caster is attacked a stone will try to block the attack with a roll of 8+Magnitude, success or not the stone is spent. The caster may also on their turn fire the stones as ranged attacks using the Spell attack skill + Dexterity, on a hit it does 4d P damage. They may fire how many stones they have in any one attack, each additional stone spent increases the rate of fire by one, and the attack has a size of 2 for purposes of hitting with multiple projectiles.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "e95485cc-55cd-4d0e-9995-f0a47b66fac5",
+                "name": "Hypnotize",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe target becomes unable to take any action. The effect lasts as long as the caster concentrates(is not interrupted or decides to perform another action) and maintains sight of the target.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

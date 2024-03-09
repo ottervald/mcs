@@ -78,6 +78,84 @@
                 }
         },
         {
+                "id": "368a02e9-03c8-4f3e-ae6b-1231a9300293",
+                "name": "Levitation",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nCost is based on the target’s size class and total carried weight.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "33df210e-a483-43fa-9045-af815f0742b6",
+                "name": "Lesser Spellward",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe selected areas are covered by a barrier protecting against offensive spells. Any spell targeting someone or something in the barrier must pass through 10 + Mind + Magnitude as per sympathetic magic rules.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "03c3fb75-3162-417f-a5c3-f05772b426ce",
+                "name": "Liminal Pocket",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster can store an amount of equipment in a magical space pocket and retrieve it at will.\n\nThe items that can be stored in the liminal pocket are decided when the spell is cast and the items in question must be held or otherwise equipped by the caster at the time of casting. The max size total that can be stored in the liminal pocket is equal to the casters Mind attribute. Recasting the spell allows the caster to change what items can be stored but not to add more items in addition to the previous casting(the spell effect does not stack with itself).\n\nRetrieving items from the liminal space costs initiative equal to the item's size. Held or otherwise equipped items can be put back for free.\n\nThe caster cannot put the same grimoire used for casting the spell inside the liminal pocket. Magical items and trinkets have no effect when in the liminal pocket. If the caster is slain, stored items materialize by the caster's corpse.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "7c709497-272c-41f9-8e50-efe5a2d7bec7",
                 "name": "Murgot's Portable Kitchen",
                 "category": "Grimoire Spell",
@@ -86,6 +164,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Savant Order\n\nThe spell summons forth a fully functioning, fully stocked kitchen in the targeted area. It comes with ovens and stoves which run without the use of externally supplied fuel. Food items are not included in the spell. The summoned kitchen is modeled after a traditional Parowian variant.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "a456f3ab-ad2b-4ad6-ac18-4db508ab430c",
+                "name": "Vanguard Halo",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nThe spell creates a circle of thin intense light above the caster, roughly covering the zone the caster is in. It provides full light in that zone(dissipating one per zone outwards). Every turn,  up to Magnitude enemies in the casters zone or adjacent ones(starting with the casters zone first), are attacked by individual cutting light beams. The light beams attack with a 12+Magnitude roll and do 5+Magnitude S d.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

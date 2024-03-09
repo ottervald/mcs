@@ -154,7 +154,7 @@
                         {$carryLight}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow other={true}>
                 <div class="attribute-cell name">
                         Carry Medium
                 </div>
@@ -162,7 +162,7 @@
                         {$carryMedium}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow>
                 <div class="attribute-cell name">
                         Carry Heavy
                 </div>
@@ -170,7 +170,7 @@
                         {$carryHeavy}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow other={true}>
                 <div class="attribute-cell name">
                         Carry Max
                 </div>
@@ -178,7 +178,7 @@
                         {$carryMax}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow>
                 <div class="attribute-cell name">
                         Max Trinkets
                 </div>

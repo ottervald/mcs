@@ -671,19 +671,217 @@
         },
         {
                 "id": "",
-                "name": "",
-                "description": "",
+                "name": "Battlemage Initiate Short Staff",
+                "description": "+1 Magnitude to Missile spells and +1 to Spell attack",
                 "size": 2,
                 "sturdiness": 3,
-                "cost": 20,
+                "cost": 100,
                 "attacks": [
                         {
                                 "type": "Melee",
-                                "damage": 2,
-                                "damage_modifier": "d B",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
                                 "reach": "S",
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Battlemage Initiate Staff",
+                "description": "+1 Magnitude to Missile spells and +1 to Spell attack",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 100,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Wand of <school> Initiate Short Staff",
+                "description": "+1 Magnitude to spells of specific school",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 100,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Wand of <school> Initiate Staff",
+                "description": "+1 Magnitude to spells of specific school",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 100,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Channeling Wand of <school> Initiate Short Staff",
+                "description": "+1 Magnitude to spells of specific school and 1pt mana free per spell cast",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 200,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Channeling Wand of <school> Initiate Staff",
+                "description": "+1 Magnitude to spells of specific school and 1pt mana free per spell cast",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 200,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d B",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Wand of <resonance> Short Staff",
+                "description": "+1 Magnitude to conjury spells based of particular resonance",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 200,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Wand of <resonance> Staff",
+                "description": "+1 Magnitude to conjury spells based of particular resonance",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 200,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Wand of Power Short Staff",
+                "description": "+1 Magnitude to spells",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 500,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Wand of Power Staff",
+                "description": "+1 Magnitude to spells",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 500,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Channeling Wand of Power Short Staff",
+                "description": "+1 Magnitude to spells and 1pt mana free per spell cast",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 750,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 0,
+                                "damage_modifier": "d- B",
+                                "reach": "S",
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Channeling Wand of Power Staff",
+                "description": "+1 Magnitude to spells and 1pt mana free per spell cast",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 750,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d- B",
+                                "reach": "M",
+                                "strength_requirement": 1,
+                                "two_handed": true
                         }
                 ]
         }

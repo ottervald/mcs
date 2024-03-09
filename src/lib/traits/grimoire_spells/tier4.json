@@ -7,7 +7,7 @@
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: Isunian-ancient elven\n\nThe caster superheats the air in an arc in front of them hot enough to melt rock near instantly. The caster uses the Spell attack Skill to hit and receives a bonus equal to Magnitude on their roll. If it the target is hit they take Magnitude d * 5 vitality damage and Magnitude d damage on their gear in the hit target zone.\nApart from the target, (and of course the caster themself), everyone else in the area are also hit by an area attack of 10 + Magnitude, if they fail they take Magnitude d vitality damage and Magnitude d damage on their gear in a random target zone.\nThis spell is also useful to force large vault doors and open sealed chambers.",
+                "description": "School: Isunian-ancient elven\n\nThe caster superheats the air in an arc in front of them hot enough to melt rock near instantly. The caster uses the Spell attack Skill to hit and receives a bonus equal to Magnitude on their roll. If it the target is hit they take Magnitude d * 5 vitality damage and Magnitude d damage on their gear in the hit target zone.\n\nApart from the target, (and of course the caster themself), everyone else in the area are also hit by an area attack of 10 + Magnitude, if they fail they take Magnitude d vitality damage and Magnitude d damage on their gear in a random target zone.\n\nThis spell is also useful to force large vault doors and open sealed chambers.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

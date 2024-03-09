@@ -7,7 +7,7 @@
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "Three cantrips (tier 0) spells",
+                "description": "Two cantrips (tier 0) spells",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -34,6 +34,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Northern hedge magic, Royal Parow\n\nThe caster targets a prepared meal or drink container and is made aware of if the target contains any mundane and alchemical poisons. The spell may be unable to detect wholly new and unique poisons.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "bfb9f1d4-8e94-4f2f-a34a-d3dd29eb2717",
+                "name": "Detect Magic",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nA typical detect spell. The caster may specify eg. active spells, magic items, magical creatures, or other known magical phenomena.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -182,6 +208,32 @@
                 }
         },
         {
+                "id": "24240241-aa24-4448-8cef-e5f004f44f32",
+                "name": "Lesser Defense Magic",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Isunian-ancient elven\n\nIf the spell succeeds the incoming attack or missile spell is reduced in harm by 1d per Mana spent. Caster decides how much mana to spend when they cast the spell. Max to spend is Magnitude*3.\n\nLesser defense magic is easy to learn and effective when you have the mana. But novice casters will quickly burn through their mana reserve if they are forced to use it.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "e11d43f8-77d0-479f-b4e7-217fe4ffd519",
                 "name": "Light Sprite",
                 "category": "Grimoire Spell",
@@ -234,6 +286,32 @@
                 }
         },
         {
+                "id": "dd5715ee-d6ea-4fd1-8486-e7e159470090",
+                "name": "Mage Sight",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nMage sight allows the caster to perceive magical auras and local flows of mana, this allows them to more easily perceive magic items , active spells and even illusions. For hidden enchantments, illusions, and covert spells the casters Magnitude must overcome the Magnitude the target.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "98bb4637-4927-4b39-bf93-3f35efc5df03",
                 "name": "Mystic Armor",
                 "category": "Grimoire Spell",
@@ -242,6 +320,84 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: -\n\nA holographic suit of armor is projected over the caster protecting them from damage. It gives 2 + Magnitude armor against both physical and energy based attacks.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "b258cf80-7162-416f-b1c9-9c186d65319e",
+                "name": "Open Door",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School:  Isunian-ancient elven\n\nDuring the great war the ancient elves built their fortresses with solid stone doors impossible to be opened manually but easily opened for those with this spell. Doors such as this still exist in their ruins and in current day elven enclaves. Some doors require \"keys\" to be opened.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "02311536-7261-4bda-b90e-848f95580022",
+                "name": "Protection from Elemental Magic",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nTargets reduce the Magnitude of spells from conjury of the four major elements by Magnitude.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "c69ba02e-3589-4801-80c8-6ab5da52fe47",
+                "name": "Rend Magic",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Gray Order, Isunian-ancient elven\n\nThe caster fires an anti-magic bolt that damages active spells on the target. It reduces the Magnitude of active spells on the target by 3 + Magnitude d (damage mechanics).",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -312,14 +468,14 @@
                 }
         },
         {
-                "id": "c69ba02e-3589-4801-80c8-6ab5da52fe47",
-                "name": "Rend Magic",
+                "id": "1c3fe440-90fe-4aac-8f15-6ab820da8f71",
+                "name": "Tracker",
                 "category": "Grimoire Spell",
                 "cost": 1,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: Gray Order, Isunian-ancient elven\n\nThe caster fires an anti-magic bolt that damages active spells on the target. It reduces the Magnitude of active spells on the target by 3 + Magnitude d (damage mechanics).",
+                "description": "School: Savant Order\n\nThe target is magically marked and starts to leave magical breadcrumbs behind them wherever they go, only visible to the caster or anyone with Mage sight or Auro vision on.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -346,6 +502,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Royal Parow\n\nAttacking the target during the duration costs Magnitude extra initiative.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "308e4b9b-77be-437c-875f-46f3454b4d69",
+                "name": "Water Walking",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe target can cross still water as if it were solid for the duration of the spell.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
