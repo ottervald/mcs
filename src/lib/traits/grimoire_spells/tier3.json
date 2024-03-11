@@ -182,6 +182,32 @@
                 }
         },
         {
+                "id": "32fd82a8-0b25-4851-a63d-9b8dc9f9eb4f",
+                "name": "Protection Against Missiles",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nFor the duration of the spell the targets are immune to mundane ranged missile attacks. Magical missile attacks must on their attack roll also overcome the effective roll of this spell (as if the target had a Passive defense of that value).",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "a456f3ab-ad2b-4ad6-ac18-4db508ab430c",
                 "name": "Vanguard Halo",
                 "category": "Grimoire Spell",
