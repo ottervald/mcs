@@ -4,6 +4,7 @@ import purimiveria_expertise_traits_json from './expertise.json';
 import purimiveria_magical_supernatural_positive_traits_json from './magical_supernatural_positive.json';
 import purimiveria_magical_supernatural_negative_traits_json from './magical_supernatural_negative.json';
 import purimiveria_allies_companions_traits_json from './allies_companions.json';
+import purimiveria_contacts_factions_traits_json from './contacts_factions.json';
 import purimiveria_starting_equipment_traits_json from './starting_equipment.json';
 import purimiveria_mega_special_traits_json from './mega_special.json';
 
@@ -76,6 +77,7 @@ const expertise_traits = purimiveria_expertise_traits_json as Trait[];
 const magical_supernatural_positive_traits = purimiveria_magical_supernatural_positive_traits_json as Trait[];
 const magical_supernatural_negative_traits = purimiveria_magical_supernatural_negative_traits_json as Trait[];
 const allies_companions_traits = purimiveria_allies_companions_traits_json as Trait[];
+const contacts_factions_traits = purimiveria_contacts_factions_traits_json as Trait[];
 const starting_equipment_traits = purimiveria_starting_equipment_traits_json as Trait[];
 const mega_special_traits = purimiveria_mega_special_traits_json as Trait[];
 
@@ -109,6 +111,7 @@ export const purimiveria_traits = [
   ...expertise_traits,
   ...magical_supernatural_positive_traits,
   ...allies_companions_traits,
+  ...contacts_factions_traits,
   ...mundane_negative_traits,
   ...magical_supernatural_negative_traits,
   ...starting_equipment_traits,

@@ -234,6 +234,58 @@
                 }
         },
         {
+                "id": "59456b59-ac5d-4e9e-ad42-be4cfc591fe0",
+                "name": "Murgot's Rest",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Savant order\n\nThis spell summons a small magical tent in the target area. The area should have mostly flat ground for the spell to work properly. As a start it summons the equivalent of a small tent. Every point of Magnitude can be divided on the following upgrades: Comfort, Cooling,  Insulation, Heating, Visual flair, and Size.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "12d18b04-703c-48f3-8ef6-49f75077f7af",
+                "name": "Nova",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nManifest a powerful blast in the targeted area. Caster rolls spell attack to hit and everyone in the area gets to defend themself however they want. Everyone hit takes 2*Magnitude B d damage.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "38e13ac2-1a47-4832-8f84-e1183c4c81d6",
                 "name": "Soldier on (O Brave Warriors of the North)",
                 "category": "Grimoire Spell",

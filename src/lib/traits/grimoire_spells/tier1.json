@@ -52,32 +52,6 @@
                 }
         },
         {
-                "id": "6822aeef-1ce8-43b9-93ee-3c699c9616a0",
-                "name": "Cooking Circle",
-                "category": "Grimoire Spell",
-                "cost": 1,
-                "levels": false,
-                "removable": false,
-                "exponential": false,
-                "description": "School: Northern hedge magic\n\nThe targets an area with flat ground and in there creates several magical circles on which pots and pans can be heated. The circles have runes around them which can be used by anyone to adjust the heat emitted.",
-                "requirements": {
-                        "attributes": {
-                                "dexterity": 0,
-                                "body": 0,
-                                "mind": 0,
-                                "spirit": 0,
-                                "strength": 0
-                        },
-                        "skills": [],
-                        "traits": [
-                                {
-                                        "name": "Grimoire",
-                                        "minimumValue": 0
-                                }
-                        ]
-                }
-        },
-        {
                 "id": "bfb9f1d4-8e94-4f2f-a34a-d3dd29eb2717",
                 "name": "Detect Magic",
                 "category": "Grimoire Spell",

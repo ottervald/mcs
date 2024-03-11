@@ -1,0 +1,86 @@
+[
+        {
+                "id": "eabe1195-4b61-41a9-9847-fb46dbe86883",
+                "name": "Petty Noble Lineage",
+                "category": "Contacts & Factions",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "The lowest ranks of the nobility. Typically not landed.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "04321573-dfbe-451f-ae1f-c63d8bc8e8bd",
+                "name": "Lesser Noble Lineage",
+                "category": "Contacts & Factions",
+                "cost": 6,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Smaller landed nobility. Barons and similar.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "92689751-db62-4983-a4ef-20f767ac133a",
+                "name": "Greater Noble Lineage",
+                "category": "Contacts & Factions",
+                "cost": 12,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Part of a duke or count’s family.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "986bbfa5-5bd1-4028-9769-530e78513a52",
+                "name": "Savant Order Member",
+                "category": "Contacts & Factions",
+                "cost": 1,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You are a paper-carrying member of the Savant Order.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]
