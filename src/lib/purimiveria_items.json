@@ -112,6 +112,14 @@
                 "cost": 50
         },
         {
+                "id": "cbe1a370-fe11-4456-a775-4d367b905337",
+                "name": "Note Taker's Kit",
+                "description": "Enough to take notes, a notebook, some ink, and a pen or two.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10
+        },
+        {
                 "id": "91f889d8-2ba8-4b8d-856f-37fc2e4a4cc7",
                 "name": "Personal Hygiene Kit",
                 "description": "Soap, brush, be clean!",
@@ -286,5 +294,213 @@
                 "size": 2,
                 "sturdiness": 3,
                 "cost": 20
+        },
+        {
+                "id": "574dc4f4-35b5-494f-a1ce-045e4ac82553",
+                "name": "Minor Resonating Trinket",
+                "description": "Increases one specific resonance to one if not already one or higher.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "77086415-627b-48a9-b0f3-7208e55787eb",
+                "name": "Minor <resonance> Boosting Trinket",
+                "description": "Boosts one specific resonance by one to a maximum of three.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "92535c87-7376-4858-94ba-45b0e9d0451c",
+                "name": "Power Trinket",
+                "description": "Raise Magnitude of all spells by 1.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "5c43fcd5-0240-4835-8658-ffeb6c1ae7ae",
+                "name": "Warming Trinket 1",
+                "description": "Grants cold exposure protection equal to one per level, not stacking with mundane clothing.\n\nVariant: Grants cold exposure protection equal to characters fire resonance.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "ec0b03f2-6c4b-40c3-867f-ffd0cb37c8ee",
+                "name": "Warming Trinket 2",
+                "description": "Grants cold exposure protection equal to one per level, not stacking with mundane clothing.\n\nVariant: Grants cold exposure protection equal to characters fire resonance.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "e8e1322b-9439-44ec-8f58-b2e2b1a87e5f",
+                "name": "Warming Trinket 3",
+                "description": "Grants cold exposure protection equal to one per level, not stacking with mundane clothing.\n\nVariant: Grants cold exposure protection equal to characters fire resonance.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "b2db2786-aa17-4ddc-b2df-81b66216a933",
+                "name": "Magic Sensing Trinket",
+                "description": "Vibrates discreetly when magic items appear in the wearers vicinity or someone casts a spell. Helps the character be alerted of magic items.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "3507a827-4e3a-4953-8a09-231a641db64b",
+                "name": "Aberration Sensing Trinket",
+                "description": "Vibrates or glows when aberrations are near.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "afd8c648-8954-4626-be61-a1ed67e49f11",
+                "name": "Protection Trinket 1",
+                "description": "One DB per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "e90a5266-3afa-41f3-b49a-9311633e553d",
+                "name": "Protection Trinket 2",
+                "description": "One DB per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 500
+        },
+        {
+                "id": "a46415c9-df3d-457b-b1c4-6898a1b9f7a1",
+                "name": "Protection Trinket 3",
+                "description": "One DB per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1500
+        },
+        {
+                "id": "86d1d299-4221-47d2-997c-53b18a64fe1c",
+                "name": "Physical Armour Blunt Trinket 1",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "29f71b64-2a0f-494e-aadd-39306dc7a5bc",
+                "name": "Physical Armour Blunt Trinket 2",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "4a556f49-1720-4c00-85da-a4fd6cccac58",
+                "name": "Physical Armour Blunt Trinket 3",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "a64adba4-214e-4736-938e-67f3228ca7b8",
+                "name": "Physical Armour Slashing Trinket 1",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "30e80c47-f019-4e17-9db8-832bde8b20fe",
+                "name": "Physical Armour Slashing Trinket 2",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "8711da44-f6a5-4ec3-9357-77fbe343c985",
+                "name": "Physical Armour Slashing Trinket 3",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "767c9ec2-b50e-4fcf-8111-f6a97998cdfc",
+                "name": "Physical Armour Piercing Trinket 1",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "a006e0b5-22cf-4f4d-8dac-b3398beba9fb",
+                "name": "Physical Armour Piercing Trinket 2",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "fdf09f8e-bc10-4cc3-b1ae-b9ec89d0c743",
+                "name": "Physical Armour Piercing Trinket 3",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "0cf6dc12-9dde-4304-ab68-4a08dbab83a4",
+                "name": "Physical Armour Trinket 1",
+                "description": "Provides one level of physical armor per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "8e49b60d-b4a8-434e-a851-ed8c840aab8d",
+                "name": "Physical Armour Trinket 2",
+                "description": "Provides one level of physical armor per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "6a990816-a882-4593-95d9-a277279e938b",
+                "name": "Physical Armour Trinket 3",
+                "description": "Provides one level of physical armor per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 4500
+        },
+        {
+                "id": "73a8e635-e110-4b9a-9e86-524848cc8367",
+                "name": "Energy Armour Trinket 1",
+                "description": "Provides one level of energy armor per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "1ca4f202-fbe9-428d-9307-7c02fd6f33b9",
+                "name": "Energy Armour Trinket 2",
+                "description": "Provides one level of energy armor per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "663393d2-0b60-4f88-9377-4c0363bfbc58",
+                "name": "Energy Armour Trinket 3",
+                "description": "Provides one level of energy armor per level.",
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 4500
         }
 ]

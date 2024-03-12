@@ -200,4 +200,7 @@
         .name {
                 text-align: left;
         }
+        .item-description {
+                white-space: pre-line;
+        }
 </style>
