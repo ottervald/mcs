@@ -49,7 +49,7 @@
                 "description": "Something great to go clubbing with",
                 "size": 4,
                 "sturdiness": 3,
-                "cost": 60,
+                "cost": 65,
                 "attacks": [
                         {
                                 "type": "Melee",
@@ -137,6 +137,24 @@
                                 "damage_modifier": "d S",
                                 "reach": "M",
                                 "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "43f31d55-1f0b-4ecc-a4e0-695b92e69d9e",
+                "name": "Great Axe",
+                "description": "Kiss my great axe",
+                "size": 5,
+                "sturdiness": 3,
+                "cost": 70,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 6,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_requirement": 4,
                                 "two_handed": true
                         }
                 ]
@@ -497,6 +515,32 @@
                                 "damage_modifier": "d B",
                                 "reach": "M",
                                 "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "2562b0c7-ff06-44be-8849-ec20d064d413",
+                "name": "Short-spear",
+                "description": "Spear on a little",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 35,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 2,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]

@@ -154,11 +154,12 @@ class CharacterStore {
   }
   get passiveMagicResistance() {
     return derived(
-      [this.characterTraits],
-      ([$traits]) => {
+      [this.characterTraits, this.spirit, this.specie],
+      ([$traits, $spirit, $specie]) => {
+        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
         const resistance:number = $traits.find(t => t.trait.name === 'Magic Resistance')?.level | 0;
         const hollow:number = $traits.find(t => t.trait.name === 'Hollow') ? 5 : 0;
-        return 8 + hollow + resistance;
+        return 8 + hollow + resistance + tspirit;
       }
     )
   }
@@ -172,10 +173,11 @@ class CharacterStore {
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
         const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
         const tmind:number = $mind + $specie.attribute_modifiers.mind;
-        const increasedBase:number = (tspirit + tmind + power) * increasedTrait;
+        const baseMana = tspirit + tmind + power;
+        const increasedBase:number = baseMana * increasedTrait;
         const spherestotal:number = $traits.filter(t => t.trait.category === 'Conjury Sphere').length;
         let mananumber = 10 + tspirit + tmind + power + increasedBase + spherestotal;
-        if (manawell) mananumber = mananumber * 2;
+        if (manawell) mananumber += baseMana + 10;
         if ($traits.find(t => t.trait.name === 'Hollow')) return 0;
         return mananumber;
       }

@@ -269,9 +269,9 @@
                 "description": "",
                 "size": 1,
                 "sturdiness": 3,
-                "cost": 12.5,
+                "cost": 10,
                 "location": "Head",
-                "physical_protection": 4,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -280,9 +280,9 @@
                 "description": "",
                 "size": 4,
                 "sturdiness": 3,
-                "cost": 50,
+                "cost": 40,
                 "location": "Torso",
-                "physical_protection": 4,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -291,9 +291,9 @@
                 "description": "",
                 "size": 1,
                 "sturdiness": 3,
-                "cost": 12.5,
+                "cost": 10,
                 "location": "Right Arm",
-                "physical_protection": 4,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -302,9 +302,9 @@
                 "description": "",
                 "size": 1,
                 "sturdiness": 3,
-                "cost": 12.5,
+                "cost": 10,
                 "location": "Left Arm",
-                "physical_protection": 4,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -313,9 +313,9 @@
                 "description": "",
                 "size": 1,
                 "sturdiness": 3,
-                "cost": 12.5,
+                "cost": 10,
                 "location": "Right Leg",
-                "physical_protection": 4,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -324,9 +324,9 @@
                 "description": "",
                 "size": 1,
                 "sturdiness": 3,
-                "cost": 12.5,
+                "cost": 10,
                 "location": "Left Leg",
-                "physical_protection": 4,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -335,9 +335,9 @@
                 "description": "",
                 "size": 1.25,
                 "sturdiness": 3,
-                "cost": 15,
+                "cost": 12.5,
                 "location": "Head",
-                "physical_protection": 5,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -346,9 +346,9 @@
                 "description": "",
                 "size": 5,
                 "sturdiness": 3,
-                "cost": 60,
+                "cost": 50,
                 "location": "Torso",
-                "physical_protection": 5,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -357,9 +357,9 @@
                 "description": "",
                 "size": 1.25,
                 "sturdiness": 3,
-                "cost": 15,
+                "cost": 12.5,
                 "location": "Right Arm",
-                "physical_protection": 5,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -368,9 +368,9 @@
                 "description": "",
                 "size": 1.25,
                 "sturdiness": 3,
-                "cost": 15,
+                "cost": 12.5,
                 "location": "Left Arm",
-                "physical_protection": 5,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -379,9 +379,9 @@
                 "description": "",
                 "size": 1.25,
                 "sturdiness": 3,
-                "cost": 15,
+                "cost": 12.5,
                 "location": "Right Leg",
-                "physical_protection": 5,
+                "physical_protection": 3,
                 "energy_protection": 2
         },
         {
@@ -390,9 +390,9 @@
                 "description": "",
                 "size": 1.25,
                 "sturdiness": 3,
-                "cost": 15,
+                "cost": 12.5,
                 "location": "Left Leg",
-                "physical_protection": 5,
+                "physical_protection": 3,
                 "energy_protection": 2
         }
 ]

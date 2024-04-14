@@ -182,6 +182,84 @@
                 }
         },
         {
+                "id": "b7ab071f-a5d8-465d-af05-4d580cabaf74",
+                "name": "Glyph: Fire",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster inscribes a magical glyph in an area. The glyph is only visible by the caster and anyone with Mage sight, Aura vision or similar type of magic sight ability. The glyph can either “cover” the whole area or one larger object such as a door or chest. If the area is entered or the object is disturbed the glyph explodes in a ball of fire, any everyone in the area is hit with a 2 + (Magnitude*2) E d vitality damage, fire type.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "320bb666-8456-44a0-8373-931d3e089f2b",
+                "name": "Glyph: Frost",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster inscribes a magical glyph in an area. The glyph is only visible by the caster and anyone with Mage sight, Aura vision or similar type of magic sight ability. The glyph can either “cover” the whole area or one larger object such as a door or chest. If the area is entered or the object is disturbed the glyph explodes in a cloud of supercooled air, anyone in the area is hit with a 2 + (Magnitude) E d vitality damage, cold type, and instantly becomes chilled or frozen.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "35ff60d3-c6c6-46d6-b0d9-4d03ecc89212",
+                "name": "Glyph: Holding",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThe caster inscribes a magical glyph in an area. The glyph is only visible by the caster and anyone with Mage sight, Aura vision or similar type of magic sight ability. The glyph can either “cover” the whole area or one larger object such as a door or chest. If the area is entered or the object is disturbed the glyph everyone is subject to a Strength Save vs. 10+Magnitude. On a failure they become incapable of any movement or action for a duration of rounds equal to their margin of failure.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "0e67f7e7-b68a-41c5-a3e4-044980e4803d",
                 "name": "Guardian Stones",
                 "category": "Grimoire Spell",

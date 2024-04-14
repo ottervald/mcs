@@ -63,6 +63,27 @@
                 }
         },
         {
+                "id": "82e23a6d-cce3-4470-aca8-23b068e7f8df",
+                "name": "Alcohol Tolerance",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "You have an absurd tolerance for alcohol regardless or despite your physical body. You can drink a lot and still remain at a high level of functioning and you do not get hangovers.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
                 "id": "a2c9a10b-851c-4662-a141-f032d06c190b",
                 "name": "Ambidextrous",
                 "category": "Mundane",

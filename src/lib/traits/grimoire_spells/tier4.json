@@ -1,5 +1,31 @@
 [
         {
+                "id": "ca168a4c-5361-4dfa-a1ba-ecf15e537a6b",
+                "name": "Flight",
+                "category": "Grimoire Spell",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nYou can fly and hover with near perfect control for the duration. You can spend additional mana to move faster for a duration of the spell. As with winged creatures, your speed while up in the air depends a lot on if you are ascending or descending, the wind and such.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "f254fd14-0765-4d64-963d-54b350fa6317",
                 "name": "Volcanic Cutter",
                 "category": "Grimoire Spell",

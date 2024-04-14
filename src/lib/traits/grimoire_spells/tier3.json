@@ -208,6 +208,32 @@
                 }
         },
         {
+                "id": "db95d08a-aca4-4d75-b50d-40507ce483dd",
+                "name": "Summon Ancestral Guardians",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Isunian-ancient elven\n\nThis spell can only be cast in or near the lands that previously belonged to the ancient elven empire. Summons Magnitude + Death Resonance wraiths that will attack all kith that are not elfs, curto, anano or drago.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "a456f3ab-ad2b-4ad6-ac18-4db508ab430c",
                 "name": "Vanguard Halo",
                 "category": "Grimoire Spell",

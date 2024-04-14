@@ -124,5 +124,47 @@
                         "skills": [],
                         "traits": []
                 }
+        },
+        {
+                "id": "7c7aaa80-fd84-4140-9edd-33b1fb77c65d",
+                "name": "Armour of Quality (fine)",
+                "category": "Starting Equipment",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "One of your armour pieces, or shield, is of fine quality.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "79198d9e-66e9-46d4-8e19-f7ee508dc3d4",
+                "name": "Armour of Quality (very fine)",
+                "category": "Starting Equipment",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "One of your armour pieces, or shield, is of very fine quality.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
         }
 ]
