@@ -166,5 +166,26 @@
                         "skills": [],
                         "traits": []
                 }
+        },
+        {
+                "id": "abfcffdd-2a25-44b8-bc8d-e0fcbcf43755",
+                "name": "Toolkit of Quality",
+                "category": "Starting Equipment",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "One of your toolkits is of fine quality.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
         }
 ]
