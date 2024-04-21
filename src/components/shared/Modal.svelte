@@ -5,7 +5,7 @@
 
 <div class="modal" class:open-modal={open} on:click|self={onClose}>
         <div class="container">
-                <div class="close" on:click={onClose}>X</div>
+                <button class="close" on:click={onClose}>X</button>
                 <slot />
         </div>
 </div>
@@ -39,13 +39,18 @@
                 position: absolute;
                 top: 7px;
                 right: 7px;
+                border: none;
                 border-radius: 50%;
                 width: 30px;
                 height: 30px;
                 font-size: 20px;
                 font-weight: bold;
+                background: none;
                 background-color: antiquewhite;
+                color: inherit;
+                padding: 0;
                 cursor: pointer;
+                outline: inherit;
         }
         @media (prefers-color-scheme: dark) {
                 .container {

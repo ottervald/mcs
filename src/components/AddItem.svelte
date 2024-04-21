@@ -3,10 +3,13 @@
         import ListRow from './shared/ListRow.svelte';
         import {characterStore} from '../character.ts';
         import {purimiveria_armours, purimiveria_items, purimiveria_weapons, purimiveria_shields} from '../lib/libraries.ts';
-        import type {Item} from '../lib/libraries.ts';
+        import type {Armour, Item, Shield, Weapon} from '../lib/libraries.ts';
 
         let items:Item[] = [...purimiveria_items, ...purimiveria_weapons, ...purimiveria_armours, ...purimiveria_shields];
         let selectedItem:Item = purimiveria_items[0];
+        let selectedArmour:Armour;
+        let selectedShield:Shield;
+        let selectedWeapon:Weapon;
         let amountItems:number = 1;
         let filters:string[] = ['All', 'Basic Items', 'Weapons', 'Armours', 'Shields']
         let selectedFilter:string = filters[0];
@@ -19,12 +22,15 @@
                                 break;
                         case 'Weapons':
                                 items = purimiveria_weapons;
+                                selectedWeapon = items[0] as Weapon;
                                 break;
                         case 'Armours':
                                 items = purimiveria_armours;
+                                selectedArmour = items[0] as Armour;
                                 break;
                         case 'Shields':
                                 items = purimiveria_shields;
+                                selectedShield = items[0] as Shield;
                                 break;
                         case 'All':
                         default:
@@ -37,6 +43,16 @@
         }
         function toggleModal() {
                 openModal = !openModal;
+        }
+        function selectItem(item:Item) {
+                selectedItem = item;
+                if('location' in item) {
+                        selectedArmour = item as Armour;
+                } else if('defense_bonus' in item) {
+                        selectedShield = item as Shield;
+                } else if('attacks' in item) {
+                        selectedWeapon = item as Weapon;
+                }
         }
 </script>
 
@@ -62,7 +78,7 @@
                         <div class="item-list">
                                 {#each items as item, i}
                                         <ListRow other={i % 2 == 0}>
-                                                <button class="item-select" on:click={() => {selectedItem = item;}}>
+                                                <button class="item-select" on:click={() => {selectItem(item);}}>
                                                         {item.name}
                                                 </button>
                                         </ListRow>
@@ -82,15 +98,15 @@
                                         <div class="item-container">
                                                 <div class="item-row">
                                                         <div class="item-cell name">Location:</div>
-                                                        <div class="item-cell">{selectedItem.location}</div>
+                                                        <div class="item-cell">{selectedArmour.location}</div>
                                                 </div>
                                                 <div class="item-row">
                                                         <div class="item-cell name">Physical Protection:</div>
-                                                        <div class="item-cell">{selectedItem.physical_protection}</div>
+                                                        <div class="item-cell">{selectedArmour.physical_protection}</div>
                                                 </div>
                                                 <div class="item-row">
                                                         <div class="item-cell name">Energy Protection:</div>
-                                                        <div class="item-cell">{selectedItem.physical_protection}</div>
+                                                        <div class="item-cell">{selectedArmour.physical_protection}</div>
                                                 </div>
                                         </div>
                                 {/if}
@@ -99,11 +115,11 @@
                                         <div class="item-container">
                                                 <div class="item-row">
                                                         <div class="item-cell name">Defense Bonus:</div>
-                                                        <div class="item-cell">{selectedItem.defense_bonus}</div>
+                                                        <div class="item-cell">{selectedShield.defense_bonus}</div>
                                                 </div>
                                                 <div class="item-row">
                                                         <div class="item-cell name">Strength Requirement:</div>
-                                                        <div class="item-cell">{selectedItem.strength_requirement}</div>
+                                                        <div class="item-cell">{selectedShield.strength_requirement}</div>
                                                 </div>
                                         </div>
                                 {/if}
@@ -117,7 +133,7 @@
                                                         <div class="item-cell">Reach</div>
                                                         <div class="item-cell">Strength Requirement</div>
                                                 </div>
-                                                {#each selectedItem.attacks as attack}
+                                                {#each selectedWeapon.attacks as attack}
                                                         <div class="item-row">
                                                                 <div class="item-cell">{attack.type}</div>
                                                                 <div class="item-cell">{attack.damage}</div>

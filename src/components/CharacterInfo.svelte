@@ -31,9 +31,10 @@
                 })
         }
         const start_import = async (event) => {
-                const import_character = await read_file(event.target.files[0]);
+                const import_character = await read_file(event.target.files[0]) as string;
                 characterStore.importCharacter(import_character);
-                document.getElementById('import-file').value = '';
+                const inputElement = document.getElementById('import-file') as HTMLInputElement;
+                inputElement.value = '';
         }
         const experience_levels = ['Default', 'Established', 'Experienced', 'Veteran'];
 </script>

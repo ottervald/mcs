@@ -34,21 +34,21 @@
                 </div>
         </TableHeader>
         {#each $shields as shield, i}
-                <TableRow title={shield.item.description} underRequirement={($strength + $specie.attribute_modifiers.strength) < shield.item.strength_requirement} other={i % 2 == 0 && ($strength + $specie.attribute_modifiers.strength) >= shield.item.strength_requirement} >
+                <TableRow title={shield.description} underRequirement={($strength + $specie.attribute_modifiers.strength) < shield.strength_requirement} other={i % 2 == 0 && ($strength + $specie.attribute_modifiers.strength) >= shield.strength_requirement} >
                         <div class="shield-cell name">
-                                {shield.item.name}
+                                {shield.name}
                         </div>
                         <div class="shield-cell">
-                                {shield.item.defense_bonus}
+                                {shield.defense_bonus}
                         </div>
                         <div class="shield-cell">
-                                {shield.item.strength_requirement}
+                                {shield.strength_requirement}
                         </div>
                         <div class="shield-cell">
-                                {shield.item.sturdiness}
+                                {shield.sturdiness}
                         </div>
                         <div class="shield-cell">
-                                {shield.item.size}
+                                {shield.size}
                         </div>
                 </TableRow>
         {/each}

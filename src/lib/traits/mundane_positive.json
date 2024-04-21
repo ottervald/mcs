@@ -150,11 +150,11 @@
                 "id": "bd3f2024-1b58-460e-adab-fcda009d77dd",
                 "name": "Child of the Wild",
                 "category": "Mundane",
-                "cost": 4,
+                "cost": 5,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "You feel more at home in nature. +1 Earth Resonance",
+                "description": "You feel more at home in nature. The naturalist skill is tagged for you. +1 Earth Resonance",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

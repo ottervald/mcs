@@ -339,7 +339,8 @@ class CharacterStore {
     return derived(
       [this.characterItems],
       ([$items]) => {
-        return $items.filter(item => isWeapon(item.item) );
+        const tmp_weapons = $items.filter(item => isWeapon(item.item) );
+        return tmp_weapons.map(chItem => chItem.item as Weapon);
       }
     )
   }
@@ -355,7 +356,8 @@ class CharacterStore {
     return derived(
       [this.characterItems],
       ([$items]) => {
-        return $items.filter(item => isShield(item.item) );
+        const tmp_shields = $items.filter(item => isShield(item.item) );
+        return tmp_shields.map(chShield => chShield.item as Shield);
       }
     )
   }

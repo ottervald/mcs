@@ -52,8 +52,8 @@
                 <div class="skill-cell">
                 </div>
                 <div class="skill-cell">
-                        <button disabled={true} on:click={() => characterStore.increaseNativeLanguage() }>+</button>
-                        <button disabled={true} on:click={() => characterStore.decreaseNativeLanguage() } class="decrease">-</button>
+                        <button disabled={true}>+</button>
+                        <button disabled={true} class="decrease">-</button>
                 </div>
         </TableRow>
         {#each $characterSkills as skill, i}

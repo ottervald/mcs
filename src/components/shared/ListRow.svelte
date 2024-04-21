@@ -7,8 +7,6 @@
 </div>
 
 <style>
-        .list-row {
-        }
         .other {
                 background-color: antiquewhite;
         }

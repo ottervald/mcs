@@ -104,14 +104,66 @@
                 }
         },
         {
-                "id": "72f3035d-ed56-4137-850c-20019b52f10f",
-                "name": "Impale",
+                "id": "8dbf6d51-3697-4798-a66a-0aa8c0334da0",
+                "name": "Gillian's holographic map",
                 "category": "Grimoire Spell",
                 "cost": 1,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: -\n\nLaunches a targeted item towards an enemy as a ranged attack. The attack is a static 10 + Magnitude. The item does damage as if it was thrown or launched by a Strength 5 + Magnitude damage. Items that are not aerodynamic(basically anything not intended as a ranged weapon or not doing piercing damage normally) is limited to Close range.",
+                "description": "School: Savant Order\n\nThe caster summons a flat, transparent, holographic map in front of themself. The map can be visible or closed during the duration of the spell. The map is initially empty. But the caster can with little mental effort simply draw lines, pattern fill, as they go whether the map is closed or not. The spell has little support for drawing more complex curves such as in text and is therefore bad for note taking. The holographic map is visible to all onlookers when open and can be panned, zoomed and rotated by the caster. The caster may choose to save the state of their map and bring it back the same next casting. But they can only save one per instance of this spell in their grimoire.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "5fefbc8c-7ac7-4ee0-9133-e5f141b3058d",
+                "name": "Glow Up",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nThe caster applies their makeup, fixes their haircut, manicures, pedicures and applies a light perfume all in one spell.It also cleans and moisturizes skin. It does not clean them and is therefore best cast after a proper bath.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "3701667a-8a3a-4229-840a-298d8ddaf36e",
+                "name": "Helping Hand",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Savant Order\n\nThe caster summons a hovering disembodied hand that floats near them. The hand can not perform attacks, but it can hold things for the caster and help the caster with tasks, even tasks that require fine manipulation. The hand is strong enough to hold Magnitude Size items. It cannot travel more than about a meter from the caster. At most this spell might grant advantage on Skill rolls where another hand is a huge help.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -156,40 +208,14 @@
                 }
         },
         {
-                "id": "8dbf6d51-3697-4798-a66a-0aa8c0334da0",
-                "name": "Gillian's holographic map",
+                "id": "72f3035d-ed56-4137-850c-20019b52f10f",
+                "name": "Impale",
                 "category": "Grimoire Spell",
                 "cost": 1,
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: Savant Order\n\nThe caster summons a flat, transparent, holographic map in front of themself. The map can be visible or closed during the duration of the spell. The map is initially empty. But the caster can with little mental effort simply draw lines, pattern fill, as they go whether the map is closed or not. The spell has little support for drawing more complex curves such as in text and is therefore bad for note taking. The holographic map is visible to all onlookers when open and can be panned, zoomed and rotated by the caster. The caster may choose to save the state of their map and bring it back the same next casting. But they can only save one per instance of this spell in their grimoire.",
-                "requirements": {
-                        "attributes": {
-                                "dexterity": 0,
-                                "body": 0,
-                                "mind": 0,
-                                "spirit": 0,
-                                "strength": 0
-                        },
-                        "skills": [],
-                        "traits": [
-                                {
-                                        "name": "Grimoire",
-                                        "minimumValue": 0
-                                }
-                        ]
-                }
-        },
-        {
-                "id": "5fefbc8c-7ac7-4ee0-9133-e5f141b3058d",
-                "name": "Glow Up",
-                "category": "Grimoire Spell",
-                "cost": 1,
-                "levels": false,
-                "removable": false,
-                "exponential": false,
-                "description": "School: Royal Parow\n\nThe caster applies their makeup, fixes their haircut, manicures, pedicures and applies a light perfume all in one spell.It also cleans and moisturizes skin. It does not clean them and is therefore best cast after a proper bath.",
+                "description": "School: -\n\nLaunches a targeted item towards an enemy as a ranged attack. The attack is a static 10 + Magnitude. The item does damage as if it was thrown or launched by a Strength 5 + Magnitude damage. Items that are not aerodynamic(basically anything not intended as a ranged weapon or not doing piercing damage normally) is limited to Close range.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

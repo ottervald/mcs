@@ -46,10 +46,10 @@
                 </div>
         </TableHeader>
         {#each $weapons as weapon, i}
-                {#each weapon.item.attacks as attack, j}
-                        <TableRow title={weapon.item.description} underRequirement={($strength + $specie.attribute_modifiers.strength) < attack.strength_requirement} other={i % 2 == 0 && ($strength + $specie.attribute_modifiers.strength) >= attack.strength_requirement} >
+                {#each weapon.attacks as attack, j}
+                        <TableRow title={weapon.description} underRequirement={($strength + $specie.attribute_modifiers.strength) < attack.strength_requirement} other={i % 2 == 0 && ($strength + $specie.attribute_modifiers.strength) >= attack.strength_requirement} >
                                 <div class="weapon-cell name">
-                                        {weapon.item.name}
+                                        {weapon.name}
                                 </div>
                                 <div class="weapon-cell">
                                         {$strength + $specie.attribute_modifiers.strength}
@@ -70,10 +70,10 @@
                                         {attack.strength_requirement}{#if attack.two_handed}*{/if}
                                 </div>
                                 <div class="weapon-cell">
-                                        {weapon.item.sturdiness}
+                                        {weapon.sturdiness}
                                 </div>
                                 <div class="weapon-cell">
-                                        {weapon.item.size}
+                                        {weapon.size}
                                 </div>
                         </TableRow>
                 {/each}
