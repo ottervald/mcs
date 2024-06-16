@@ -260,6 +260,32 @@
                 }
         },
         {
+                "id": "43283db4-5e57-4d23-872f-7eb928a781b9",
+                "name": "Letter Seal",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nEnchants a letter sealed with a signet ring(of any kind, does not need to be one of nobility) to only be opened by someone with a matching signet ring. Trying to open the letter without undoing the spell triggers it and it destroys the letter with a flash of fire.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "e11d43f8-77d0-479f-b4e7-217fe4ffd519",
                 "name": "Light Sprite",
                 "category": "Grimoire Spell",

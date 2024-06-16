@@ -77,6 +77,13 @@
                 "description": "Charm people"
         },
         {
+                "id": "cd5ba49d-8e22-4c38-97a4-ab3d39859117",
+                "name": "Commerce",
+                "category": "Social",
+                "specialized": false,
+                "description": "Buy! Sell!"
+        },
+        {
                 "id": "f41245a8-0bc8-4482-88c3-29fda7901cab",
                 "name": "Etiquette",
                 "category": "Social",
@@ -126,18 +133,18 @@
                 "description": "Care for animals, and know how to behave around them"
         },
         {
-                "id": "cd5ba49d-8e22-4c38-97a4-ab3d39859117",
-                "name": "Commerce",
-                "category": "Misc",
-                "specialized": false,
-                "description": "Buy! Sell!"
-        },
-        {
                 "id": "63afa941-c600-4416-b6b8-c1df7a9b3fe3",
                 "name": "Lore",
                 "category": "Misc",
                 "specialized": false,
                 "description": "Very general education and understanding about how the world works, the big strokes of history, and other academic topics. It is the skill of general education in the world."
+        },
+        {
+                "id": "aa2ffb3b-dffc-4422-b51c-ae2f9e8a16a5",
+                "name": "Mechanisms",
+                "category": "Misc",
+                "specialized": false,
+                "description": "The skill for using tools to non-destructively unlock locks and interact with other mechanical contraptions including advanced traps. For basic locking mechanisms it is Dexterity+Lockpicks. For understanding unique or complex locks a Mind+Lockpicking might be used."
         },
         {
                 "id": "8f5bedf5-fe45-4d4c-9d41-da20fbcd847c",
@@ -152,20 +159,6 @@
                 "category": "Misc",
                 "specialized": false,
                 "description": "Swim around in water, and other liquids?"
-        },
-        {
-                "id": "aa2ffb3b-dffc-4422-b51c-ae2f9e8a16a5",
-                "name": "Lockpicking",
-                "category": "Misc",
-                "specialized": false,
-                "description": "Open locks, get into places and things you shouldn't have access to"
-        },
-        {
-                "id": "6bc4923e-615d-4bc7-8e30-3f01f082f714",
-                "name": "Traps",
-                "category": "Misc",
-                "specialized": false,
-                "description": "Create, place, and disarm traps"
         },
         {
                 "id": "c28dcf46-3271-4c83-bd55-2b7fbf921271",

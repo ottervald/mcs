@@ -343,7 +343,7 @@
                 "id": "c5cb11ca-5a23-4175-afa0-f335d3054426",
                 "name": "Froskur",
                 "attribute_modifiers": {
-                        "dexterity": 0,
+                        "dexterity": 1,
                         "body": 0,
                         "mind": 0,
                         "spirit": 0,
@@ -356,7 +356,7 @@
                         "spirit": 10,
                         "strength": 1
                 },
-                "traits": ["Breathholding 2", "Amphibious", "Acute Sense of Smell 1", "High Manual Dexterity", "Infravision", "Microscopic Vision", "Nictating Membrane", "Peripheral Vision", "Plant Empathy", "Striking Tongue", "Reduced Consumption 3", "Water Resonance 1", "Tiny"],
+                "traits": ["Breathholding 2", "Amphibious", "Acute Sense of Smell 1", "Infravision", "Microscopic Vision", "Nictating Membrane", "Peripheral Vision", "Plant Empathy", "Striking Tongue", "Reduced Consumption 3", "Water Resonance 1", "Tiny"],
                 "starting_experience": 30
         },
         {
