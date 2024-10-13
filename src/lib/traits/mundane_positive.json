@@ -231,6 +231,27 @@
                 }
         },
         {
+                "id": "1bc7483d-b0b3-4274-bd4f-f800551dc1e1",
+                "name": "Focused",
+                "category": "Mundane",
+                "cost": 2,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You have an immense source of motivation and focus for solitary tasks. You can easily spend most of your time awake studying or working alone. For the purposes of long term training, studying or reading books you can be considered to be able to spend 12 a day rather than 8 hours a day which is standard for such tasks without spending any extra willpower.\nMutually exclusive with Lackadaisical.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
                 "id": "2c4d87ec-d68b-43c3-963c-1cffeba50359",
                 "name": "Good Looks",
                 "category": "Mundane",
@@ -378,6 +399,27 @@
                 }
         },
         {
+                "id": "3ec37566-d29c-4100-9cce-e8bbcae5f4d9",
+                "name": "Overpowered",
+                "category": "Magical & Supernatural",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Your explosive strength is much greater than your body mass would suggest, but also more than your body can handle. You hit harder, but you may injure yourself when you do. Whenever you roll for damage with a muscle powered weapon you count your strength as being 1.5 times higher but you also injure yourself on any six rolled. This will also have effect outside of combat when performing feats of strength, whenever you roll a Strength Save or Strength based Skill roll, you get the same bonus to your strength, but you also need to roll for damage against yourself, based on your normal Strength, Sd, whether the roll succeeds or not. You may try to “hold back” to not hurt yourself but this negates the bonus and gives you disadvantage on the roll.\nPrerequisite: Minimum 2 Strength\nNot available for trolls or Drago",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 2
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
                 "id": "c2f45a98-2fe2-4cd8-bf52-eb9bf96d1f10",
                 "name": "Pathfinder",
                 "category": "Mundane",
@@ -491,6 +533,27 @@
                 "removable": true,
                 "exponential": false,
                 "description": "You need about a third less food per day. In effect this means your food expenses are that much lower per level of this trait. Max level is 3. On level 3 you only need to eat a third of a ration every other day.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "5db9983b-16b0-4f6d-8955-b1149a1c47b3",
+                "name": "Thick Skinned",
+                "category": "Mundane",
+                "cost": 4,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Increase your base physical and energy soak by one point.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

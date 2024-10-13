@@ -133,6 +133,13 @@
                 "description": "Care for animals, and know how to behave around them"
         },
         {
+                "id": "f9033d46-3c5d-4612-a5c1-491cef5ba045",
+                "name": "Augury",
+                "category": "Misc",
+                "specialized": false,
+                "description": "An eclectic skill few honestly possess, while many may claim otherwise. Augury is the skill of seeing and understanding prophetic signs. The forces of fate and resonance leave signs across the world, especially as they converge, a skilled augur may see such and be warned of oncoming events."
+        },
+        {
                 "id": "63afa941-c600-4416-b6b8-c1df7a9b3fe3",
                 "name": "Lore",
                 "category": "Misc",

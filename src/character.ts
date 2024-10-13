@@ -137,7 +137,7 @@ class CharacterStore {
       [this.body, this.specie, this.characterSkills],
       ([$body, $specie, $skills]) => {
         const dodge:number = $skills.find(s => s.skill.name === 'Dodge' )?.level | 0;
-        const tbody:number = $body + $specie.attribute_modifiers.body + dodge;
+        const tbody:number = $body + $specie.attribute_modifiers.body + Math.floor(dodge/2);
         return tbody + 3;
       }
     )
@@ -147,7 +147,7 @@ class CharacterStore {
       [this.dexterity, this.specie, this.characterSkills],
       ([$dexterity, $specie, $skills]) => {
         const alertness:number = $skills.find(s => s.skill.name === 'Alertness' )?.level | 0;
-        const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity + alertness;
+        const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity + Math.floor(alertness/2);
         return tdexterity + 3;
       }
     )

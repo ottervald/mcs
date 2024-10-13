@@ -26,6 +26,32 @@
                 }
         },
         {
+                "id": "1ba61f32-6fcb-4127-b199-19e14e336b7f",
+                "name": "Archery Master",
+                "category": "Expertise",
+                "cost": 5,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "You increase the wounding modifier by one level when using Bow weapons.\nPrerequisite: Bows skill 7",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Bows",
+                                        "minimumValue": 7
+                                }
+                        ],
+                        "traits": []
+                }
+        },
+        {
                 "id": "9b0faea6-d591-482c-bbd3-dd8dfef62a50",
                 "name": "Armor Training",
                 "category": "Expertise",
@@ -43,6 +69,32 @@
                                 "strength": 0
                         },
                         "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "21353caf-52a3-43f4-b063-9f0b9f12e219",
+                "name": "Crossbow Training",
+                "category": "Expertise",
+                "cost": 3,
+                "levels": false,
+                "removable": true,
+                "exponential": false,
+                "description": "Reload crossbows for only 3 Initiative assuming you meet the Strength requirement.\nPrerequisite: Crossbow 3",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [
+                                {
+                                        "name": "Crossbows",
+                                        "minimumValue": 3
+                                }
+                        ],
                         "traits": []
                 }
         },
