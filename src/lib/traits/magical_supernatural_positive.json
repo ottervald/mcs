@@ -418,5 +418,26 @@
                         "skills": [],
                         "traits": []
                 }
+        },
+        {
+                "id": "f27ea13e-b9cf-49ed-80fe-8fad59e5250c",
+                "name": "Trinket Aptitude",
+                "category": "Magical & Supernatural",
+                "cost": 2,
+                "levels": true,
+                "removable": true,
+                "exponential": false,
+                "description": "Every level increases Max Trinkets by one.\n\nMax level is three.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
         }
 ]

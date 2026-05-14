@@ -40,5 +40,31 @@
                         "skills": [],
                         "traits": []
                 }
+        },
+        {
+                "id": "894cc1bf-4aab-4453-9b11-8780d8901e4e",
+                "name": "Uncanny appearance",
+                "category": "MEGA SPECIAL",
+                "cost": -3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "There are tell tale signs of your lycanthropic form on your base kith form - you have bestial physical traits associated with your animal form. For those who know what to look for, this is a clear tell of your lycanthropy and others will still be able to tell that you are different somehow. You can try to hide it by covering yourself fully - which may be suspicious in itself.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Lycanthropy",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
         }
 ]

@@ -312,6 +312,32 @@
                 }
         },
         {
+                "id": "02d75d51-bc66-4384-abfb-e22e4e2050dc",
+                "name": "Messenger Bird",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Royal Parow\n\nTo perform the spell a small item belonging to the desired recipient is needed, a signet ring or cherished piece of jewelry common. A small spirit is summoned in the form of a local bird or flight capable mammal, that can be given both, or either, a spoken command to relay or a message or small item to carry with it. Once the caster gives the command it will travel to the original owner of the item used for the spell and deliver its message expediently.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "59456b59-ac5d-4e9e-ad42-be4cfc591fe0",
                 "name": "Murgot's Rest",
                 "category": "Grimoire Spell",

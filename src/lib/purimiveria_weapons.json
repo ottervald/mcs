@@ -11,7 +11,7 @@
                                 "type": "Melee",
                                 "damage": 2,
                                 "damage_modifier": "d B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_requirement": 2,
                                 "two_handed": false
                         }
@@ -109,7 +109,7 @@
                                 "type": "Melee",
                                 "damage": 1,
                                 "damage_modifier": "d S",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -665,11 +665,11 @@
                 "description": "Stab somebody over there",
                 "size": 1,
                 "sturdiness": 3,
-                "cost": 27,
+                "cost": 30,
                 "attacks": [
                         {
                                 "type": "Ranged",
-                                "damage": 0,
+                                "damage": 1,
                                 "damage_modifier": "d P ap1",
                                 "reach": "N/M",
                                 "strength_requirement": 1,
@@ -683,11 +683,11 @@
                 "description": "Regularly stab afar",
                 "size": 2,
                 "sturdiness": 3,
-                "cost": 35,
+                "cost": 40,
                 "attacks": [
                         {
                                 "type": "Ranged",
-                                "damage": 1,
+                                "damage": 2,
                                 "damage_modifier": "d P ap1",
                                 "reach": "M/F",
                                 "strength_requirement": 2,
@@ -701,11 +701,11 @@
                 "description": "Military distinction stab from afar",
                 "size": 3,
                 "sturdiness": 3,
-                "cost": 50,
+                "cost": 65,
                 "attacks": [
                         {
                                 "type": "Ranged",
-                                "damage": 2,
+                                "damage": 3,
                                 "damage_modifier": "d P ap2",
                                 "reach": "M/F",
                                 "strength_requirement": 4,
