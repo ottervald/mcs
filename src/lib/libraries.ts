@@ -51,6 +51,7 @@ export interface Attack {
   damage: number;
   damage_modifier: string;
   reach: string;
+  strength_based_damage: boolean;
   strength_requirement: number;
   two_handed: boolean;
 }

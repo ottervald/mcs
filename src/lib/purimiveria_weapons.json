@@ -12,6 +12,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         }
@@ -30,6 +31,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": false
                         },
@@ -38,6 +40,7 @@
                                 "damage": 4,
                                 "damage_modifier": "d B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -56,6 +59,7 @@
                                 "damage": 5,
                                 "damage_modifier": "d B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": true
                         }
@@ -74,6 +78,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d PB",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         }
@@ -92,6 +97,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d SB",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         }
@@ -110,6 +116,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -128,6 +135,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": false
                         },
@@ -136,6 +144,7 @@
                                 "damage": 4,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -154,6 +163,7 @@
                                 "damage": 6,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 4,
                                 "two_handed": true
                         }
@@ -172,6 +182,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d PB ap1",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": false
                         },
@@ -180,6 +191,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d PB ap2",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -198,6 +210,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- SB",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -216,6 +229,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d-- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 0,
                                 "two_handed": false
                         }
@@ -234,6 +248,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -252,6 +267,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d P",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -270,6 +286,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- S",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -288,6 +305,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- P ap2",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -306,6 +324,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d S",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         },
@@ -314,6 +333,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d P",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -332,6 +352,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         },
@@ -340,6 +361,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d P",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -358,6 +380,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d P ap2",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -376,6 +399,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         },
@@ -384,6 +408,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d P ap2",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         }
@@ -402,6 +427,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         },
@@ -410,6 +436,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d P",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         }
@@ -428,6 +455,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": false
                         },
@@ -436,6 +464,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d P",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": false
                         },
@@ -444,6 +473,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d S",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         },
@@ -452,6 +482,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d P",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -470,6 +501,7 @@
                                 "damage": 5,
                                 "damage_modifier": "d S",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": true
                         },
@@ -478,6 +510,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d P",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": true
                         }
@@ -496,6 +529,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -514,6 +548,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -532,6 +567,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d P",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": false
                         },
@@ -540,6 +576,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d P",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -558,6 +595,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d P",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": false
                         },
@@ -566,6 +604,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d P",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -584,6 +623,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d S",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         },
@@ -592,6 +632,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d P",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -610,6 +651,7 @@
                                 "damage": 4,
                                 "damage_modifier": "d S",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": true
                         }
@@ -628,6 +670,7 @@
                                 "damage": 4,
                                 "damage_modifier": "d P",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": true
                         },
@@ -636,6 +679,7 @@
                                 "damage": 3,
                                 "damage_modifier": "d S",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 3,
                                 "two_handed": true
                         }
@@ -654,6 +698,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "L",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -672,6 +717,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d P ap1",
                                 "reach": "N/M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -690,6 +736,7 @@
                                 "damage": 2,
                                 "damage_modifier": "d P ap1",
                                 "reach": "M/F",
+                                "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
                         }
@@ -708,7 +755,84 @@
                                 "damage": 3,
                                 "damage_modifier": "d P ap2",
                                 "reach": "M/F",
+                                "strength_based_damage": true,
                                 "strength_requirement": 4,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "fff20199-8648-4c77-9a2b-cfe29bbcd268",
+                "name": "Military Crossbow",
+                "description": "Military mechanical stab from afar",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 75,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 7,
+                                "damage_modifier": "d P ap2",
+                                "reach": "M/F",
+                                "strength_based_damage": false,
+                                "strength_requirement": 4,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "1d5daed8-b100-4f36-b1b9-0000c9a3e5e4",
+                "name": "Hunting Crossbow",
+                "description": "Hunting mechanical stab from afar",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 50,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 6,
+                                "damage_modifier": "d P ap1",
+                                "reach": "M/F",
+                                "strength_based_damage": false,
+                                "strength_requirement": 3,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "16154a67-3af4-4b0b-879f-19b1d144b9ea",
+                "name": "Arbalest",
+                "description": "Military big mechanical stab from afar",
+                "size": 5,
+                "sturdiness": 3,
+                "cost": 125,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 10,
+                                "damage_modifier": "d P ap3",
+                                "reach": "F/V",
+                                "strength_based_damage": false,
+                                "strength_requirement": 5,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "7f4b2772-237c-4520-ae5b-72cd8d3ee689",
+                "name": "Hand Crossbow",
+                "description": "Hand sized mechanical stab from afar",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 35,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 4,
+                                "damage_modifier": "d P ap1",
+                                "reach": "N/M",
+                                "strength_based_damage": false,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -726,6 +850,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -744,6 +869,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -762,6 +888,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -780,6 +907,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -798,6 +926,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -816,6 +945,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -834,6 +964,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -852,6 +983,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -870,6 +1002,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -888,6 +1021,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }
@@ -906,6 +1040,7 @@
                                 "damage": 0,
                                 "damage_modifier": "d- B",
                                 "reach": "S",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
                         }
@@ -924,6 +1059,7 @@
                                 "damage": 1,
                                 "damage_modifier": "d- B",
                                 "reach": "M",
+                                "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": true
                         }

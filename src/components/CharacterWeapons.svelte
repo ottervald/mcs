@@ -52,13 +52,21 @@
                                         {weapon.name}
                                 </div>
                                 <div class="weapon-cell">
-                                        {$strength + $specie.attribute_modifiers.strength}
+                                        {#if attack.strength_based_damage}
+                                                {$strength + $specie.attribute_modifiers.strength}
+                                        {:else}
+                                                -
+                                        {/if}
                                 </div>
                                 <div class="weapon-cell">
                                         {attack.damage}
                                 </div>
                                 <div class="weapon-cell">
+                                        {#if attack.strength_based_damage}
                                         {$strength + $specie.attribute_modifiers.strength + attack.damage}
+                                        {:else}
+                                        {attack.damage}
+                                        {/if}
                                 </div>
                                 <div class="weapon-cell">
                                         {attack.damage_modifier}
