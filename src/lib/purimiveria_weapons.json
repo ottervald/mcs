@@ -445,7 +445,7 @@
         {
                 "id": "0a0dd24c-fd2e-45cc-9025-8cd84c56a816",
                 "name": "Longsword",
-                "description": "Sworing longly",
+                "description": "Swording longly",
                 "size": 3,
                 "sturdiness": 3,
                 "cost": 90,
@@ -480,6 +480,52 @@
                         {
                                 "type": "Melee",
                                 "damage": 3,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        }
+                ]
+        },
+        {
+                "id": "0694d815-b406-44a6-a6d0-8af64251fa91",
+                "name": "Great Sabre",
+                "description": "Sabre greatly",
+                "size": 3,
+                "sturdiness": 3,
+                "cost": 120,
+                "attacks": [
+                        {
+                                "type": "Melee",
+                                "damage": 3,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 1,
+                                "damage_modifier": "d P",
+                                "reach": "M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 3,
+                                "two_handed": false
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 4,
+                                "damage_modifier": "d S",
+                                "reach": "M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 2,
+                                "two_handed": true
+                        },
+                        {
+                                "type": "Melee",
+                                "damage": 2,
                                 "damage_modifier": "d P",
                                 "reach": "M",
                                 "strength_based_damage": true,
@@ -708,7 +754,7 @@
                 "id": "536ccf71-46f9-4390-be1b-fb72b3f33da9",
                 "name": "Short Bow",
                 "description": "Stab somebody over there",
-                "size": 1,
+                "size": 2,
                 "sturdiness": 3,
                 "cost": 30,
                 "attacks": [
@@ -727,7 +773,7 @@
                 "id": "3073107c-7f24-4ff1-a99d-beb939531d01",
                 "name": "Regular Bow",
                 "description": "Regularly stab afar",
-                "size": 2,
+                "size": 3,
                 "sturdiness": 3,
                 "cost": 40,
                 "attacks": [
@@ -746,7 +792,7 @@
                 "id": "3f09f3f2-eda4-45ff-9895-527204236fec",
                 "name": "Warbow",
                 "description": "Military distinction stab from afar",
-                "size": 3,
+                "size": 4,
                 "sturdiness": 3,
                 "cost": 65,
                 "attacks": [

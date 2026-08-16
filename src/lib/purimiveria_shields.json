@@ -31,9 +31,9 @@
         },
         {
                 "id": "796b02d1-bb18-4510-a36a-af64761a04c5",
-                "name": "Tower Shield",
+                "name": "Great Shield",
                 "description": "Protect yourself as much as you can",
-                "size": 4,
+                "size": 5,
                 "sturdiness": 3,
                 "cost": 60,
                 "defense_bonus": 4,
