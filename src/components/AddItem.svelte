@@ -2,16 +2,17 @@
         import Modal from './shared/Modal.svelte'
         import ListRow from './shared/ListRow.svelte';
         import {characterStore} from '../character.ts';
-        import {purimiveria_armours, purimiveria_items, purimiveria_weapons, purimiveria_shields} from '../lib/libraries.ts';
-        import type {Armour, Item, Shield, Weapon} from '../lib/libraries.ts';
+        import {purimiveria_armours, purimiveria_items, purimiveria_weapons, purimiveria_shields, purimiveria_trinkets} from '../lib/libraries.ts';
+        import type {Armour, Item, Shield, Trinket, Weapon} from '../lib/libraries.ts';
 
-        let items:Item[] = [...purimiveria_items, ...purimiveria_weapons, ...purimiveria_armours, ...purimiveria_shields];
+        let items:Item[] = [...purimiveria_items, ...purimiveria_weapons, ...purimiveria_armours, ...purimiveria_shields, ...purimiveria_trinkets];
         let selectedItem:Item = purimiveria_items[0];
         let selectedArmour:Armour;
         let selectedShield:Shield;
         let selectedWeapon:Weapon;
+        let selectedTrinket:Trinket;
         let amountItems:number = 1;
-        let filters:string[] = ['All', 'Basic Items', 'Weapons', 'Armours', 'Shields']
+        let filters:string[] = ['All', 'Basic Items', 'Weapons', 'Armours', 'Shields', 'Trinkets']
         let selectedFilter:string = filters[0];
         let openModal:boolean = false;
 
@@ -32,9 +33,13 @@
                                 items = purimiveria_shields;
                                 selectedShield = items[0] as Shield;
                                 break;
+                        case 'Trinkets':
+                                items = purimiveria_trinkets;
+                                selectedTrinket = items[0] as Trinket;
+                                break;
                         case 'All':
                         default:
-                                items = [...purimiveria_items, ...purimiveria_weapons, ...purimiveria_armours, ...purimiveria_shields];
+                                items = [...purimiveria_items, ...purimiveria_trinkets, ...purimiveria_weapons, ...purimiveria_armours, ...purimiveria_shields];
                 }
                 selectedItem = items[0];
         }
@@ -52,6 +57,8 @@
                         selectedShield = item as Shield;
                 } else if('attacks' in item) {
                         selectedWeapon = item as Weapon;
+                } else if('trinket_count' in item) {
+                        selectedTrinket = item as Trinket;
                 }
         }
 </script>
@@ -144,6 +151,16 @@
                                                 {/each}
                                         </div>
                                 {/if}
+                                {#if 'trinket_count' in selectedItem}
+                                        <h4>Trinket</h4>
+                                        <div class="item-container">
+                                                <div class="item-row">
+                                                        <div class="item-cell name">Trinket Count:</div>
+                                                        <div class="item-cell">{selectedTrinket.trinket_count}</div>
+                                                </div>
+                                        </div>
+                                {/if}
+
                                 <h4>Basic Info</h4>
                                 <div class="item-container">
                                         <div class="item-row">

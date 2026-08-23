@@ -1,0 +1,492 @@
+[
+       {
+                "id": "574dc4f4-35b5-494f-a1ce-045e4ac82553",
+                "name": "Minor Resonating Trinket",
+                "description": "Increases one specific resonance to one if not already one or higher.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "77086415-627b-48a9-b0f3-7208e55787eb",
+                "name": "Minor <resonance> Boosting Trinket",
+                "description": "Boosts one specific resonance by one to a maximum of three.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "92535c87-7376-4858-94ba-45b0e9d0451c",
+                "name": "Power Trinket",
+                "description": "Raise Magnitude of all spells by 1.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "5c43fcd5-0240-4835-8658-ffeb6c1ae7ae",
+                "name": "Warming Trinket 1",
+                "description": "Grants cold exposure protection equal to one per level, not stacking with mundane clothing.\n\nVariant: Grants cold exposure protection equal to characters fire resonance.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "ec0b03f2-6c4b-40c3-867f-ffd0cb37c8ee",
+                "name": "Warming Trinket 2",
+                "description": "Grants cold exposure protection equal to one per level, not stacking with mundane clothing.\n\nVariant: Grants cold exposure protection equal to characters fire resonance.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "e8e1322b-9439-44ec-8f58-b2e2b1a87e5f",
+                "name": "Warming Trinket 3",
+                "description": "Grants cold exposure protection equal to one per level, not stacking with mundane clothing.\n\nVariant: Grants cold exposure protection equal to characters fire resonance.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "b2db2786-aa17-4ddc-b2df-81b66216a933",
+                "name": "Magic Sensing Trinket",
+                "description": "Vibrates discreetly when magic items appear in the wearers vicinity or someone casts a spell. Helps the character be alerted of magic items.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "3507a827-4e3a-4953-8a09-231a641db64b",
+                "name": "Aberration Sensing Trinket",
+                "description": "Vibrates or glows when aberrations are near.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "afd8c648-8954-4626-be61-a1ed67e49f11",
+                "name": "Protection Trinket 1",
+                "description": "One DB per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "e90a5266-3afa-41f3-b49a-9311633e553d",
+                "name": "Protection Trinket 2",
+                "description": "One DB per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 500
+        },
+        {
+                "id": "a46415c9-df3d-457b-b1c4-6898a1b9f7a1",
+                "name": "Protection Trinket 3",
+                "description": "One DB per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1500
+        },
+        {
+                "id": "86d1d299-4221-47d2-997c-53b18a64fe1c",
+                "name": "Physical Armour Blunt Trinket 1",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "29f71b64-2a0f-494e-aadd-39306dc7a5bc",
+                "name": "Physical Armour Blunt Trinket 2",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "4a556f49-1720-4c00-85da-a4fd6cccac58",
+                "name": "Physical Armour Blunt Trinket 3",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "a64adba4-214e-4736-938e-67f3228ca7b8",
+                "name": "Physical Armour Slashing Trinket 1",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "30e80c47-f019-4e17-9db8-832bde8b20fe",
+                "name": "Physical Armour Slashing Trinket 2",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "8711da44-f6a5-4ec3-9357-77fbe343c985",
+                "name": "Physical Armour Slashing Trinket 3",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "767c9ec2-b50e-4fcf-8111-f6a97998cdfc",
+                "name": "Physical Armour Piercing Trinket 1",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 150
+        },
+        {
+                "id": "a006e0b5-22cf-4f4d-8dac-b3398beba9fb",
+                "name": "Physical Armour Piercing Trinket 2",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "fdf09f8e-bc10-4cc3-b1ae-b9ec89d0c743",
+                "name": "Physical Armour Piercing Trinket 3",
+                "description": "Provides one armor per level against one type of physical damage.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "0cf6dc12-9dde-4304-ab68-4a08dbab83a4",
+                "name": "Physical Armour Trinket 1",
+                "description": "Provides one level of physical armor per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "8e49b60d-b4a8-434e-a851-ed8c840aab8d",
+                "name": "Physical Armour Trinket 2",
+                "description": "Provides one level of physical armor per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "6a990816-a882-4593-95d9-a277279e938b",
+                "name": "Physical Armour Trinket 3",
+                "description": "Provides one level of physical armor per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 4500
+        },
+        {
+                "id": "73a8e635-e110-4b9a-9e86-524848cc8367",
+                "name": "Energy Armour Trinket 1",
+                "description": "Provides one level of energy armor per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "1ca4f202-fbe9-428d-9307-7c02fd6f33b9",
+                "name": "Energy Armour Trinket 2",
+                "description": "Provides one level of energy armor per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "663393d2-0b60-4f88-9377-4c0363bfbc58",
+                "name": "Energy Armour Trinket 3",
+                "description": "Provides one level of energy armor per level.",
+                "trinket_count": 1,
+                "effect": [],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 4500
+        },
+        {
+                "id": "fb22a0de-2e54-4aad-a847-6b2262518bc0",
+                "name": "Mana Storing Trinket 1",
+                "description": "+2 max mana",
+                "trinket_count": 1,
+                "effect": [{"name": "max_mana", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "316f60cb-5344-4bcf-98b1-8d6ccfccc19a",
+                "name": "Mana Storing Trinket 2",
+                "description": "+5 max mana",
+                "trinket_count": 1,
+                "effect": [{"name": "max_mana", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "15101efa-f9b4-471b-b1d3-5243a3dff933",
+                "name": "Mana Storing Trinket 3",
+                "description": "+10 max mana",
+                "trinket_count": 1,
+                "effect": [{"name": "max_mana", "value": 10}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1000
+        },
+        {
+                "id": "e66c97e9-7259-4c37-8cd9-83009f891e91",
+                "name": "Mana Collector Trinket 1",
+                "description": "Increases Mana Base Recovery by 1",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 1}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "2afa04b5-c1e9-421e-84a6-84035199c8e6",
+                "name": "Mana Collector Trinket 2",
+                "description": "Increases Mana Base Recovery by 2",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 250
+        },
+        {
+                "id": "16d4531e-ab30-4c73-a231-f15c3afd451a",
+                "name": "Mana Collector Trinket 3",
+                "description": "Increases Mana Base Recovery by 3",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 3}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 600
+        },
+        {
+                "id": "cdd7fd7c-66f3-48b6-8eff-b244667b8e3b",
+                "name": "Mana Collector Trinket 4",
+                "description": "Increases Mana Base Recovery by 4",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 4}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1500
+        },
+        {
+                "id": "d3df05d6-d269-42c3-bde2-c8a0332d9e07",
+                "name": "Mana Collector Trinket 5",
+                "description": "Increases Mana Base Recovery by 5",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 4250
+        },
+        {
+                "id": "d8576214-379f-47f1-9897-0daa5707ca45",
+                "name": "Mana Storing 1 and Collecting 1 Trinket",
+                "description": "Increases Mana Base Recovery by 1 and Max Mana by +2",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 1}, {"name": "max_mana", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 300
+        },
+        {
+                "id": "bafd5963-826f-40d9-a8bf-3aeaff2693de",
+                "name": "Mana Storing 1 and Collecting 2 Trinket",
+                "description": "Increases Mana Base Recovery by 2 and Max Mana by +2",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 2}, {"name": "max_mana", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 525
+        },
+        {
+                "id": "29fe251a-5558-4ccf-9912-4d7eef66f31e",
+                "name": "Mana Storing 1 and Collecting 3 Trinket",
+                "description": "Increases Mana Base Recovery by 3 and Max Mana by +2",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 3}, {"name": "max_mana", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1050
+        },
+        {
+                "id": "0b942453-0ebc-415b-a194-af1045309cce",
+                "name": "Mana Storing 1 and Collecting 4 Trinket",
+                "description": "Increases Mana Base Recovery by 4 and Max Mana by +2",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 4}, {"name": "max_mana", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 2400
+        },
+        {
+                "id": "27baaa9a-9ed3-4883-a192-d90ec635ce4d",
+                "name": "Mana Storing 1 and Collecting 5 Trinket",
+                "description": "Increases Mana Base Recovery by 5 and Max Mana by +2",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 5}, {"name": "max_mana", "value": 2}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 6525
+        },
+        {
+                "id": "9fab809f-1117-4be4-924e-8acfa9b34ad8",
+                "name": "Mana Storing 2 and Collecting 1 Trinket",
+                "description": "Increases Mana Base Recovery by 1 and Max Mana by +5",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 1}, {"name": "max_mana", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 525
+        },
+                {
+                "id": "1b1a770e-1e1b-4b09-a172-92d6effa3a7b",
+                "name": "Mana Storing 2 and Collecting 2 Trinket",
+                "description": "Increases Mana Base Recovery by 2 and Max Mana by +5",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 2}, {"name": "max_mana", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 750
+        },
+        {
+                "id": "d0d3d494-b1e0-4e19-89a3-882905cd3d22",
+                "name": "Mana Storing 2 and Collecting 3 Trinket",
+                "description": "Increases Mana Base Recovery by 3 and Max Mana by +5",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 3}, {"name": "max_mana", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1275
+        },
+        {
+                "id": "e92e6875-d48e-4954-a720-78c38b8984fd",
+                "name": "Mana Storing 2 and Collecting 4 Trinket",
+                "description": "Increases Mana Base Recovery by 4 and Max Mana by +5",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 4}, {"name": "max_mana", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 2625
+        },
+        {
+                "id": "4ec2ce16-911c-4c9f-912a-07d8e54abf9b",
+                "name": "Mana Storing 2 and Collecting 5 Trinket",
+                "description": "Increases Mana Base Recovery by 5 and Max Mana by +5",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 5}, {"name": "max_mana", "value": 5}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 6750
+        },
+        {
+                "id": "5037b761-a9af-44f4-8708-0e5289949719",
+                "name": "Mana Storing 3 and Collecting 1 Trinket",
+                "description": "Increases Mana Base Recovery by 1 and Max Mana by +10",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 1}, {"name": "max_mana", "value": 10}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1650
+        },
+        {
+                "id": "9cb063d8-0404-4efe-b4cf-a78bb283ef7d",
+                "name": "Mana Storing 3 and Collecting 2 Trinket",
+                "description": "Increases Mana Base Recovery by 2 and Max Mana by +10",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 2}, {"name": "max_mana", "value": 10}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 1875
+        },
+        {
+                "id": "a25e9149-9ae6-45cb-bd06-c123bac48f97",
+                "name": "Mana Storing 3 and Collecting 3 Trinket",
+                "description": "Increases Mana Base Recovery by 3 and Max Mana by +10",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 3}, {"name": "max_mana", "value": 10}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 2400
+        },
+        {
+                "id": "ed246f10-6dfa-495a-9a7e-9437a647350d",
+                "name": "Mana Storing 3 and Collecting 4 Trinket",
+                "description": "Increases Mana Base Recovery by 4 and Max Mana by +10",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 4}, {"name": "max_mana", "value": 10}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 3750
+        },
+        {
+                "id": "a52d7095-89f1-4fe0-ac28-ed40d7d27ea6",
+                "name": "Mana Storing 3 and Collecting 5 Trinket",
+                "description": "Increases Mana Base Recovery by 5 and Max Mana by +10",
+                "trinket_count": 1,
+                "effect": [{"name": "mana_recovery", "value": 5}, {"name": "max_mana", "value": 10}],
+                "size": 0,
+                "sturdiness": 3,
+                "cost": 7875
+        }
+]

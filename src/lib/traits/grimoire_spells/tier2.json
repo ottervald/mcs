@@ -315,7 +315,7 @@
                 "id": "02d75d51-bc66-4384-abfb-e22e4e2050dc",
                 "name": "Messenger Bird",
                 "category": "Grimoire Spell",
-                "cost": 3,
+                "cost": 2,
                 "levels": false,
                 "removable": false,
                 "exponential": false,

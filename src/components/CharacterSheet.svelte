@@ -8,6 +8,7 @@
   import CharacterWeapons from './CharacterWeapons.svelte'
   import CharacterArmours from './CharacterArmours.svelte'
   import CharacterShields from './CharacterShields.svelte'
+  import CharacterTrinkets from './CharacterTrinkets.svelte'
 </script>
 
 <div class="header">
@@ -33,6 +34,9 @@
 </div>
 <div>
         <CharacterWeapons />
+</div>
+<div>
+        <CharacterTrinkets />
 </div>
 <div>
         <CharacterInventory />

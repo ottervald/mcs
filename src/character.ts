@@ -1,10 +1,10 @@
 import { derived, get, writable } from "svelte/store";
 import type { Writable } from "svelte/store";
 import { purimiveria_species } from './lib/libraries';
-import type {Armour, Item, Shield, Skill, Specie, Weapon} from './lib/libraries';
+import type {Armour, Item, Shield, Skill, Specie, Trinket, Weapon} from './lib/libraries';
 import { purimiveria_traits } from './lib/traits/traits';
 import type { Trait } from './lib/traits/traits';
-import { mapArmour, getAttributeCost, isShield, isWeapon } from './lib/helpers';
+import { mapArmour, getAttributeCost, isShield, isTrinket, isWeapon } from './lib/helpers';
 import type { CharacterItem, CharacterSkill, CharacterTrait } from './lib/types';
 
 const startAttributePoints:number = 15;
@@ -165,9 +165,10 @@ class CharacterStore {
   }
   get manaMax() {
     return derived(
-      [this.spirit, this.mind, this.specie, this.characterTraits],
-      ([$spirit, $mind, $specie, $traits]) => {
-        const power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+      [this.spirit, this.mind, this.specie, this.characterTraits, this.trinkets],
+      ([$spirit, $mind, $specie, $traits, $trinkets]) => {
+        let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         const increasedTrait:number = $traits.find(t => t.trait.name === 'Increased Mana' )?.level | 0;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
@@ -176,7 +177,9 @@ class CharacterStore {
         const baseMana = tspirit + tmind + power;
         const increasedBase:number = baseMana * increasedTrait;
         const spherestotal:number = $traits.filter(t => t.trait.category === 'Conjury Sphere').length;
-        let mananumber = 10 + tspirit + tmind + power + increasedBase + spherestotal;
+        let trinketMana:number = 0;
+        $trinkets.forEach((trinket) => {trinketMana += (trinket.effect.find(e => e.name === 'max_mana')?.value | 0)});
+        let mananumber = 10 + tspirit + tmind + power + increasedBase + spherestotal + trinketMana;
         if (manawell) mananumber += baseMana + 10;
         if ($traits.find(t => t.trait.name === 'Hollow')) return 0;
         return mananumber;
@@ -185,14 +188,17 @@ class CharacterStore {
   }
   get manaBaseRecovery() {
     return derived(
-      [this.spirit, this.mind, this.specie, this.characterTraits],
-      ([$spirit, $mind, $specie, $traits]) => {
-        const power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+      [this.spirit, this.mind, this.specie, this.characterTraits, this.trinkets],
+      ([$spirit, $mind, $specie, $traits, $trinkets]) => {
+        let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
         const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
         const tmind:number = $mind + $specie.attribute_modifiers.mind;
-        let recovery:number = Math.min(tspirit, tmind) + power;
+        let trinketRecovery:number = 0;
+        $trinkets.forEach((trinket) => {trinketRecovery += (trinket.effect.find(e => e.name === 'mana_recovery')?.value | 0)});
+        let recovery:number = Math.min(tspirit, tmind) + power + trinketRecovery;
         if (manawell) recovery = recovery * 2;
         if ($traits.find(t => t.trait.name === 'Hollow')) return 0;
         return recovery;
@@ -301,7 +307,8 @@ class CharacterStore {
       [this.spirit, this.specie, this.characterTraits],
       ([$spirit, $specie, $traits]) => {
         const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
-        const power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         return tspirit + power;
       }
     )
@@ -358,6 +365,24 @@ class CharacterStore {
       ([$items]) => {
         const tmp_shields = $items.filter(item => isShield(item.item) );
         return tmp_shields.map(chShield => chShield.item as Shield);
+      }
+    )
+  }
+  get trinkets() {
+    return derived(
+      [this.characterItems],
+      ([$items]) => {
+        const tmp_trinkets = $items.filter(item => isTrinket(item.item) );
+        return tmp_trinkets.map(chTrinket => chTrinket.item as Trinket);
+      }
+    )
+  }
+  get carriedTrinkets() {
+    return derived(
+      [this.characterItems],
+      ([$items]) => {
+        const tmp_trinkets = $items.filter(item => isTrinket(item.item) );
+        return tmp_trinkets.length;
       }
     )
   }

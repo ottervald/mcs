@@ -5,6 +5,7 @@ import purimiveria_species_json from './purimiveria_species.json';
 import purimiveria_weapons_json from './purimiveria_weapons.json';
 import purimiveria_armours_json from './purimiveria_armours.json';
 import purimiveria_shields_json from './purimiveria_shields.json';
+import purimiveria_trinkets_json from './purimiveria_trinkets.json';
 
 interface AttributeModifiers {
   dexterity: number;
@@ -76,3 +77,15 @@ export interface Shield extends Item {
 }
 
 export const purimiveria_shields = purimiveria_shields_json as Item[];
+
+export interface TrinketEffect {
+  name: string;
+  value: number;
+}
+
+export interface Trinket extends Item {
+  trinket_count: number;
+  effect: TrinketEffect[];
+}
+
+export const purimiveria_trinkets = purimiveria_trinkets_json as Item[];

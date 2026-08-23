@@ -1,4 +1,4 @@
-import type {Armour, Item, Shield, Weapon} from './libraries';
+import type {Armour, Item, Shield, Trinket, Weapon} from './libraries';
 import type {CharacterArmours, CharacterItem} from './types';
 
 export function mapArmour(items:CharacterItem[]):CharacterArmours {
@@ -111,6 +111,10 @@ export function isWeapon(item: Item): item is Weapon {
 
 export function isShield(item: Item): item is Shield {
   return 'defense_bonus' in item;
+}
+
+export function isTrinket(item: Item): item is Trinket {
+  return 'trinket_count' in item;
 }
 
 export function getAttributeCost(startValue:number, up:boolean): number {
