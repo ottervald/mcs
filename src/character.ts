@@ -315,9 +315,15 @@ class CharacterStore {
   }
   get traitExperience() {
     return derived(
-      [this.characterTraits],
-      ([$traits]) => {
+      [this.characterTraits, this.specie],
+      ([$traits, $specie]) => {
+        const hasInnateMagery:boolean = ($specie.traits.includes('Innate Magery'));
+        let usedInnateMagery:boolean = false;
         return $traits.reduce( (acc, cur) => {
+          if (hasInnateMagery && !usedInnateMagery && cur.trait.category === 'Conjury Sphere') {
+            usedInnateMagery = true;
+            return acc;
+          }
           return acc - cur.cost;
         }, 0)
       }
@@ -339,6 +345,24 @@ class CharacterStore {
             addedExperience = 10;
         }
         return $specie.starting_experience + $skillExperience + $traitExperience + $attributeExperience + addedExperience;
+      }
+    )
+  }
+  get displayCharacterTraits() {
+    return derived(
+      [this.characterTraits, this.specie],
+      ([$traits, $specie]) => {
+        const hasInnateMagery:boolean = ($specie.traits.includes('Innate Magery'));
+        let usedInnateMagery:boolean = false;
+        return $traits.map( (cur) => {
+          if (hasInnateMagery && !usedInnateMagery && cur.trait.category === 'Conjury Sphere') {
+            usedInnateMagery = true;
+            const cloneCur = {...cur};
+            cloneCur.cost = 0;
+            return cloneCur;
+          }
+          return cur;
+        })
       }
     )
   }

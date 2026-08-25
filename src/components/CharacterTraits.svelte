@@ -4,7 +4,7 @@
         import TableHeader from './shared/TableHeader.svelte';
         import TableRow from './shared/TableRow.svelte';
         import {characterStore} from '../character.ts';
-        const {characterTraits, traitExperience, specie} = characterStore;
+        const {displayCharacterTraits, traitExperience, specie} = characterStore;
 
         let visible:boolean = false;
 </script>
@@ -51,7 +51,7 @@
                 <div class="trait-cell">
                 </div>
         </TableHeader>
-        {#each $characterTraits as trait, i}
+        {#each $displayCharacterTraits as trait, i}
                 <TableRow title={trait.trait.description} other={i % 2 == 0} underRequirement={!trait.requirementsMet}>
                         <div class="trait-cell name">
                                 <button on:click={() => characterStore.removeTrait(trait, i) }>Remove</button>
