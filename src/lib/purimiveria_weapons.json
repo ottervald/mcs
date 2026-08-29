@@ -472,7 +472,7 @@
                                 "type": "Melee",
                                 "damage": 3,
                                 "damage_modifier": "d S",
-                                "reach": "M",
+                                "reach": "L",
                                 "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
@@ -518,7 +518,7 @@
                                 "type": "Melee",
                                 "damage": 4,
                                 "damage_modifier": "d S",
-                                "reach": "M",
+                                "reach": "L",
                                 "strength_based_damage": true,
                                 "strength_requirement": 2,
                                 "two_handed": true
@@ -821,7 +821,7 @@
                                 "damage_modifier": "d P ap2",
                                 "reach": "M/F",
                                 "strength_based_damage": false,
-                                "strength_requirement": 4,
+                                "strength_requirement": 3,
                                 "two_handed": true
                         }
                 ]
@@ -840,7 +840,7 @@
                                 "damage_modifier": "d P ap1",
                                 "reach": "M/F",
                                 "strength_based_damage": false,
-                                "strength_requirement": 3,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]

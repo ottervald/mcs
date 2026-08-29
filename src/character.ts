@@ -429,15 +429,16 @@ class CharacterStore {
   }
   get combatSize() {
     return derived(
-      [this.characterItems],
-      ([$items]) => {
+      [this.characterItems, this.characterTraits],
+      ([$items, $traits]) => {
+        const armourTraining:number = $traits.find(t => t.trait.name === 'Armor Training' )?.level | 0;
         const tmp_weapons = $items.filter(item => isWeapon(item.item) || isShield(item.item) );
         return $items.reduce( (acc, cur) => {
           if (isWeapon(cur.item) || isShield(cur.item) || isArmour(cur.item)) {
             return acc + cur.item.size;
           }
           return acc;
-        }, 0)
+        }, 0) - armourTraining;
       }
     )
   }
