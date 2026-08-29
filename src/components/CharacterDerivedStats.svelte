@@ -21,7 +21,8 @@
                 carryMedium,
                 carryHeavy,
                 carryMax,
-                maxTrinkets
+                maxTrinkets,
+                combatSize
         } = characterStore;
 
         let visible:boolean = false;
@@ -146,36 +147,48 @@
                         {$carryBase}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow highlight={$combatSize >= $carryLight && $combatSize < $carryMedium}>
                 <div class="attribute-cell name">
                         Carry Light
                 </div>
                 <div class="attribute-cell">
                         {$carryLight}
+                        {#if $combatSize >= $carryLight && $combatSize < $carryMedium}
+                                ({$combatSize})
+                        {/if}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow other={true} highlight={$combatSize >= $carryMedium && $combatSize < $carryHeavy}>
                 <div class="attribute-cell name">
                         Carry Medium
                 </div>
                 <div class="attribute-cell">
                         {$carryMedium}
+                        {#if $combatSize >= $carryMedium && $combatSize < $carryHeavy}
+                                ({$combatSize})
+                        {/if}
                 </div>
         </TableRow>
-        <TableRow>
+        <TableRow highlight={$combatSize >= $carryHeavy && $combatSize < $carryMax}>
                 <div class="attribute-cell name">
                         Carry Heavy
                 </div>
                 <div class="attribute-cell">
                         {$carryHeavy}
+                        {#if $combatSize >= $carryHeavy && $combatSize < $carryMax}
+                                ({$combatSize})
+                        {/if}
                 </div>
         </TableRow>
-        <TableRow other={true}>
+        <TableRow other={true} highlight={$combatSize >= $carryMax}>
                 <div class="attribute-cell name">
                         Carry Max
                 </div>
                 <div class="attribute-cell">
                         {$carryMax}
+                        {#if $combatSize >= $carryMax}
+                                ({$combatSize})
+                        {/if}
                 </div>
         </TableRow>
         <TableRow>

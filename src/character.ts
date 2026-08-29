@@ -4,7 +4,7 @@ import { purimiveria_species } from './lib/libraries';
 import type {Armour, Item, Shield, Skill, Specie, Trinket, Weapon} from './lib/libraries';
 import { purimiveria_traits } from './lib/traits/traits';
 import type { Trait } from './lib/traits/traits';
-import { mapArmour, getAttributeCost, isShield, isTrinket, isWeapon } from './lib/helpers';
+import { mapArmour, getAttributeCost, isShield, isTrinket, isWeapon, isArmour } from './lib/helpers';
 import type { CharacterItem, CharacterSkill, CharacterTrait } from './lib/types';
 
 const startAttributePoints:number = 15;
@@ -424,6 +424,20 @@ class CharacterStore {
       ([$mind, $specie]) => {
         const tmind:number = $mind + $specie.attribute_modifiers.mind;
         return tmind + 2;
+      }
+    )
+  }
+  get combatSize() {
+    return derived(
+      [this.characterItems],
+      ([$items]) => {
+        const tmp_weapons = $items.filter(item => isWeapon(item.item) || isShield(item.item) );
+        return $items.reduce( (acc, cur) => {
+          if (isWeapon(cur.item) || isShield(cur.item) || isArmour(cur.item)) {
+            return acc + cur.item.size;
+          }
+          return acc;
+        }, 0)
       }
     )
   }
