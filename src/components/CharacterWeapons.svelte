@@ -3,7 +3,7 @@
         import Table from './shared/Table.svelte';
         import TableHeader from './shared/TableHeader.svelte';
         import TableRow from './shared/TableRow.svelte';
-        const {weapons, strength, specie} = characterStore;
+        const {weapons, strength, ancestry} = characterStore;
 
         let visible:boolean = false;
 </script>
@@ -47,13 +47,13 @@
         </TableHeader>
         {#each $weapons as weapon, i}
                 {#each weapon.attacks as attack, j}
-                        <TableRow title={weapon.description} underRequirement={($strength + $specie.attribute_modifiers.strength) < attack.strength_requirement} other={i % 2 == 0 && ($strength + $specie.attribute_modifiers.strength) >= attack.strength_requirement} >
+                        <TableRow title={weapon.description} underRequirement={($strength + $ancestry.attribute_modifiers.strength) < attack.strength_requirement} other={i % 2 == 0 && ($strength + $ancestry.attribute_modifiers.strength) >= attack.strength_requirement} >
                                 <div class="weapon-cell name">
                                         {weapon.name}
                                 </div>
                                 <div class="weapon-cell">
                                         {#if attack.strength_based_damage}
-                                                {$strength + $specie.attribute_modifiers.strength}
+                                                {$strength + $ancestry.attribute_modifiers.strength}
                                         {:else}
                                                 -
                                         {/if}
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="weapon-cell">
                                         {#if attack.strength_based_damage}
-                                        {$strength + $specie.attribute_modifiers.strength + attack.damage}
+                                        {$strength + $ancestry.attribute_modifiers.strength + attack.damage}
                                         {:else}
                                         {attack.damage}
                                         {/if}

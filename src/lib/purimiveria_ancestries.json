@@ -400,6 +400,26 @@
                 "starting_experience": 25
         },
         {
+                "id": "3ed54076-968e-40db-8753-72dc76433439",
+                "name": "Meleni (Hard Shell)",
+                "attribute_modifiers": {
+                        "dexterity": 0,
+                        "body": 0,
+                        "mind": 0,
+                        "spirit": 0,
+                        "strength": 0
+                },
+                "attribute_caps": {
+                        "dexterity": 10,
+                        "body": 10,
+                        "mind": 10,
+                        "spirit": 10,
+                        "strength": 10
+                },
+                "traits": ["Innate Magery", "Manaphage", "Hard Shell"],
+                "starting_experience": 21
+        },
+        {
                 "id": "18e02ba7-ec90-4909-aa04-ffeeb906dffc",
                 "name": "Asechran",
                 "attribute_modifiers": {

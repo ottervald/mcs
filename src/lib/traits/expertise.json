@@ -80,7 +80,7 @@
                 "levels": false,
                 "removable": true,
                 "exponential": false,
-                "description": "Reload crossbows for only 3 Initiative assuming you meet the Strength requirement.\nPrerequisite: Crossbow 3",
+                "description": "Reload crossbows for 2 less Initiative assuming you meet the Strength requirement.\nPrerequisite: Crossbow 3",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

@@ -3,7 +3,7 @@
         import Table from './shared/Table.svelte';
         import TableHeader from './shared/TableHeader.svelte';
         import TableRow from './shared/TableRow.svelte';
-        const {shields, strength, specie} = characterStore;
+        const {shields, strength, ancestry} = characterStore;
 
         let visible:boolean = false;
 </script>
@@ -34,7 +34,7 @@
                 </div>
         </TableHeader>
         {#each $shields as shield, i}
-                <TableRow title={shield.description} underRequirement={($strength + $specie.attribute_modifiers.strength) < shield.strength_requirement} other={i % 2 == 0 && ($strength + $specie.attribute_modifiers.strength) >= shield.strength_requirement} >
+                <TableRow title={shield.description} underRequirement={($strength + $ancestry.attribute_modifiers.strength) < shield.strength_requirement} other={i % 2 == 0 && ($strength + $ancestry.attribute_modifiers.strength) >= shield.strength_requirement} >
                         <div class="shield-cell name">
                                 {shield.name}
                         </div>

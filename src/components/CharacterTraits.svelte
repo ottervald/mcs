@@ -4,7 +4,7 @@
         import TableHeader from './shared/TableHeader.svelte';
         import TableRow from './shared/TableRow.svelte';
         import {characterStore} from '../character.ts';
-        const {displayCharacterTraits, traitExperience, specie} = characterStore;
+        const {displayCharacterTraits, traitExperience, ancestry} = characterStore;
 
         let visible:boolean = false;
 </script>
@@ -22,7 +22,7 @@
                         Trait Name
                 </div>
         </TableHeader>
-        {#each $specie.traits as trait, i}
+        {#each $ancestry.traits as trait, i}
                 <TableRow title={trait} other={i % 2 == 0}>
                         <div class="trait-cell name">
                                 {trait}

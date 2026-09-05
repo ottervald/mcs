@@ -1,7 +1,7 @@
 import purimiveria_items_json from './purimiveria_items.json';
 import purimiveria_skills_json from './purimiveria_skills.json';
 
-import purimiveria_species_json from './purimiveria_species.json';
+import purimiveria_ancestries_json from './purimiveria_ancestries.json';
 import purimiveria_weapons_json from './purimiveria_weapons.json';
 import purimiveria_armours_json from './purimiveria_armours.json';
 import purimiveria_shields_json from './purimiveria_shields.json';
@@ -25,7 +25,7 @@ export interface Skill {
 
 export const purimiveria_skills = purimiveria_skills_json as Skill[];
 
-export interface Specie {
+export interface Ancestry {
   id: string;
   name: string;
   attribute_modifiers: AttributeModifiers;
@@ -34,7 +34,7 @@ export interface Specie {
   starting_experience: number;
 }
 
-export const purimiveria_species = purimiveria_species_json as Specie[];
+export const purimiveria_ancestries = purimiveria_ancestries_json as Ancestry[];
 
 export interface Item {
   id: string;

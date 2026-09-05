@@ -1,7 +1,7 @@
 import { derived, get, writable } from "svelte/store";
 import type { Writable } from "svelte/store";
-import { purimiveria_species } from './lib/libraries';
-import type {Armour, Item, Shield, Skill, Specie, Trinket, Weapon} from './lib/libraries';
+import { purimiveria_ancestries } from './lib/libraries';
+import type {Armour, Item, Shield, Skill, Ancestry, Trinket, Weapon} from './lib/libraries';
 import { purimiveria_traits } from './lib/traits/traits';
 import type { Trait } from './lib/traits/traits';
 import { mapArmour, getAttributeCost, isShield, isTrinket, isWeapon, isArmour } from './lib/helpers';
@@ -14,7 +14,7 @@ class CharacterStore {
   player: Writable<string>;
   name: Writable<string>;
   title: Writable<string>;
-  specie: Writable<Specie>;
+  ancestry: Writable<Ancestry>;
   characterExperience: Writable<string>;
   dexterity: Writable<number>;
   body: Writable<number>;
@@ -40,7 +40,7 @@ class CharacterStore {
     this.player = writable('');
     this.name = writable('');
     this.title = writable('');
-    this.specie = writable(purimiveria_species[0]);
+    this.ancestry = writable(purimiveria_ancestries[0]);
     this.characterExperience = writable('Default');
     this.dexterity = writable(0);
     this.body = writable(0);
@@ -107,19 +107,19 @@ class CharacterStore {
   // Derived stats
   get initiative() {
     return derived(
-      [this.body, this.dexterity, this.specie],
-      ([$body, $dexterity, $specie]) => {
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity;
+      [this.body, this.dexterity, this.ancestry],
+      ([$body, $dexterity, $ancestry]) => {
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tdexterity:number = $dexterity + $ancestry.attribute_modifiers.dexterity;
         return tbody + tdexterity + 2;
       }
     )
   }
   get physicalSoak() {
     return derived(
-      [this.body, this.specie],
-      ([$body, $specie]) => {
-        const tbody:number = 1 + Math.floor(($body + $specie.attribute_modifiers.body) / 2);
+      [this.body, this.ancestry],
+      ([$body, $ancestry]) => {
+        const tbody:number = 1 + Math.floor(($body + $ancestry.attribute_modifiers.body) / 2);
         return tbody;
       }
     )
@@ -134,29 +134,29 @@ class CharacterStore {
   }
   get passiveMeleeDefense() {
     return derived(
-      [this.body, this.specie, this.characterSkills],
-      ([$body, $specie, $skills]) => {
+      [this.body, this.ancestry, this.characterSkills],
+      ([$body, $ancestry, $skills]) => {
         const dodge:number = $skills.find(s => s.skill.name === 'Dodge' )?.level | 0;
-        const tbody:number = $body + $specie.attribute_modifiers.body + Math.floor(dodge/2);
+        const tbody:number = $body + $ancestry.attribute_modifiers.body + Math.floor(dodge/2);
         return tbody + 3;
       }
     )
   }
   get passiveRangedDefense() {
     return derived(
-      [this.dexterity, this.specie, this.characterSkills],
-      ([$dexterity, $specie, $skills]) => {
+      [this.dexterity, this.ancestry, this.characterSkills],
+      ([$dexterity, $ancestry, $skills]) => {
         const alertness:number = $skills.find(s => s.skill.name === 'Alertness' )?.level | 0;
-        const tdexterity:number = $dexterity + $specie.attribute_modifiers.dexterity + Math.floor(alertness/2);
+        const tdexterity:number = $dexterity + $ancestry.attribute_modifiers.dexterity + Math.floor(alertness/2);
         return tdexterity + 3;
       }
     )
   }
   get passiveMagicResistance() {
     return derived(
-      [this.characterTraits, this.spirit, this.specie],
-      ([$traits, $spirit, $specie]) => {
-        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
+      [this.characterTraits, this.spirit, this.ancestry],
+      ([$traits, $spirit, $ancestry]) => {
+        const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
         const resistance:number = $traits.find(t => t.trait.name === 'Magic Resistance')?.level | 0;
         const hollow:number = $traits.find(t => t.trait.name === 'Hollow') ? 5 : 0;
         return 8 + hollow + resistance + tspirit;
@@ -165,15 +165,15 @@ class CharacterStore {
   }
   get manaMax() {
     return derived(
-      [this.spirit, this.mind, this.specie, this.characterTraits, this.trinkets],
-      ([$spirit, $mind, $specie, $traits, $trinkets]) => {
+      [this.spirit, this.mind, this.ancestry, this.characterTraits, this.trinkets],
+      ([$spirit, $mind, $ancestry, $traits, $trinkets]) => {
         let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
         if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         const increasedTrait:number = $traits.find(t => t.trait.name === 'Increased Mana' )?.level | 0;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
-        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
-        const tmind:number = $mind + $specie.attribute_modifiers.mind;
+        const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
+        const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         const baseMana = tspirit + tmind + power;
         const increasedBase:number = baseMana * increasedTrait;
         const spherestotal:number = $traits.filter(t => t.trait.category === 'Conjury Sphere').length;
@@ -188,14 +188,14 @@ class CharacterStore {
   }
   get manaBaseRecovery() {
     return derived(
-      [this.spirit, this.mind, this.specie, this.characterTraits, this.trinkets],
-      ([$spirit, $mind, $specie, $traits, $trinkets]) => {
+      [this.spirit, this.mind, this.ancestry, this.characterTraits, this.trinkets],
+      ([$spirit, $mind, $ancestry, $traits, $trinkets]) => {
         let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
         if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
-        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
-        const tmind:number = $mind + $specie.attribute_modifiers.mind;
+        const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
+        const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         let trinketRecovery:number = 0;
         $trinkets.forEach((trinket) => {trinketRecovery += (trinket.effect.find(e => e.name === 'mana_recovery')?.value | 0)});
         let recovery:number = Math.min(tspirit, tmind) + power + trinketRecovery;
@@ -207,106 +207,106 @@ class CharacterStore {
   }
   get vitalityColumns() {
     return derived(
-      [this.strength, this.body, this.specie],
-      ([$strength, $body, $specie]) => {
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+      [this.strength, this.body, this.ancestry],
+      ([$strength, $body, $ancestry]) => {
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return tstrength + Math.floor(tbody/5);
       }
     )
   }
   get vitalityBaseRecovery() {
     return derived(
-      [this.strength, this.body, this.specie, this.characterTraits],
-      ([$strength, $body, $specie, $traits]) => {
+      [this.strength, this.body, this.ancestry, this.characterTraits],
+      ([$strength, $body, $ancestry, $traits]) => {
         let modifier:number = 0;
         const rh:number = $traits.find(t => t.trait.name === 'Rapid Healer' )?.level | 0;
         modifier = modifier + rh;
         if ($traits.find(t => t.trait.name === 'Unhealing')) {
           modifier--;
         }
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return Math.floor((tstrength + Math.floor(tbody/5)) / 2) + modifier;
       }
     )
   }
   get willpowerColumns() {
     return derived(
-      [this.spirit, this.mind, this.specie],
-      ([$spirit, $mind, $specie]) => {
-        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
-        const tmind:number = $mind + $specie.attribute_modifiers.mind;
+      [this.spirit, this.mind, this.ancestry],
+      ([$spirit, $mind, $ancestry]) => {
+        const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
+        const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         return tspirit + Math.floor(tmind/5);
       }
     )
   }
   get willpowerBaseRecovery() {
     return derived(
-      [this.spirit, this.mind, this.specie],
-      ([$spirit, $mind, $specie]) => {
-        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
-        const tmind:number = $mind + $specie.attribute_modifiers.mind;
+      [this.spirit, this.mind, this.ancestry],
+      ([$spirit, $mind, $ancestry]) => {
+        const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
+        const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         return Math.floor((tspirit + Math.floor(tmind/5)) / 2);
       }
     )
   }
   get carryBase() {
     return derived(
-      [this.strength, this.body, this.specie],
-      ([$strength, $body, $specie]) => {
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+      [this.strength, this.body, this.ancestry],
+      ([$strength, $body, $ancestry]) => {
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return tstrength + Math.floor(tbody/2);
       }
     )
   }
   get carryLight() {
     return derived(
-      [this.strength, this.body, this.specie],
-      ([$strength, $body, $specie]) => {
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+      [this.strength, this.body, this.ancestry],
+      ([$strength, $body, $ancestry]) => {
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return tstrength + Math.floor(tbody/2) + 2;
       }
     )
   }
   get carryMedium() {
     return derived(
-      [this.strength, this.body, this.specie],
-      ([$strength, $body, $specie]) => {
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+      [this.strength, this.body, this.ancestry],
+      ([$strength, $body, $ancestry]) => {
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return (tstrength + Math.floor(tbody/2)) * 2 + 2;
       }
     )
   }
   get carryHeavy() {
     return derived(
-      [this.strength, this.body, this.specie],
-      ([$strength, $body, $specie]) => {
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+      [this.strength, this.body, this.ancestry],
+      ([$strength, $body, $ancestry]) => {
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return (tstrength + Math.floor(tbody/2)) * 3 + 2;
       }
     )
   }
   get carryMax() {
     return derived(
-      [this.strength, this.body, this.specie, this.characterTraits],
-      ([$strength, $body, $specie, $traits]) => {
+      [this.strength, this.body, this.ancestry, this.characterTraits],
+      ([$strength, $body, $ancestry, $traits]) => {
         const pm:number = $traits.find(t => t.trait.name === 'Pack Mule' )?.level | 0;
-        const tbody:number = $body + $specie.attribute_modifiers.body;
-        const tstrength:number = $strength + $specie.attribute_modifiers.strength;
+        const tbody:number = $body + $ancestry.attribute_modifiers.body;
+        const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return (tstrength + Math.floor(tbody/2)) * 4 + 2 + (pm * 2);
       }
     )
   }
   get maxTrinkets() {
     return derived(
-      [this.spirit, this.specie, this.characterTraits],
-      ([$spirit, $specie, $traits]) => {
-        const tspirit:number = $spirit + $specie.attribute_modifiers.spirit;
+      [this.spirit, this.ancestry, this.characterTraits],
+      ([$spirit, $ancestry, $traits]) => {
+        const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
         let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
         if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         return tspirit + power;
@@ -315,9 +315,9 @@ class CharacterStore {
   }
   get traitExperience() {
     return derived(
-      [this.characterTraits, this.specie],
-      ([$traits, $specie]) => {
-        const hasInnateMagery:boolean = ($specie.traits.includes('Innate Magery'));
+      [this.characterTraits, this.ancestry],
+      ([$traits, $ancestry]) => {
+        const hasInnateMagery:boolean = ($ancestry.traits.includes('Innate Magery'));
         let usedInnateMagery:boolean = false;
         return $traits.reduce( (acc, cur) => {
           if (hasInnateMagery && !usedInnateMagery && cur.trait.category === 'Conjury Sphere') {
@@ -331,8 +331,8 @@ class CharacterStore {
   }
   get totalExperience() {
     return derived(
-      [this.specie, this.skillExperience, this.traitExperience, this.attributeExperience, this.characterExperience],
-      ([$specie, $skillExperience, $traitExperience, $attributeExperience, $characterExperience]) => {
+      [this.ancestry, this.skillExperience, this.traitExperience, this.attributeExperience, this.characterExperience],
+      ([$ancestry, $skillExperience, $traitExperience, $attributeExperience, $characterExperience]) => {
         let addedExperience:number = 0;
         switch ($characterExperience) {
           case 'Veteran':
@@ -344,15 +344,15 @@ class CharacterStore {
           case 'Established':
             addedExperience = 10;
         }
-        return $specie.starting_experience + $skillExperience + $traitExperience + $attributeExperience + addedExperience;
+        return $ancestry.starting_experience + $skillExperience + $traitExperience + $attributeExperience + addedExperience;
       }
     )
   }
   get displayCharacterTraits() {
     return derived(
-      [this.characterTraits, this.specie],
-      ([$traits, $specie]) => {
-        const hasInnateMagery:boolean = ($specie.traits.includes('Innate Magery'));
+      [this.characterTraits, this.ancestry],
+      ([$traits, $ancestry]) => {
+        const hasInnateMagery:boolean = ($ancestry.traits.includes('Innate Magery'));
         let usedInnateMagery:boolean = false;
         return $traits.map( (cur) => {
           if (hasInnateMagery && !usedInnateMagery && cur.trait.category === 'Conjury Sphere') {
@@ -420,9 +420,9 @@ class CharacterStore {
   }
   get nativeLanguageBaseLevel() {
     return derived(
-      [this.mind, this.specie],
-      ([$mind, $specie]) => {
-        const tmind:number = $mind + $specie.attribute_modifiers.mind;
+      [this.mind, this.ancestry],
+      ([$mind, $ancestry]) => {
+        const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         return tmind + 2;
       }
     )
@@ -738,7 +738,7 @@ class CharacterStore {
 
   traitRequirementsMet(trait:Trait):boolean {
     const requirements = trait.requirements;
-    const ancestry_attributes = get(this.specie).attribute_modifiers;
+    const ancestry_attributes = get(this.ancestry).attribute_modifiers;
     if ((get(this.dexterity) + ancestry_attributes.dexterity) < requirements.attributes.dexterity) {
       return false;
     }
@@ -833,10 +833,10 @@ class CharacterStore {
     this.player.set(character_object.player);
     this.name.set(character_object.name);
     this.title.set(character_object.title);
-    // Special treatment for specie
-    for (const spec of purimiveria_species) {
-      if (spec.id === character_object.specie.id) {
-        this.specie.set(spec);
+    // Special treatment for ancestry (previously specie)
+    for (const spec of purimiveria_ancestries) {
+      if ((character_object.ancestry && spec.id === character_object.ancestry.id) || (character_object.specie && spec.id === character_object.specie.id)) {
+        this.ancestry.set(spec);
       }
     }
     // Standard again
@@ -893,7 +893,7 @@ class CharacterStore {
       player: get(this.player),
       name: get(this.name),
       title: get(this.title),
-      specie: get(this.specie),
+      ancestry: get(this.ancestry),
       characterExperience: get(this.characterExperience),
       dexterity: get(this.dexterity),
       body: get(this.body),

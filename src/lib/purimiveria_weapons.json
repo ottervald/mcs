@@ -1110,5 +1110,100 @@
                                 "two_handed": true
                         }
                 ]
+        },
+        {
+                "id": "42fee164-f555-415c-ac3a-54be5321a28d",
+                "name": "Dart",
+                "description": "Small thrown sharp object",
+                "size": 0.1,
+                "sturdiness": 3,
+                "cost": 0.2,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 0,
+                                "damage_modifier": "d-- P ap1",
+                                "reach": "C/N",
+                                "strength_based_damage": true,
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "3e6c81fc-726a-40fa-b962-4123842daad8",
+                "name": "Throwing Knife",
+                "description": "A knife made for throwing",
+                "size": 0.25,
+                "sturdiness": 3,
+                "cost": 1,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 0,
+                                "damage_modifier": "d- S",
+                                "reach": "C/N",
+                                "strength_based_damage": true,
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "14c0d33b-d44c-4072-869a-94e35f27da2a",
+                "name": "Javelin",
+                "description": "Spearlike thrown weapon",
+                "size": 0.5,
+                "sturdiness": 3,
+                "cost": 2,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 1,
+                                "damage_modifier": "d P",
+                                "reach": "N/M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "46c5f7a5-8ad0-4283-a1bf-86119babff3e",
+                "name": "Sling",
+                "description": "Swing string, shoot rock",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 10,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 0,
+                                "damage_modifier": "d B",
+                                "reach": "N/M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 1,
+                                "two_handed": false
+                        }
+                ]
+        },
+        {
+                "id": "f7c33394-0d2a-4e28-9a6f-97bc4f9f1a51",
+                "name": "Staff Sling",
+                "description": "Swing string with pole, shoot rock",
+                "size": 2,
+                "sturdiness": 3,
+                "cost": 20,
+                "attacks": [
+                        {
+                                "type": "Ranged",
+                                "damage": 1,
+                                "damage_modifier": "d B",
+                                "reach": "N/M",
+                                "strength_based_damage": true,
+                                "strength_requirement": 2,
+                                "two_handed": false
+                        }
+                ]
         }
 ]

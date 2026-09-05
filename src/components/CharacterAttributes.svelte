@@ -12,7 +12,7 @@
                 strength,
                 strengthExp,
                 attributePoints,
-                specie,
+                ancestry,
         } = characterStore;
         import Table from './shared/Table.svelte';
         import TableHeader from './shared/TableHeader.svelte';
@@ -32,7 +32,7 @@
                         Total Value
                 </div>
                 <div class="attribute-cell">
-                        Specie Value
+                        Ancestral Value
                 </div>
                 <div class="attribute-cell">
                         Allotted Value
@@ -44,15 +44,15 @@
                         <button on:click={() => characterStore.resetAttributes() }>Reset</button>
                 </div>
         </TableHeader>
-        <TableRow underRequirement={($dexterity + $specie.attribute_modifiers.dexterity) < 0 || ($dexterity + $specie.attribute_modifiers.dexterity) > $specie.attribute_caps.dexterity}>
+        <TableRow underRequirement={($dexterity + $ancestry.attribute_modifiers.dexterity) < 0 || ($dexterity + $ancestry.attribute_modifiers.dexterity) > $ancestry.attribute_caps.dexterity}>
                 <div class="attribute-cell name">
                         Dexterity
                 </div>
                 <div class="attribute-cell">
-                        {$dexterity + $specie.attribute_modifiers.dexterity}
+                        {$dexterity + $ancestry.attribute_modifiers.dexterity}
                 </div>
                 <div class="attribute-cell">
-                        {$specie.attribute_modifiers.dexterity}
+                        {$ancestry.attribute_modifiers.dexterity}
                 </div>
                 <div class="attribute-cell">
                         {$dexterity}
@@ -65,15 +65,15 @@
                         <button disabled={$dexterity < 1} on:click={() => characterStore.decreaseDexterity() } class="decrease">-</button>
                 </div>
         </TableRow>
-        <TableRow underRequirement={($body + $specie.attribute_modifiers.body) < 0 || ($body + $specie.attribute_modifiers.body) > $specie.attribute_caps.body}>
+        <TableRow underRequirement={($body + $ancestry.attribute_modifiers.body) < 0 || ($body + $ancestry.attribute_modifiers.body) > $ancestry.attribute_caps.body}>
                 <div class="attribute-cell name">
                         Body
                 </div>
                 <div class="attribute-cell">
-                        {$body + $specie.attribute_modifiers.body}
+                        {$body + $ancestry.attribute_modifiers.body}
                 </div>
                 <div class="attribute-cell">
-                        {$specie.attribute_modifiers.body}
+                        {$ancestry.attribute_modifiers.body}
                 </div>
                 <div class="attribute-cell">
                         {$body}
@@ -86,15 +86,15 @@
                         <button disabled={$body < 1} on:click={() => characterStore.decreaseBody() } class="decrease">-</button>
                 </div>
         </TableRow>
-        <TableRow underRequirement={($mind + $specie.attribute_modifiers.mind) < 0 || ($mind + $specie.attribute_modifiers.mind) > $specie.attribute_caps.mind}>
+        <TableRow underRequirement={($mind + $ancestry.attribute_modifiers.mind) < 0 || ($mind + $ancestry.attribute_modifiers.mind) > $ancestry.attribute_caps.mind}>
                 <div class="attribute-cell name">
                         Mind
                 </div>
                 <div class="attribute-cell">
-                        {$mind + $specie.attribute_modifiers.mind}
+                        {$mind + $ancestry.attribute_modifiers.mind}
                 </div>
                 <div class="attribute-cell">
-                        {$specie.attribute_modifiers.mind}
+                        {$ancestry.attribute_modifiers.mind}
                 </div>
                 <div class="attribute-cell">
                         {$mind}
@@ -107,15 +107,15 @@
                         <button disabled={$mind < 1} on:click={() => characterStore.decreaseMind() } class="decrease">-</button>
                 </div>
         </TableRow>
-        <TableRow underRequirement={($spirit + $specie.attribute_modifiers.spirit) < 0 || ($spirit + $specie.attribute_modifiers.spirit) > $specie.attribute_caps.spirit}>
+        <TableRow underRequirement={($spirit + $ancestry.attribute_modifiers.spirit) < 0 || ($spirit + $ancestry.attribute_modifiers.spirit) > $ancestry.attribute_caps.spirit}>
                 <div class="attribute-cell name">
                         Spirit
                 </div>
                 <div class="attribute-cell">
-                        {$spirit + $specie.attribute_modifiers.spirit}
+                        {$spirit + $ancestry.attribute_modifiers.spirit}
                 </div>
                 <div class="attribute-cell">
-                        {$specie.attribute_modifiers.spirit}
+                        {$ancestry.attribute_modifiers.spirit}
                 </div>
                 <div class="attribute-cell">
                         {$spirit}
@@ -128,15 +128,15 @@
                         <button disabled={$spirit < 1} on:click={() => characterStore.decreaseSpirit() } class="decrease">-</button>
                 </div>
         </TableRow>
-        <TableRow underRequirement={($strength + $specie.attribute_modifiers.strength) < 0 || ($strength + $specie.attribute_modifiers.strength) > $specie.attribute_caps.strength}>
+        <TableRow underRequirement={($strength + $ancestry.attribute_modifiers.strength) < 0 || ($strength + $ancestry.attribute_modifiers.strength) > $ancestry.attribute_caps.strength}>
                 <div class="attribute-cell name">
                         Strength
                 </div>
                 <div class="attribute-cell">
-                        {$strength + $specie.attribute_modifiers.strength}
+                        {$strength + $ancestry.attribute_modifiers.strength}
                 </div>
                 <div class="attribute-cell">
-                        {$specie.attribute_modifiers.strength}
+                        {$ancestry.attribute_modifiers.strength}
                 </div>
                 <div class="attribute-cell">
                         {$strength}

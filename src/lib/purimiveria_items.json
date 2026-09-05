@@ -294,5 +294,37 @@
                 "size": 2,
                 "sturdiness": 3,
                 "cost": 20
+        },
+        {
+                "id": "8952cf44-7f06-4daa-88d3-6a3608ccddb4",
+                "name": "Container of Essential Air",
+                "description": "A container of essential air.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "6c60c888-2ae9-4459-9b04-70d547764312",
+                "name": "Container of Essential Earth",
+                "description": "A container of essential earth.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "5a1bbaaf-9b3e-4263-80ac-b9a839b13747",
+                "name": "Container of Essential Fire",
+                "description": "A container of essential fire.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 100
+        },
+        {
+                "id": "f292f54e-13c3-4f1f-b82b-a0dca1df3a9b",
+                "name": "Container of Essential Water",
+                "description": "A container of essential water.",
+                "size": 1,
+                "sturdiness": 3,
+                "cost": 100
         }
- ]
+]

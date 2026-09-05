@@ -1,7 +1,7 @@
 <script lang="ts">
         import {characterStore} from '../character.ts';
-        import {purimiveria_species} from '../lib/libraries.ts';
-        const { player, name, title, specie, totalExperience, characterExperience } = characterStore;
+        import {purimiveria_ancestries} from '../lib/libraries.ts';
+        const { player, name, title, ancestry, totalExperience, characterExperience } = characterStore;
         const export_character = () => {
                 var file_name = 'mcs_character.json';
                 if ($name) {
@@ -57,14 +57,14 @@
         <input bind:value={$title} id="character-title">
 </label>
 <label>
-        Specie:
+        Ancestry:
         <select
-                bind:value={$specie}
+                bind:value={$ancestry}
                 id="ancestry-select"
         >
-                {#each purimiveria_species as specie (specie.id)}
-                        <option value={specie} id={specie.id}>
-                                {specie.name}
+                {#each purimiveria_ancestries as ancestry (ancestry.id)}
+                        <option value={ancestry} id={ancestry.id}>
+                                {ancestry.name}
                         </option>
                 {/each}
         </select>
