@@ -397,7 +397,12 @@ class CharacterStore {
       [this.characterItems],
       ([$items]) => {
         const tmp_trinkets = $items.filter(item => isTrinket(item.item) );
-        return tmp_trinkets.map(chTrinket => chTrinket.item as Trinket);
+        return tmp_trinkets.map(chTrinket => {
+          const trink = chTrinket.item as Trinket;
+          const cloneTrink = {...trink};
+          cloneTrink.trinket_count = trink.trinket_count * chTrinket.amount;
+          return cloneTrink;
+        });
       }
     )
   }
@@ -405,8 +410,12 @@ class CharacterStore {
     return derived(
       [this.characterItems],
       ([$items]) => {
-        const tmp_trinkets = $items.filter(item => isTrinket(item.item) );
-        return tmp_trinkets.length;
+        return $items.reduce( (acc, cur) => {
+          if (isTrinket(cur.item)) {
+            return acc + cur.amount;
+          }
+          return acc;
+        }, 0)
       }
     )
   }

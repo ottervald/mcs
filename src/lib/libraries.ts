@@ -7,6 +7,8 @@ import purimiveria_armours_json from './purimiveria_armours.json';
 import purimiveria_shields_json from './purimiveria_shields.json';
 import purimiveria_trinkets_json from './purimiveria_trinkets.json';
 
+import type { Trait } from './traits/traits';
+
 interface AttributeModifiers {
   dexterity: number;
   body: number;
@@ -89,3 +91,17 @@ export interface Trinket extends Item {
 }
 
 export const purimiveria_trinkets = purimiveria_trinkets_json as Item[];
+
+interface RequiredTrait {
+  name: string;
+  minimumValue: number;
+}
+
+export interface Gift {
+  id: string;
+  name: string;
+  category: string;
+  cost: number;
+  description: string;
+  requiredTraits: RequiredTrait[];
+}

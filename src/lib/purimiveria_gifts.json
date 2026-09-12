@@ -1,0 +1,414 @@
+[
+        {
+                "id": "",
+                "name": "Life Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Life resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Anora",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 2
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Life Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Life resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Life Resonance: third",
+                "category": "Resonance",
+                "cost": 15,
+                "description": "Third Life resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Water Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Water resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Anora",
+                                "minimumValue": 2
+                        },
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Water Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Water resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Light Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Light resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 2
+                        },
+                        {
+                                "name": "Chosen of Eltemis",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Light Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Light resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Eltemis",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Light Resonance: third",
+                "category": "Resonance",
+                "cost": 15,
+                "description": "Third Light resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 5
+                        },
+                        {
+                                "name": "Chosen of Eltemis",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Air Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Air resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Kie'monas",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Earth Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Earth resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Eltemis",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Earth Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Earth resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Eltemis",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Earth Resonance: third",
+                "category": "Resonance",
+                "cost": 15,
+                "description": "Third Earth resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 4
+                        },
+                        {
+                                "name": "Chosen of Eltemis",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Fire Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Fire resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Kie'monas",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 2
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Fire Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Fire resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Fire Resonance: third",
+                "category": "Resonance",
+                "cost": 15,
+                "description": "Third Fire resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 4
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 4
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Death Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Death resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Death Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Death resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Death Resonance: third",
+                "category": "Resonance",
+                "cost": 15,
+                "description": "Third Death resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 5
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Darkness Resonance: first",
+                "category": "Resonance",
+                "cost": 5,
+                "description": "First Darkness resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Darkness Resonance: second",
+                "category": "Resonance",
+                "cost": 10,
+                "description": "Second Darkness resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Darkness Resonance: third",
+                "category": "Resonance",
+                "cost": 15,
+                "description": "Third Darkness resonance from your god.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 5
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Air 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of air magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Kie'monas",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Body 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of body magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "",
+                "name": "Body 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of body magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 3
+                        }
+                ]
+        }
+]

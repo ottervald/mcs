@@ -1,0 +1,233 @@
+[
+        {
+                "id": "9ae01dbc-801a-48bb-ba04-9b2122f5a124",
+                "name": "Chosen of Anora",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nHealers, doctors, caregivers, teachers, hospitality workers.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "e6d286f4-0ed7-4770-a28b-18fdd327607e",
+                "name": "Chosen of Bios",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nLeaders, teachers, muses, artists, ambassadors, entertainers.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "bed9fc46-9496-4742-bfc0-3269bfe5f371",
+                "name": "Chosen of Eltemis",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nAcademics, explorers, truthseekers, librarians, grimoire mages.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "6242181e-2a53-4723-aba7-5c5315527ffb",
+                "name": "Chosen of Erima",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nRangers, druids, children of the wild, hermits, gardeners, shamans, primitivists.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "164afd86-7015-427e-a311-bedaeb0d4b06",
+                "name": "Chosen of Gandor",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nArtificers, smiths, craftsmen.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "2ccbe4ee-0478-4167-8912-91473179c241",
+                "name": "Chosen of Kie'monas",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nShamans, pathfinders, spirit empaths, demon hunters, monster hunters, watchful hermits, shrine tenders, guardians of wards.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "ac95ed54-e5a7-4a3a-abce-5c6512274213",
+                "name": "Chosen of Moira",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nShadow councils, agents, spies, seers, prophets, under-the-radar-bureaucrats, assistants to powerful people.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "cc2fd5b7-5a52-4137-8826-868637987b33",
+                "name": "Chosen of Nhroel",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nSpirit touched, orphans, the perpetually liminal, the different, innocence lost.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "88577955-ee8e-476e-a5c0-57987b15e84a",
+                "name": "Chosen of Silmaris",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nAssassins, mercenaries, spies, agents, vigilantes, bounty hunters, informants, anti-heroes.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "24e445cf-40c5-4b33-aca5-0527f9cb1ca8",
+                "name": "Chosen of Thanatos",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nGraveyard keepers, undead hunters, masters of ceremony, clerics, knights errant.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        },
+        {
+                "id": "02253d80-1b8c-4fe7-bbf3-0c178ce97136",
+                "name": "Chosen of Yminios",
+                "category": "Chosen by Gods",
+                "cost": 5,
+                "levels": true,
+                "removable": true,
+                "exponential": true,
+                "description": "Each level increases the strength of your connection to your god.\n\nChosen Archetypes\nFreedom fighters, penitent warriors, bodyguards, personal champions, good natured adventurers, heroes of the people.\n",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": []
+                }
+        }
+]

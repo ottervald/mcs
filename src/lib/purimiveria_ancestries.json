@@ -84,20 +84,20 @@
                 "name": "Elf",
                 "attribute_modifiers": {
                         "dexterity": 1,
-                        "body": -1,
+                        "body": 0,
                         "mind": 1,
                         "spirit": 0,
                         "strength": -1
                 },
                 "attribute_caps": {
                         "dexterity": 11,
-                        "body": 8,
+                        "body": 10,
                         "mind": 12,
                         "spirit": 10,
                         "strength": 8
                 },
                 "traits": ["Lightweight", "Acute Vision 1", "Telescopic Vision", "Reduced Consumption 1", "Stigmatized"],
-                "starting_experience": 30
+                "starting_experience": 25
         },
         {
                 "id": "c2fefd5c-3e43-43cb-9d24-a0b0d008870c",
@@ -244,15 +244,15 @@
                 "name": "Capran",
                 "attribute_modifiers": {
                         "dexterity": 0,
-                        "body": 1,
-                        "mind": -1,
+                        "body": 0,
+                        "mind": 0,
                         "spirit": 0,
                         "strength": -1
                 },
                 "attribute_caps": {
                         "dexterity": 5,
-                        "body": 11,
-                        "mind": 6,
+                        "body": 10,
+                        "mind": 10,
                         "spirit": 10,
                         "strength": 5
                 },

@@ -7,6 +7,7 @@ import purimiveria_allies_companions_traits_json from './allies_companions.json'
 import purimiveria_contacts_factions_traits_json from './contacts_factions.json';
 import purimiveria_starting_equipment_traits_json from './starting_equipment.json';
 import purimiveria_mega_special_traits_json from './mega_special.json';
+import purimiveria_chosen_traits_json from './chosen.json';
 
 // Conjury spheres
 import conjury_healing_json from './conjury_spheres/healing.json';
@@ -80,6 +81,7 @@ const allies_companions_traits = purimiveria_allies_companions_traits_json as Tr
 const contacts_factions_traits = purimiveria_contacts_factions_traits_json as Trait[];
 const starting_equipment_traits = purimiveria_starting_equipment_traits_json as Trait[];
 const mega_special_traits = purimiveria_mega_special_traits_json as Trait[];
+const chosen_traits = purimiveria_chosen_traits_json as Trait[];
 
 const conjury_healing = conjury_healing_json as Trait[];
 const conjury_body = conjury_body_json as Trait[];
@@ -116,6 +118,7 @@ export const purimiveria_traits = [
   ...magical_supernatural_negative_traits,
   ...starting_equipment_traits,
   ...mega_special_traits,
+  ...chosen_traits,
   ...conjury_healing,
   ...conjury_body,
   ...conjury_air,
