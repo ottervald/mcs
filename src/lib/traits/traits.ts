@@ -35,6 +35,7 @@ import grimoire_spells_tier_1_json from './grimoire_spells/tier1.json';
 import grimoire_spells_tier_2_json from './grimoire_spells/tier2.json';
 import grimoire_spells_tier_3_json from './grimoire_spells/tier3.json';
 import grimoire_spells_tier_4_json from './grimoire_spells/tier4.json';
+import grimoire_spells_tier_5_json from './grimoire_spells/tier5.json';
 
 interface RequiredSkill {
   name: string;
@@ -107,6 +108,7 @@ const grimoire_1 = grimoire_spells_tier_1_json as Trait[];
 const grimoire_2 = grimoire_spells_tier_2_json as Trait[];
 const grimoire_3 = grimoire_spells_tier_3_json as Trait[];
 const grimoire_4 = grimoire_spells_tier_4_json as Trait[];
+const grimoire_5 = grimoire_spells_tier_5_json as Trait[];
 
 export const purimiveria_traits = [
   ...mundane_positive_traits,
@@ -142,4 +144,5 @@ export const purimiveria_traits = [
   ...grimoire_2,
   ...grimoire_3,
   ...grimoire_4,
+  ...grimoire_5,
 ];

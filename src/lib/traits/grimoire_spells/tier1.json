@@ -572,6 +572,32 @@
                 }
         },
         {
+                "id": "c71bda63-e225-480a-936e-de3b517b15b2",
+                "name": "Trollbane",
+                "category": "Grimoire Spell",
+                "cost": 1,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe targeted weapon is enchanted and for the duration its attacks cannot be soaked.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "a089bee8-78b0-4bfb-aa4d-e7f9b34c9842",
                 "name": "Turn Their Blades",
                 "category": "Grimoire Spell",

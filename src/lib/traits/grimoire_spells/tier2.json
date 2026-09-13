@@ -33,7 +33,7 @@
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: -\n\nMust be cast in an area either with earhern ground or with readily available rocks. The caster levitates and  launches rocks towards the target. The base damage is based on the size of the rocks. The caster can decide to either target a specific target or ro rain rocks down on a whole targeted area. The damage the spell can do depends on the terrain.",
+                "description": "School: Northern hedge magic, \"Southern\"/Volar\n\nMust be cast in an area either with earhern ground or with readily available rocks. The caster levitates and  launches rocks towards the target. The base damage is based on the size of the rocks. The caster can decide to either target a specific target or ro rain rocks down on a whole targeted area. The damage the spell can do depends on the terrain.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -86,6 +86,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Royal Parow\n\nOnce cast the bird of fire attacks the target by itself, with an ranged attack roll of 8 + Casters Magnitude. On a hit it does 4 + Magnitude d E damage, fire aspected. Caster may command the bird to strike any particular body part on the target.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "d69c8124-5034-495e-9481-d8ede932247b",
+                "name": "Forest Gremlin",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe caster targets an area with plant life in. In it a mass of plants and mud form a small character which is then imbued with a willing nature spirit. The creature serves the caster happily for the duration. It understands the caster's words but cannot speak. It communicates with gestures and body language. The spirit does not feel pain inflicted on the body it controls and gladly walks into danger.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -398,6 +424,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Northern hedge magic\n\nAny allies in the targeted area can ignore penalties from Vitality damage and receive 1 point  armor for the duration of the spell.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "f97e3057-b813-4e63-a596-a88237fa9da0",
+                "name": "RITUAL Wanderlust",
+                "category": "Grimoire Spell",
+                "cost": 2,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe caster requires a personal affection of a given target, e.g. a lock of hair, a personal keepsake or similar. The item is destroyed for the ritual. The target is struck by an intense wanderlust, to the point of dropping all their duties and obligations to hit the road, only stopping for sleep and bodily functions. The character may spend Regular Willpower to remain in places for other reasons for one hour per.\n\nIt can be extended using special rules as described here: Magnitude months instead of days, but can stay (targets) Spirit days in place every month.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

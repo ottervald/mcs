@@ -33,7 +33,59 @@
                 "levels": false,
                 "removable": false,
                 "exponential": false,
-                "description": "School: “Southern”/Volar\n\nWhence cast, the spot the caster stands in is marked as the anchor for the duration of the spell. At any point during the duration of the spell the caster may instantly transport themself back to the anchored point. Doing this ends the spell. The spell cannot bring back more items or people than the caster can carry.",
+                "description": "School: \"Southern\"/Volar\n\nWhence cast, the spot the caster stands in is marked as the anchor for the duration of the spell. At any point during the duration of the spell the caster may instantly transport themself back to the anchored point. Doing this ends the spell. The spell cannot bring back more items or people than the caster can carry.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "5b73cf55-b562-45da-8fce-67afb9633cdc",
+                "name": "Distant Gaze",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: \"Southern\"/Volar\n\nThe casters' eyes glaze over and project their sight outside of their body high up into the sky granting them a bird's eye view of distant landscape. Their gaze can \"move\" Magnitude kilometers per Round and the caster may \"zoom in\" on things at ground level. The \"sight\" cannot move close to the ground level, it is always high up.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "91fe68e1-dd7d-4f50-b2c4-284ac418ea37",
+                "name": "Fools Nooze",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: \"Southern\"/Volar\n\nFor the duration of the spell, after the target performs an action, the target takes an amount of Lasting vitality damage equal to Initiative spent.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
@@ -242,6 +294,32 @@
                 "removable": false,
                 "exponential": false,
                 "description": "School: Royal Parow\n\nThe spell creates a circle of thin intense light above the caster, roughly covering the zone the caster is in. It provides full light in that zone(dissipating one per zone outwards). Every turn,  up to Magnitude enemies in the casters zone or adjacent ones(starting with the casters zone first), are attacked by individual cutting light beams. The light beams attack with a 12+Magnitude roll and do 5+Magnitude S d.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "9ac4df51-b92b-4d05-9512-9a57fe765776",
+                "name": "RITUAL Poison the well",
+                "category": "Grimoire Spell",
+                "cost": 3,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: Northern hedge magic\n\nThe caster requires a personal affection of a given target, e.g. a lock of hair, a personal keepsake or similar. The item is destroyed for the ritual. For a day, everything said by the target is viewed with suspicion, taken as if said insincerely, or as attempted manipulation.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

@@ -26,6 +26,58 @@
                 }
         },
         {
+                "id": "ad8edb70-e2c0-460c-adc7-32439c24c8ad",
+                "name": "Guardian of Ig'nan",
+                "category": "Grimoire Spell",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: \"Southern\"/Volar\n\nSummons a floating guardian golem in the form of a large rock with one big central eye. It communicates telepathically with the caster and others. It disappears when its Mana pool reaches 0. Since it has no arms or mouth it uses magic for most interactions.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "631e3a01-dcf1-4df6-ae01-9a5834e5a7d0",
+                "name": "Major <bound> Summoning",
+                "category": "Grimoire Spell",
+                "cost": 4,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThis spell summons a specific named spirit to do the casters bidding for the duration of the spell. There are a few variations of this spell in existence, each summoning a unique spirit. The summons are generally intended for combat but other uses may be selected for. The specific stats of the summoned spirit is up to the game master (and in conference with the player if taken at character creation).\n\nThe spirit is summoned in the target area.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
                 "id": "f254fd14-0765-4d64-963d-54b350fa6317",
                 "name": "Volcanic Cutter",
                 "category": "Grimoire Spell",

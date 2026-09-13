@@ -1,0 +1,54 @@
+[
+        {
+                "id": "63463a3c-df22-455c-b64b-fb296950466a",
+                "name": "Divine communion",
+                "category": "Grimoire Spell",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: \"Southern\"/Volar\n\nForces a chosen inner god to manifest an avatar in the chosen area for the duration. The avatar cannot leave the target area. The god may take offense to being summoned so the spell is best used sparingly.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "3bf6c8d8-88ec-4f8c-857e-ccac1f5f46d0",
+                "name": "Greater <bound> summoning",
+                "category": "Grimoire Spell",
+                "cost": 5,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "School: -\n\nThis spell summons a specific named spirit to do the casters bidding for the duration of the spell. There are a few variations of this spell in existence, each summoning a unique spirit. The summons are generally intended for combat but other uses may be selected for. The specific stats of the summoned spirit is up to the game master (and in conference with the player if taken at character creation).\n\nThe spirit is summoned in the target area.",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Grimoire",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        }
+]
