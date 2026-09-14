@@ -113,7 +113,7 @@
                                                 </div>
                                                 <div class="item-row">
                                                         <div class="item-cell name">Energy Protection:</div>
-                                                        <div class="item-cell">{selectedArmour.physical_protection}</div>
+                                                        <div class="item-cell">{selectedArmour.energy_protection}</div>
                                                 </div>
                                         </div>
                                 {/if}
