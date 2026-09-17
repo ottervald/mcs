@@ -3,6 +3,32 @@
                 "id": "aec630a9-73c5-4787-ba9b-04bb507673e0",
                 "name": "Lightning 1",
                 "category": "Conjury Sphere",
+                "cost": 15,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of lightning magic",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Air 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "189cd668-06b9-45eb-9094-a660aa507b02",
+                "name": "Lightning 2",
+                "category": "Conjury Sphere",
                 "cost": 20,
                 "levels": false,
                 "removable": false,
@@ -19,7 +45,7 @@
                         "skills": [],
                         "traits": [
                                 {
-                                        "name": "Air 3",
+                                        "name": "Lightning 1",
                                         "minimumValue": 0
                                 }
                         ]

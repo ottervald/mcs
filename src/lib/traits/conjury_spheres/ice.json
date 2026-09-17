@@ -3,6 +3,32 @@
                 "id": "0a5a5f65-f415-426c-8475-95c0ec6a6b3e",
                 "name": "Ice 1",
                 "category": "Conjury Sphere",
+                "cost": 15,
+                "levels": false,
+                "removable": false,
+                "exponential": false,
+                "description": "First sphere of ice magic",
+                "requirements": {
+                        "attributes": {
+                                "dexterity": 0,
+                                "body": 0,
+                                "mind": 0,
+                                "spirit": 0,
+                                "strength": 0
+                        },
+                        "skills": [],
+                        "traits": [
+                                {
+                                        "name": "Water 2",
+                                        "minimumValue": 0
+                                }
+                        ]
+                }
+        },
+        {
+                "id": "2aefb2f6-dc4e-4e5f-9552-d9aa4c2663d7",
+                "name": "Ice 2",
+                "category": "Conjury Sphere",
                 "cost": 20,
                 "levels": false,
                 "removable": false,
@@ -19,7 +45,7 @@
                         "skills": [],
                         "traits": [
                                 {
-                                        "name": "Water 3",
+                                        "name": "Ice 1",
                                         "minimumValue": 0
                                 }
                         ]
