@@ -989,7 +989,7 @@
                         {
                                 "type": "Melee",
                                 "damage": 1,
-                                "damage_modifier": "d B",
+                                "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,

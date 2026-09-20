@@ -175,7 +175,7 @@
                 "levels": true,
                 "removable": true,
                 "exponential": false,
-                "description": "For every level of overweight you count as having an extra level of Size carried and you also receive an equal penalty to applicable skill checks. As a bonus though, every level also counts as one level of Body when starving",
+                "description": "You are heavier than your strength would indicate. This penalizes you whenever you do anything requiring you to lift your own weight such as climbing and jumping. It also becomes harder to fit into tight spaces. You are however harder to displace physically and every level also counts as one level of Body when starving.\nCannot be taken by races that are naturally Lightweight.\nMutually exclusive with Lightweight.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,
