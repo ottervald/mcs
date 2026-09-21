@@ -916,7 +916,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 1,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]
@@ -954,7 +954,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 1,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]
@@ -992,7 +992,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 1,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]
@@ -1030,7 +1030,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 1,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]
@@ -1068,7 +1068,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 1,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]
@@ -1106,7 +1106,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 1,
+                                "strength_requirement": 2,
                                 "two_handed": true
                         }
                 ]
@@ -1141,7 +1141,7 @@
                         {
                                 "type": "Ranged",
                                 "damage": 0,
-                                "damage_modifier": "d- S",
+                                "damage_modifier": "d S",
                                 "reach": "C/N",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
