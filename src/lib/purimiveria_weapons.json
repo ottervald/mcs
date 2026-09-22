@@ -293,25 +293,6 @@
                 ]
         },
         {
-                "id": "d4e89921-2e11-4e32-bd8f-d6732e0b8df0",
-                "name": "Stiletto",
-                "description": "Pointy, pointy",
-                "size": 1,
-                "sturdiness": 3,
-                "cost": 45,
-                "attacks": [
-                        {
-                                "type": "Melee",
-                                "damage": 0,
-                                "damage_modifier": "d- P ap2",
-                                "reach": "S",
-                                "strength_based_damage": true,
-                                "strength_requirement": 1,
-                                "two_handed": false
-                        }
-                ]
-        },
-        {
                 "id": "bbd132ed-4a20-41f2-a719-aa77753f35ad",
                 "name": "Dagger",
                 "description": "Cloak and dagger",
@@ -363,53 +344,6 @@
                                 "reach": "S",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
-                                "two_handed": false
-                        }
-                ]
-        },
-        {
-                "id": "1a0976f3-44af-45b6-8c96-ad35f0859099",
-                "name": "Small Sword",
-                "description": "Swording smally",
-                "size": 1,
-                "sturdiness": 3,
-                "cost": 100,
-                "attacks": [
-                        {
-                                "type": "Melee",
-                                "damage": 1,
-                                "damage_modifier": "d P ap2",
-                                "reach": "M",
-                                "strength_based_damage": true,
-                                "strength_requirement": 1,
-                                "two_handed": false
-                        }
-                ]
-        },
-        {
-                "id": "f7a8e85f-0ff7-4390-a55a-6de564920a77",
-                "name": "Rapier",
-                "description": "Rapier, of the witty kind",
-                "size": 2,
-                "sturdiness": 3,
-                "cost": 125,
-                "attacks": [
-                        {
-                                "type": "Melee",
-                                "damage": 1,
-                                "damage_modifier": "d S",
-                                "reach": "M",
-                                "strength_based_damage": true,
-                                "strength_requirement": 2,
-                                "two_handed": false
-                        },
-                        {
-                                "type": "Melee",
-                                "damage": 2,
-                                "damage_modifier": "d P ap2",
-                                "reach": "M",
-                                "strength_based_damage": true,
-                                "strength_requirement": 2,
                                 "two_handed": false
                         }
                 ]
@@ -576,7 +510,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -595,7 +529,7 @@
                                 "damage_modifier": "d B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -895,7 +829,7 @@
                                 "type": "Melee",
                                 "damage": 0,
                                 "damage_modifier": "d- B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
@@ -916,7 +850,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -933,7 +867,7 @@
                                 "type": "Melee",
                                 "damage": 0,
                                 "damage_modifier": "d- B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
@@ -954,7 +888,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -971,7 +905,7 @@
                                 "type": "Melee",
                                 "damage": 0,
                                 "damage_modifier": "d- B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
@@ -992,7 +926,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -1009,7 +943,7 @@
                                 "type": "Melee",
                                 "damage": 0,
                                 "damage_modifier": "d- B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
@@ -1030,7 +964,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -1047,7 +981,7 @@
                                 "type": "Melee",
                                 "damage": 0,
                                 "damage_modifier": "d- B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
@@ -1068,7 +1002,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
@@ -1085,7 +1019,7 @@
                                 "type": "Melee",
                                 "damage": 0,
                                 "damage_modifier": "d- B",
-                                "reach": "S",
+                                "reach": "M",
                                 "strength_based_damage": true,
                                 "strength_requirement": 1,
                                 "two_handed": false
@@ -1106,7 +1040,7 @@
                                 "damage_modifier": "d- B",
                                 "reach": "M",
                                 "strength_based_damage": true,
-                                "strength_requirement": 2,
+                                "strength_requirement": 1,
                                 "two_handed": true
                         }
                 ]
