@@ -5,7 +5,7 @@ import type {Armour, Item, Shield, Skill, Ancestry, Trinket, Weapon} from './lib
 import { purimiveria_traits } from './lib/traits/traits';
 import type { Trait } from './lib/traits/traits';
 import { mapArmour, getAttributeCost, isShield, isTrinket, isWeapon, isArmour } from './lib/helpers';
-import type { CharacterItem, CharacterSkill, CharacterTrait } from './lib/types';
+import type { CharacterItem, CharacterSkill, CharacterTrait, CharacterResonance } from './lib/types';
 
 const startAttributePoints:number = 15;
 const startSkillExperience:number = 20;
@@ -25,6 +25,8 @@ class CharacterStore {
   characterItems: Writable<CharacterItem[]>;
   characterSkills: Writable<CharacterSkill[]>;
   characterTraits: Writable<CharacterTrait[]>;
+  notes: Writable<string>;
+  resonances: Writable<CharacterResonance>;
   // Internal counters
   attributePoints: Writable<number>;
   dexterityExp: Writable<number>;
@@ -37,6 +39,16 @@ class CharacterStore {
   skillExperience: Writable<number>;
   
   constructor() {
+    const baseResonances = {
+      air: 0,
+      earth: 0,
+      fire: 0,
+      water: 0,
+      life: 0,
+      death: 0,
+      light: 0,
+      darkness: 0,
+    }
     this.player = writable('');
     this.name = writable('');
     this.title = writable('');
@@ -51,6 +63,8 @@ class CharacterStore {
     this.characterItems = writable([]);
     this.characterSkills = writable([]);
     this.characterTraits = writable([]);
+    this.notes = writable('');
+    this.resonances = writable(baseResonances);
     // Internal counters
     this.attributePoints = writable(startAttributePoints);
     this.dexterityExp = writable(0);
@@ -451,6 +465,72 @@ class CharacterStore {
       }
     )
   }
+  get characterResonances() {
+    return derived(
+      [this.resonances, this.characterTraits, this.ancestry],
+      ([$resonances, $traits, $ancestry]) => {
+        const baseResonances = { ...$resonances };
+        const airTrait:boolean = !!$traits.find(t => t.trait.name === 'Nomadic' );
+        const earthTrait:boolean = !!$traits.find(t => t.trait.name === 'Child of the Wild' );
+        const fireTrait:boolean = !!$traits.find(t => t.trait.name === 'Firebug' );
+        const waterTrait:boolean = !!$traits.find(t => t.trait.name === 'Waterborne' );
+        for (const trait of $ancestry.traits) {
+          if (trait === 'Darkness Resonance 1' ) baseResonances.darkness += 1;
+          if (trait === 'Light Resonance 1' ) baseResonances.light += 1;
+          if (trait === 'Life Resonance 1' ) baseResonances.life += 1;
+          if (trait === 'Water Resonance 1' ) baseResonances.water += 1;
+          if (trait === 'Earth Resonance 1' ) baseResonances.earth += 1;
+        }
+        if (airTrait) baseResonances.air += 1;
+        if (earthTrait) baseResonances.earth += 1;
+        if (fireTrait) baseResonances.fire += 1;
+        if (waterTrait) baseResonances.water += 1;
+        return baseResonances;
+      }
+    )
+  }
+  get totalResonances() {
+    return derived(
+      [this.characterTraits, this.characterExperience, this.ancestry, this.trinkets],
+      ([$traits, $experience, $ancestry, $trinkets]) => {
+        const airTrait:boolean = !!$traits.find(t => t.trait.name === 'Nomadic' );
+        const earthTrait:boolean = !!$traits.find(t => t.trait.name === 'Child of the Wild' );
+        const fireTrait:boolean = !!$traits.find(t => t.trait.name === 'Firebug' );
+        const waterTrait:boolean = !!$traits.find(t => t.trait.name === 'Waterborne' );
+        const elementalAttunement:boolean = !!$traits.find(t => t.trait.name === 'Elemental Attunement' );
+        const mundane:boolean = !!$traits.find(t => t.trait.name === 'Mundane' );
+        const hollow:boolean = !!$traits.find(t => t.trait.name === 'Hollow' );
+        if (mundane || hollow) return 0;
+        let baseTotal:number = 0;
+        switch ($experience) {
+          case 'Veteran':
+            baseTotal = 4;
+            break;
+          case 'Experienced':
+            baseTotal = 3;
+            break;
+          case 'Established':
+            baseTotal = 2;
+            break;
+          default:
+            baseTotal = 1;
+        }
+        for (const trait of $ancestry.traits) {
+          if (trait.endsWith('Resonance 1')) baseTotal += 1;
+        }
+        $trinkets.forEach((trinket) => {
+          const resonanceIncreaseEffect = trinket.effect.find(e => e.name === 'resonance_increase');
+          if (resonanceIncreaseEffect) baseTotal += (resonanceIncreaseEffect.value * trinket.trinket_count);
+        });
+        if (airTrait) baseTotal += 1;
+        if (earthTrait) baseTotal += 1;
+        if (fireTrait) baseTotal += 1;
+        if (waterTrait) baseTotal += 1;
+        if (elementalAttunement) baseTotal += 1;
+        return baseTotal;
+      }
+    )
+  }
 
   increaseDexterity() {
     const startValue = get(this.dexterity);
@@ -582,6 +662,103 @@ class CharacterStore {
     this.mindExp.set(0);
     this.spiritExp.set(0);
     this.strengthExp.set(0);
+  }
+
+  increaseAir() {
+    this.resonances.update((n) => {
+      n.air += 1;
+      return n;
+    });
+  }
+  decreaseAir() {
+    this.resonances.update((n) => {
+      n.air -= 1;
+      return n;
+    });
+  }
+  increaseEarth() {
+    this.resonances.update((n) => {
+      n.earth += 1;
+      return n;
+    });
+  }
+  decreaseEarth() {
+    this.resonances.update((n) => {
+      n.earth -= 1;
+      return n;
+    });
+  }
+  increaseFire() {
+    this.resonances.update((n) => {
+      n.fire += 1;
+      return n;
+    });
+  }
+  decreaseFire() {
+    this.resonances.update((n) => {
+      n.fire -= 1;
+      return n;
+    });
+  }
+  increaseWater() {
+    this.resonances.update((n) => {
+      n.water += 1;
+      return n;
+    });
+  }
+  decreaseWater() {
+    this.resonances.update((n) => {
+      n.water -= 1;
+      return n;
+    });
+  }
+  increaseLife() {
+    this.resonances.update((n) => {
+      n.life += 1;
+      return n;
+    });
+  }
+  decreaseLife() {
+    this.resonances.update((n) => {
+      n.life -= 1;
+      return n;
+    });
+  }
+  increaseDeath() {
+    this.resonances.update((n) => {
+      n.death += 1;
+      return n;
+    });
+  }
+  decreaseDeath() {
+    this.resonances.update((n) => {
+      n.death -= 1;
+      return n;
+    });
+  }
+  increaseLight() {
+    this.resonances.update((n) => {
+      n.light += 1;
+      return n;
+    });
+  }
+  decreaseLight() {
+    this.resonances.update((n) => {
+      n.light -= 1;
+      return n;
+    });
+  }
+  increaseDarkness() {
+    this.resonances.update((n) => {
+      n.darkness += 1;
+      return n;
+    });
+  }
+  decreaseDarkness() {
+    this.resonances.update((n) => {
+      n.darkness -= 1;
+      return n;
+    });
   }
 
   addSkill(skill:Skill, tagged:boolean, specialization:string) {
@@ -880,6 +1057,27 @@ class CharacterStore {
       }
     }
     this.characterTraits.set(character_object.characterTraits);
+    // Backwards compatibility with before notes were added
+    if ('notes' in character_object) {
+      this.notes.set(character_object.notes);
+    } else {
+      this.notes.set('');
+    }
+    // Backwards compatibility with before resonances were added
+    if ('resonances' in character_object) {
+      this.resonances.set(character_object.resonances);
+    } else {
+      this.resonances.set({
+        air: 0,
+        earth: 0,
+        fire: 0,
+        water: 0,
+        life: 0,
+        death: 0,
+        light: 0,
+        darkness: 0,
+      });
+    }
     // Internal count
     this.attributePoints.set(character_object.attributePoints);
     // Backwards compatibility after changing agility -> dexterity
@@ -913,6 +1111,8 @@ class CharacterStore {
       characterItems: get(this.characterItems),
       characterSkills: get(this.characterSkills),
       characterTraits: get(this.characterTraits),
+      notes: get(this.notes),
+      resonances: get(this.resonances),
       // Internal count
       attributePoints: get(this.attributePoints),
       dexterityExp: get(this.dexterityExp),

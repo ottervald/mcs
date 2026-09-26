@@ -8,9 +8,9 @@
         let visible:boolean = false;
 </script>
 {#if visible}
-        <button on:click={() => visible = !visible}>Hide Shields</button>
+        <button class="show-button" on:click={() => visible = !visible}>Hide Shields</button>
 {:else}
-        <button on:click={() => visible = !visible}>Show Shields</button>
+        <button class="show-button" on:click={() => visible = !visible}>Show Shields</button>
 {/if}
 
 {#if visible}
@@ -63,5 +63,8 @@
         }
         .name {
                 text-align: left;
+        }
+        .show-button {
+                margin: 5px;
         }
 </style>

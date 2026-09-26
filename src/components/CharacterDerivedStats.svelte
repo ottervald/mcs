@@ -28,9 +28,9 @@
         let visible:boolean = false;
 </script>
 {#if visible}
-        <button on:click={() => visible = !visible}>Hide Derived Stats</button>
+        <button class="show-button" on:click={() => visible = !visible}>Hide Derived Stats</button>
 {:else}
-        <button on:click={() => visible = !visible}>Show Derived Stats</button>
+        <button class="show-button" on:click={() => visible = !visible}>Show Derived Stats</button>
 {/if}
 
 {#if visible}
@@ -209,5 +209,8 @@
         }
         .name {
                 text-align: left;
+        }
+        .show-button {
+                margin: 5px;
         }
 </style>

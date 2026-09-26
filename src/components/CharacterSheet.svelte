@@ -9,6 +9,8 @@
   import CharacterArmours from './CharacterArmours.svelte'
   import CharacterShields from './CharacterShields.svelte'
   import CharacterTrinkets from './CharacterTrinkets.svelte'
+  import CharacterNotes from  './CharacterNotes.svelte'
+  import CharacterResonances from  './CharacterResonances.svelte'
 </script>
 
 <div class="header">
@@ -16,6 +18,9 @@
 </div>
 <div>
         <CharacterAttributes />
+</div>
+<div>
+        <CharacterResonances />
 </div>
 <div>
         <CharacterDerivedStats />
@@ -40,6 +45,9 @@
 </div>
 <div>
         <CharacterInventory />
+</div>
+<div>
+        <CharacterNotes />
 </div>
 
 <style>

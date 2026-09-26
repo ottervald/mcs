@@ -37,3 +37,14 @@ export type CharacterArmours = {
   right_leg: ArmourValues;
   left_leg: ArmourValues;
 }
+
+export type CharacterResonance = {
+  air: number;
+  earth: number;
+  fire: number;
+  water: number;
+  life: number;
+  death: number;
+  light: number;
+  darkness: number;
+}

@@ -4,7 +4,7 @@
                 "name": "Minor Resonating Trinket",
                 "description": "Increases one specific resonance to one if not already one or higher.",
                 "trinket_count": 1,
-                "effect": [],
+                "effect": [{"name": "resonance_increase", "value": 1}],
                 "size": 0,
                 "sturdiness": 3,
                 "cost": 100
@@ -14,7 +14,7 @@
                 "name": "Minor <resonance> Boosting Trinket",
                 "description": "Boosts one specific resonance by one to a maximum of three.",
                 "trinket_count": 1,
-                "effect": [],
+                "effect": [{"name": "resonance_increase", "value": 1}],
                 "size": 0,
                 "sturdiness": 3,
                 "cost": 250
