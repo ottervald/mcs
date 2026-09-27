@@ -2,10 +2,10 @@ import { derived, get, writable } from "svelte/store";
 import type { Writable } from "svelte/store";
 import { purimiveria_ancestries } from './lib/libraries';
 import type {Armour, Item, Shield, Skill, Ancestry, Trinket, Weapon} from './lib/libraries';
-import { purimiveria_traits } from './lib/traits/traits';
 import type { Trait } from './lib/traits/traits';
+import type { Gift } from './lib/gifts/gifts';
 import { mapArmour, getAttributeCost, isShield, isTrinket, isWeapon, isArmour } from './lib/helpers';
-import type { CharacterItem, CharacterSkill, CharacterTrait, CharacterResonance } from './lib/types';
+import type { CharacterItem, CharacterSkill, CharacterTrait, CharacterResonance, CharacterGift } from './lib/types';
 
 const startAttributePoints:number = 15;
 const startSkillExperience:number = 20;
@@ -25,6 +25,7 @@ class CharacterStore {
   characterItems: Writable<CharacterItem[]>;
   characterSkills: Writable<CharacterSkill[]>;
   characterTraits: Writable<CharacterTrait[]>;
+  characterGifts: Writable<CharacterGift[]>;
   notes: Writable<string>;
   resonances: Writable<CharacterResonance>;
   // Internal counters
@@ -63,6 +64,7 @@ class CharacterStore {
     this.characterItems = writable([]);
     this.characterSkills = writable([]);
     this.characterTraits = writable([]);
+    this.characterGifts = writable([]);
     this.notes = writable('');
     this.resonances = writable(baseResonances);
     // Internal counters
@@ -96,6 +98,11 @@ class CharacterStore {
     });
     this.characterTraits.subscribe((value:CharacterTrait[]) => {
       this.updateTraits();
+      this.updateGifts();
+    });
+    this.characterGifts.subscribe((value:CharacterGift[]) => {
+      this.updateTraits();
+      this.updateGifts();
     });
     this.characterExperience.subscribe((value:string) => {
       switch (value) {
@@ -150,7 +157,9 @@ class CharacterStore {
     return derived(
       [this.body, this.ancestry, this.characterSkills],
       ([$body, $ancestry, $skills]) => {
-        const dodge:number = $skills.find(s => s.skill.name === 'Dodge' )?.level | 0;
+        let dodge:number = 0;
+        const dodgeSkill = $skills.find(s => s.skill.name === 'Dodge' );
+        if (dodgeSkill) dodge = dodgeSkill.level;
         const tbody:number = $body + $ancestry.attribute_modifiers.body + Math.floor(dodge/2);
         return tbody + 3;
       }
@@ -160,7 +169,9 @@ class CharacterStore {
     return derived(
       [this.dexterity, this.ancestry, this.characterSkills],
       ([$dexterity, $ancestry, $skills]) => {
-        const alertness:number = $skills.find(s => s.skill.name === 'Alertness' )?.level | 0;
+        let alertness:number = 0;
+        const alertnessSkill = $skills.find(s => s.skill.name === 'Alertness' );
+        if (alertnessSkill) alertness = alertnessSkill.level;
         const tdexterity:number = $dexterity + $ancestry.attribute_modifiers.dexterity + Math.floor(alertness/2);
         return tdexterity + 3;
       }
@@ -171,7 +182,9 @@ class CharacterStore {
       [this.characterTraits, this.spirit, this.ancestry],
       ([$traits, $spirit, $ancestry]) => {
         const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
-        const resistance:number = $traits.find(t => t.trait.name === 'Magic Resistance')?.level | 0;
+        let resistance:number = 0;
+        const resistanceTrait = $traits.find(t => t.trait.name === 'Magic Resistance');
+        if (resistanceTrait) resistance = resistanceTrait.level;
         const hollow:number = $traits.find(t => t.trait.name === 'Hollow') ? 5 : 0;
         return 8 + hollow + resistance + tspirit;
       }
@@ -181,18 +194,25 @@ class CharacterStore {
     return derived(
       [this.spirit, this.mind, this.ancestry, this.characterTraits, this.trinkets],
       ([$spirit, $mind, $ancestry, $traits, $trinkets]) => {
-        let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        let power:number = 0;
+        const powerTrait = $traits.find(t => t.trait.name === 'Power' );
+        if (powerTrait) power = powerTrait.level;
         if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
-        const increasedTrait:number = $traits.find(t => t.trait.name === 'Increased Mana' )?.level | 0;
+        let increasedLevel:number = 0;
+        const increasedTrait = $traits.find(t => t.trait.name === 'Increased Mana' );
+        if (increasedTrait) increasedLevel = increasedTrait.level;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
         const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
         const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         const baseMana = tspirit + tmind + power;
-        const increasedBase:number = baseMana * increasedTrait;
+        const increasedBase:number = baseMana * increasedLevel;
         const spherestotal:number = $traits.filter(t => t.trait.category === 'Conjury Sphere').length;
         let trinketMana:number = 0;
-        $trinkets.forEach((trinket) => {trinketMana += (trinket.effect.find(e => e.name === 'max_mana')?.value | 0)});
+        $trinkets.forEach((trinket) => {
+          const trinketEffect = trinket.effect.find(e => e.name === 'max_mana');
+          if (trinketEffect) trinketMana += trinketEffect.value;
+        });
         let mananumber = 10 + tspirit + tmind + power + increasedBase + spherestotal + trinketMana;
         if (manawell) mananumber += baseMana + 10;
         if ($traits.find(t => t.trait.name === 'Hollow')) return 0;
@@ -204,14 +224,19 @@ class CharacterStore {
     return derived(
       [this.spirit, this.mind, this.ancestry, this.characterTraits, this.trinkets],
       ([$spirit, $mind, $ancestry, $traits, $trinkets]) => {
-        let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        let power:number = 0;
+        const powerTrait = $traits.find(t => t.trait.name === 'Power' );
+        if (powerTrait) power = powerTrait.level;
         if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         let manawell:boolean = false;
         if ($traits.find(t => t.trait.name === 'Manawell')) manawell = true;
         const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
         const tmind:number = $mind + $ancestry.attribute_modifiers.mind;
         let trinketRecovery:number = 0;
-        $trinkets.forEach((trinket) => {trinketRecovery += (trinket.effect.find(e => e.name === 'mana_recovery')?.value | 0)});
+        $trinkets.forEach((trinket) => {
+          const trinketEffect = trinket.effect.find(e => e.name === 'mana_recovery');
+          if (trinketEffect) trinketRecovery += trinketEffect.value;
+        });
         let recovery:number = Math.min(tspirit, tmind) + power + trinketRecovery;
         if (manawell) recovery = recovery * 2;
         if ($traits.find(t => t.trait.name === 'Hollow')) return 0;
@@ -234,7 +259,9 @@ class CharacterStore {
       [this.strength, this.body, this.ancestry, this.characterTraits],
       ([$strength, $body, $ancestry, $traits]) => {
         let modifier:number = 0;
-        const rh:number = $traits.find(t => t.trait.name === 'Rapid Healer' )?.level | 0;
+        let rh:number = 0;
+        const rhTrait = $traits.find(t => t.trait.name === 'Rapid Healer' );
+        if (rhTrait) rh = rhTrait.level;
         modifier = modifier + rh;
         if ($traits.find(t => t.trait.name === 'Unhealing')) {
           modifier--;
@@ -309,7 +336,9 @@ class CharacterStore {
     return derived(
       [this.strength, this.body, this.ancestry, this.characterTraits],
       ([$strength, $body, $ancestry, $traits]) => {
-        const pm:number = $traits.find(t => t.trait.name === 'Pack Mule' )?.level | 0;
+        let pm:number = 0;
+        const pmTrait = $traits.find(t => t.trait.name === 'Pack Mule' );
+        if (pmTrait) pm = pmTrait.level;
         const tbody:number = $body + $ancestry.attribute_modifiers.body;
         const tstrength:number = $strength + $ancestry.attribute_modifiers.strength;
         return (tstrength + Math.floor(tbody/2)) * 4 + 2 + (pm * 2);
@@ -321,7 +350,9 @@ class CharacterStore {
       [this.spirit, this.ancestry, this.characterTraits],
       ([$spirit, $ancestry, $traits]) => {
         const tspirit:number = $spirit + $ancestry.attribute_modifiers.spirit;
-        let power:number = $traits.find(t => t.trait.name === 'Power' )?.level | 0;
+        let power:number = 0;
+        const powerTrait = $traits.find(t => t.trait.name === 'Power' );
+        if (powerTrait) power = powerTrait.level;
         if ($traits.find(t => t.trait.name === 'Magical Lineage')) power += 1;
         return tspirit + power;
       }
@@ -343,10 +374,27 @@ class CharacterStore {
       }
     )
   }
+  get giftExperience() {
+    return derived(
+      [this.characterTraits, this.characterGifts],
+      ([$traits, $gifts]) => {
+        const chosenExp = $traits.reduce( (acc, cur) => {
+          if (cur.trait.category === 'Chosen by Gods') {
+            return acc + cur.cost;
+          }
+          return acc;
+        }, 0);
+        const giftCost = $gifts.reduce( (acc, cur) => {
+            return acc + cur.cost;
+        }, 0);
+        return chosenExp - giftCost;
+      }
+    )
+  }
   get totalExperience() {
     return derived(
-      [this.ancestry, this.skillExperience, this.traitExperience, this.attributeExperience, this.characterExperience],
-      ([$ancestry, $skillExperience, $traitExperience, $attributeExperience, $characterExperience]) => {
+      [this.ancestry, this.skillExperience, this.traitExperience, this.attributeExperience, this.characterExperience, this.giftExperience],
+      ([$ancestry, $skillExperience, $traitExperience, $attributeExperience, $characterExperience, $giftExperience]) => {
         let addedExperience:number = 0;
         switch ($characterExperience) {
           case 'Veteran':
@@ -358,7 +406,7 @@ class CharacterStore {
           case 'Established':
             addedExperience = 10;
         }
-        return $ancestry.starting_experience + $skillExperience + $traitExperience + $attributeExperience + addedExperience;
+        return $ancestry.starting_experience + $skillExperience + $traitExperience + $attributeExperience + addedExperience + $giftExperience;
       }
     )
   }
@@ -454,7 +502,9 @@ class CharacterStore {
     return derived(
       [this.characterItems, this.characterTraits],
       ([$items, $traits]) => {
-        const armourTraining:number = $traits.find(t => t.trait.name === 'Armor Training' )?.level | 0;
+        let armourTraining:number = 0;
+        const atTrait = $traits.find(t => t.trait.name === 'Armor Training' );
+        if (atTrait) armourTraining = atTrait.level;
         const tmp_weapons = $items.filter(item => isWeapon(item.item) || isShield(item.item) );
         return $items.reduce( (acc, cur) => {
           if (isWeapon(cur.item) || isShield(cur.item) || isArmour(cur.item)) {
@@ -467,8 +517,8 @@ class CharacterStore {
   }
   get characterResonances() {
     return derived(
-      [this.resonances, this.characterTraits, this.ancestry],
-      ([$resonances, $traits, $ancestry]) => {
+      [this.resonances, this.characterTraits, this.ancestry, this.characterGifts],
+      ([$resonances, $traits, $ancestry, $gifts]) => {
         const baseResonances = { ...$resonances };
         const airTrait:boolean = !!$traits.find(t => t.trait.name === 'Nomadic' );
         const earthTrait:boolean = !!$traits.find(t => t.trait.name === 'Child of the Wild' );
@@ -485,22 +535,52 @@ class CharacterStore {
         if (earthTrait) baseResonances.earth += 1;
         if (fireTrait) baseResonances.fire += 1;
         if (waterTrait) baseResonances.water += 1;
+        const resGifts = $gifts.filter(g => g.gift.category === 'Resonance');
+        resGifts.forEach(charGift => {
+          const resonance = charGift.gift.name.slice(0, charGift.gift.name.indexOf(':'));
+          switch (resonance) {
+            case 'Air Resonance':
+              baseResonances.air += 1;
+              break;
+            case 'Earth Resonance':
+              baseResonances.earth += 1;
+              break;
+            case 'Fire Resonance':
+              baseResonances.fire += 1;
+              break;
+            case 'Water Resonance':
+              baseResonances.water += 1;
+              break;
+            case 'Life Resonance':
+              baseResonances.life += 1;
+              break;
+            case 'Death Resonance':
+              baseResonances.death += 1;
+              break;
+            case 'Light Resonance':
+              baseResonances.light += 1;
+              break;
+            case 'Darkness Resonance':
+              baseResonances.darkness += 1;
+              break;
+          }
+        });
         return baseResonances;
       }
     )
   }
   get totalResonances() {
     return derived(
-      [this.characterTraits, this.characterExperience, this.ancestry, this.trinkets],
-      ([$traits, $experience, $ancestry, $trinkets]) => {
-        const airTrait:boolean = !!$traits.find(t => t.trait.name === 'Nomadic' );
-        const earthTrait:boolean = !!$traits.find(t => t.trait.name === 'Child of the Wild' );
-        const fireTrait:boolean = !!$traits.find(t => t.trait.name === 'Firebug' );
-        const waterTrait:boolean = !!$traits.find(t => t.trait.name === 'Waterborne' );
+      [this.resonances, this.characterTraits, this.characterExperience, this.ancestry, this.trinkets],
+      ([$resonances, $traits, $experience, $ancestry, $trinkets]) => {
+        let totalAdded = 0;
+        for (const res of Object.values($resonances)) {
+          totalAdded += res;
+        }
         const elementalAttunement:boolean = !!$traits.find(t => t.trait.name === 'Elemental Attunement' );
         const mundane:boolean = !!$traits.find(t => t.trait.name === 'Mundane' );
         const hollow:boolean = !!$traits.find(t => t.trait.name === 'Hollow' );
-        if (mundane || hollow) return 0;
+        if (mundane || hollow) return 0 - totalAdded;
         let baseTotal:number = 0;
         switch ($experience) {
           case 'Veteran':
@@ -522,12 +602,8 @@ class CharacterStore {
           const resonanceIncreaseEffect = trinket.effect.find(e => e.name === 'resonance_increase');
           if (resonanceIncreaseEffect) baseTotal += (resonanceIncreaseEffect.value * trinket.trinket_count);
         });
-        if (airTrait) baseTotal += 1;
-        if (earthTrait) baseTotal += 1;
-        if (fireTrait) baseTotal += 1;
-        if (waterTrait) baseTotal += 1;
         if (elementalAttunement) baseTotal += 1;
-        return baseTotal;
+        return baseTotal - totalAdded;
       }
     )
   }
@@ -942,8 +1018,8 @@ class CharacterStore {
     }
     if (requirements.skills.length > 0) {
       var pass = false;
-      for (const skill of get(this.characterSkills)) {
-        for (const req of requirements.skills) {
+      for (const req of requirements.skills) {
+        for (const skill of get(this.characterSkills)) {
           if (skill.skill.name === req.name && skill.level >= req.minimumValue) {
             pass = true;
             break;
@@ -959,9 +1035,18 @@ class CharacterStore {
     }
     if (requirements.traits.length > 0) {
       var pass = false;
-      for (const trait of get(this.characterTraits)) {
-        for (const req of requirements.traits) {
+      for (const req of requirements.traits) {
+        for (const trait of get(this.characterTraits)) {
           if (trait.trait.name === req.name && trait.level >= req.minimumValue) {
+            pass = true;
+            break;
+          }
+        }
+        if (pass) {
+          break;
+        }
+        for (const gift of get(this.characterGifts)) {
+          if (gift.gift.name === req.name) {
             pass = true;
             break;
           }
@@ -990,6 +1075,66 @@ class CharacterStore {
         return n.map((t, i) => {
           t.requirementsMet = this.traitRequirementsMet(t.trait);
           return t;
+        });
+      });
+    }
+  }
+
+  addGift(gift:Gift) {
+    this.characterGifts.update((n) => {
+      const exists:boolean = !!n.find(t => t.gift.id === gift.id);
+      if (exists) {
+        return n;
+      }
+      return [...n, {
+        gift: gift,
+        cost: gift.cost,
+        requirementsMet: this.giftRequirementsMet(gift)
+      }];
+    });
+  }
+
+  removeGift(gift:CharacterGift, position:number) {
+    this.characterGifts.update((n) => {
+      return n.filter((t, i) => i != position);
+    });
+  }
+
+  giftRequirementsMet(gift:Gift):boolean {
+    const requirements = gift.requiredTraits;
+    if (requirements.length > 0) {
+      var pass = false;
+      for (const req of requirements) {
+        for (const trait of get(this.characterTraits)) {
+          if (trait.trait.name === req.name && trait.level >= req.minimumValue) {
+            pass = true;
+            break;
+          }
+        }
+        if (pass) {
+          break;
+        }
+      }
+      if (!pass) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  updateGifts() {
+    var changes = false;
+    for (const gift of get(this.characterGifts)) {
+      if (gift.requirementsMet !== this.giftRequirementsMet(gift.gift)) {
+        changes = true;
+        break;
+      }
+    }
+    if (changes) {
+      this.characterGifts.update((n) => {
+        return n.map((g, i) => {
+          g.requirementsMet = this.giftRequirementsMet(g.gift);
+          return g;
         });
       });
     }
@@ -1045,18 +1190,12 @@ class CharacterStore {
     this.nativeLanguage.set(character_object.nativeLanguage || '');
     this.characterItems.set(character_object.characterItems);
     this.characterSkills.set(character_object.characterSkills);
-    const importedTraits = [];
-    for (const charTrait of character_object.characterTraits) {
-      if ('requirementsMet' in charTrait) {
-        importedTraits.push(charTrait);
-      } else {
-        const updatedTrait = purimiveria_traits.find((t) => t.name === charTrait.trait.name);
-        charTrait.trait = updatedTrait;
-        charTrait.requirementsMet = false;
-        importedTraits.push(charTrait);
-      }
-    }
     this.characterTraits.set(character_object.characterTraits);
+    if (character_object.characterGifts) {
+      this.characterGifts.set(character_object.characterGifts);
+    } else {
+      this.characterGifts.set([]);
+    }
     // Backwards compatibility with before notes were added
     if ('notes' in character_object) {
       this.notes.set(character_object.notes);
@@ -1111,6 +1250,7 @@ class CharacterStore {
       characterItems: get(this.characterItems),
       characterSkills: get(this.characterSkills),
       characterTraits: get(this.characterTraits),
+      characterGifts: get(this.characterGifts),
       notes: get(this.notes),
       resonances: get(this.resonances),
       // Internal count

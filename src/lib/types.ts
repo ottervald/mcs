@@ -1,4 +1,4 @@
-import type { Item, Skill } from './libraries';
+import type { Item, Skill, Gift } from './libraries';
 import type { Trait } from './traits/traits';
 
 export type CharacterItem = {
@@ -47,4 +47,10 @@ export type CharacterResonance = {
   death: number;
   light: number;
   darkness: number;
+}
+
+export type CharacterGift = {
+  gift: Gift;
+  cost: number;
+  requirementsMet: boolean;
 }

@@ -1,0 +1,424 @@
+[
+        {
+                "id": "41662d99-73be-4341-9b20-68e125fd9469",
+                "name": "Air 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of air magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Kie'monas",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "e2bf03c6-6248-4446-876f-6f24ce9f816c",
+                "name": "Animal 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of Animal magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "aec3b6da-5e59-45ad-933c-8a72727504b6",
+                "name": "Animal 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of Animal magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "f064193c-ec80-4b7b-bf1f-f8b215aa1496",
+                "name": "Animal 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of Animal magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "86011444-f61c-48cd-8464-1fce652c959c",
+                "name": "Body 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of body magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "8a94aa07-876b-4631-bc1f-446b86c45975",
+                "name": "Body 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of body magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "bbe3527a-a0ee-426d-a8c0-b644db422153",
+                "name": "Darkness 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of darkness magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "acd71d1c-3ce5-436c-b253-9bf0a5edf816",
+                "name": "Darkness 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of darkness magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "06a6078b-8760-4d3c-934a-be6170e768a2",
+                "name": "Darkness 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of darkness magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 5
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "d4ff9ed2-a5ed-41f9-beb7-ff1b9b7693b9",
+                "name": "Darkness 4",
+                "category": "Conjury Sphere",
+                "cost": 20,
+                "description": "Fourth sphere of darkness magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "178f22ac-6391-4df4-b42c-b0cf4655ca9a",
+                "name": "Death 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of death magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "4badd5ed-1317-4296-8295-9c336b97698b",
+                "name": "Death 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of death magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "5ba672d9-9344-4439-9fd3-23137ba5bd94",
+                "name": "Death 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of death magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "4f48c276-662b-4248-8e3c-c2914dc9ff09",
+                "name": "Death 4",
+                "category": "Conjury Sphere",
+                "cost": 20,
+                "description": "Fourth sphere of death magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 5
+                        }
+                ]
+        },
+        {
+                "id": "17a3cab7-25a4-4ba8-81d9-a035b049a4b8",
+                "name": "Earth 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of earth magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "c812cd43-9984-4df2-9fff-4c7c85862ae5",
+                "name": "Earth 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of earth magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "316c5fad-56c4-4155-8920-90156b263015",
+                "name": "Earth 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of earth magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "94c1ed42-13cb-4af7-b4e7-2e109293ccf7",
+                "name": "Fire 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of fire magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Kie'monas",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 2
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "d80f4cdd-e704-4093-b57f-259c0bddea20",
+                "name": "Fire 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of fire magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 3
+                        },
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "e88946c4-38bf-44d0-a348-96a4e332eb75",
+                "name": "Fire 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of fire magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "3472b1a3-c380-4d0e-9560-e00c27212d3e",
+                "name": "Healing 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of healing magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Anora",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "c3ada8d1-ef20-4a1c-93b0-3bd20f4daae3",
+                "name": "Healing 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of healing magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Anora",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "3e03d6b0-ce43-454d-8edd-2179de2fd2f1",
+                "name": "Light 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of light magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "b180955b-05b1-40c7-a355-885081e68c96",
+                "name": "Light 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of light magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "128304a9-6813-4e03-9df5-8cb56efffbb2",
+                "name": "Light 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of light magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "c58297d4-fad2-4ee1-8e23-b99f1c8a9fe9",
+                "name": "Light 4",
+                "category": "Conjury Sphere",
+                "cost": 20,
+                "description": "Fourth sphere of light magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 5
+                        }
+                ]
+        },
+        {
+                "id": "53bf6c51-7cfd-4184-a81e-c0616b24d0e5",
+                "name": "Plant 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of plant magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "ec655555-bd06-4942-8407-d7fb4f5b7f5f",
+                "name": "Plant 2",
+                "category": "Conjury Sphere",
+                "cost": 10,
+                "description": "Second sphere of plant magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "dceac253-02a2-4f59-b1a4-fd510cd73c78",
+                "name": "Plant 3",
+                "category": "Conjury Sphere",
+                "cost": 15,
+                "description": "Third sphere of plant magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 4
+                        }
+                ]
+        },
+        {
+                "id": "1c8bcfab-34ff-4fa8-b48c-6d7f6503dd8f",
+                "name": "Water 1",
+                "category": "Conjury Sphere",
+                "cost": 5,
+                "description": "First sphere of water magic",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Anora",
+                                "minimumValue": 2
+                        }
+                ]
+        }
+]

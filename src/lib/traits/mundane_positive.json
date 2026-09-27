@@ -427,7 +427,7 @@
                 "levels": false,
                 "removable": true,
                 "exponential": false,
-                "description": "You have an unnatural ability to navigate in the wilderness",
+                "description": "You have an unnatural, if not supernatural, ability to navigate in the wilderness. It is easy for you to travel on simple instructions across large swathes of wilderness and in familiar areas you quickly learn of every lil’ shortcut. With this trait you are an unmatched wilderness guide, you do not need nor receive any help from maps or compasses.",
                 "requirements": {
                         "attributes": {
                                 "dexterity": 0,

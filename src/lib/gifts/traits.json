@@ -1,0 +1,227 @@
+[
+        {
+                "id": "f6cc1f5e-28c8-4b3f-8a04-f6532b02539e",
+                "name": "Good Looks 1",
+                "category": "Trait",
+                "cost": 4,
+                "description": "First level of good looks",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "eca459f4-f7af-4f65-844c-1b31ee79336b",
+                "name": "Good Looks 2",
+                "category": "Trait",
+                "cost": 4,
+                "description": "Second level of good looks",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "1ca00d43-e56b-4f57-99db-aef9fdb300fb",
+                "name": "Good Looks 3",
+                "category": "Trait",
+                "cost": 4,
+                "description": "Third level of good looks",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Bios",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "2dd3d9fd-17dc-4309-821a-b74af792c6ea",
+                "name": "Bestial Mysticism",
+                "category": "Trait",
+                "cost": 4,
+                "description": "Conjurers with this trait may cast somatic and/or vocal spells while somehow transformed into animal forms.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "6687c81d-b626-4c61-a824-033cb08971df",
+                "name": "Lycanthropy",
+                "category": "Trait",
+                "cost": 15,
+                "description": "Become some other mammal!",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "75bc7828-87a0-4964-bc58-4af032590668",
+                "name": "Animal Friend",
+                "category": "Trait",
+                "cost": 5,
+                "description": "You can always tell an animal's emotional state and friendly animals tend towards trusting you. This ability works on mammals and birds.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "ccbc308c-3517-401e-b864-ed442c9ed587",
+                "name": "Pathfinder",
+                "category": "Trait",
+                "cost": 4,
+                "description": "You have an unnatural, if not supernatural, ability to navigate in the wilderness. It is easy for you to travel on simple instructions across large swathes of wilderness and in familiar areas you quickly learn of every lil’ shortcut. With this trait you are an unmatched wilderness guide, you do not need nor receive any help from maps or compasses.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Erima",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "e44b16a4-c8ed-4d6e-8969-cce926e0c3c1",
+                "name": "Spirit Empathy",
+                "category": "Trait",
+                "cost": 5,
+                "description": "You have awareness of spirits' presence and have a chance to see through glamors. Spirits are also a bit more friendly to you in general",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Kie'monas",
+                                "minimumValue": 1
+                        },
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "8df1008f-7bf9-4081-857a-016f224ce9c7",
+                "name": "Fate Sight",
+                "category": "Trait",
+                "cost": 5,
+                "description": "Moira shares her power to help her chosen perceive how entangled in fate a subject is.\n\nThe chosen targets a target within their sight, and close enough that they can make out their facial features to an okay degree and spend one point of mana. They roll Mind + Alertness + Darkness Resonance Vs. Spirit + Darkness Resonance of the target. If the roll succeeds they know how much fate is carried by the person and if their strings of fate tie them to any other subject also visibly by the character. Once activated the sight is active for about a minute. Even for characters who carry little to no weight of fate this ability can still see a person's connections with the strings of fate.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Moira",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "8cede959-60d8-43ae-b924-f4ddfff9dcee",
+                "name": "Pet Friend",
+                "category": "Trait",
+                "cost": 2,
+                "description": "Cats, dogs and mammal or avian pets of similar status see you as a friend per default. Other domesticated animals may also have their trust of you increased. The exception being animals specifically trained to be hostile to you, such as watchdogs or animals trained to fight.\n\nThese animals apart from being friendly with you may occasionally spring to your aid or otherwise help within the limits of their abilities.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "b57c7016-090c-4f57-abd7-68dfaacb5c24",
+                "name": "Obfuscated Presence",
+                "category": "Trait",
+                "cost": 3,
+                "description": "This ability does not make it easier for you to hide or sneak, but it makes those kith that see you have seen you easily forget that they did or how you look. When someone is asked about you, directly or indirectly, the subject must roll to recall you or any detail about you or what you did unless it was something clearly spotlighted in that moment. The subject rolls Mind + Light resonance Vs. your Spirit + Darkness resonance. If they fail critically, even more details about you fade from their memory than those of that moment, perhaps they forget about you totally.\n\nPeople talking may even forget about your presence when you are still in the same room, and may for instance say things or do things they would not have otherwise.\n\nFor people who are close to you this ability is nullified.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "ee1ff838-6722-4ae8-83fb-4e587f9dbf39",
+                "name": "Labyrinth Walker",
+                "category": "Trait",
+                "cost": 10,
+                "description": "This gift reveals the walls of the labyrinth to the chosen. It allows them to walk through space and time in such a way and with such serendipity they can find themselves to places they do not know of or do not know the layout of. Entering a door after someone before it locks, jumping out of a window and squeezing through a loose grate, passing through a gate at the exact moment its guards look away etc… Paths that seem impossible to find or walk become as clear as any other road or street seems to anyone else. It does not allow them to walk through walls, but it may definitely seem like the can to others. The only way to have someone keep up with you when doing this, unless they also have the ability, is to guide them by the hand.\n\nIn game this ability may grant one or more levels of advantage to any rolls to navigate, throw off pursuers or infiltrate in urban or kith constructed environments up to a maximum of Air resonance. It may also allow them to roll for finding or infiltrating places that others would get to even try, and also allows them to try to navigate to people, places or items they know are nearby but do not know the location off.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Nhroel",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "cb5a78c9-7e39-4009-941c-8bd7494d2b92",
+                "name": "Insight",
+                "category": "Trait",
+                "cost": 5,
+                "description": "The greatest tool in Silmaris arsenal and greatest kept secret. This ability has both a passive and active effect. The passive effect allows detection of other chosen who are close nearby. The player rolls a Mind + Darkness Resonance Vs. Spirit + Darkness resonance of the other chosen. This ability has no strict range, they are close enough that they could interact within a minute whether they are aware of each other or not. You get at most one roll a day per other chosen. If the roll above succeeds the character gets told that a chosen is nearby, the god they are associated with and their tier. This ability does not help to single out who or where the target is.\n\nThe active part of the ability works accordingly; the chosen targets a target within their sight, and close enough that they can make out their facial features to an okay degree and spend one point of mana. They roll Mind + Alertness + Darkness Resonance Vs. Spirit + Darkness Resonance of the target. The ability automatically succeeds against other Silmaris chosen. If the roll succeeds they know if the target is a chosen, their associated god and their chosen tier rank if applicable.\n\nThis ability does not count as magic and cannot be detected or protected from by any means. Those awarded with this gift are not to tell anyone about it or talk about it(you never know who listens). It can however be assumed anyone who has reached tier 3 has it.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 2
+                        }
+                ]
+        },
+        {
+                "id": "290cf825-7d56-41df-a1d8-48e8004c3973",
+                "name": "Path to Success",
+                "category": "Trait",
+                "cost": 5,
+                "description": "When you have a specific job or a specific mark ordained to you by Silmaris, you will receive guidance in locating them. At any time, you can stop and take in your surroundings, and Silmaris gives you guidance to your target. This guidance is just about detailed enough to only cover the next step, one step at a time. Eg. “Cross this valley”, “Take a boat to Goma”, “Go to that village on the horizon”. As you get closer to your target it gets more specific. Eg. “Go to the tavern called The Great Elk”, “Ask for the ‘the undertaker’”, “your mark is behind that there door”... Often there are limits to this power, it only works within the awareness of Silmaris and will fail or be more vague in areas where they have little to no power. It is most useful in well populated areas where many weavers of the web can be found. It is also common for the guidance to be something along the lines of “they were last seen here about a week ago”.\n\nEvery invocation of this ability is a standard action and costs 1 mana. If you want this power for a mission not given to you by Silmaris, you must confer with them and convince them that your mission will ultimately benefit them. If the ability is invoked too often, Silmaris may choose not to offer guidance. This does nothing if you were to fall from grace from Silmaris as its use draws upon his knowledge in a direct manner.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Silmaris",
+                                "minimumValue": 3
+                        }
+                ]
+        },
+        {
+                "id": "956983e1-fb05-4e31-ab8f-6b1753364a43",
+                "name": "Immortality",
+                "category": "Trait",
+                "cost": 25,
+                "description": "Never die...",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Thanatos",
+                                "minimumValue": 5
+                        }
+                ]
+        },
+        {
+                "id": "50e97189-7e88-4957-b9e2-90436d88a001",
+                "name": "Fire Blooded",
+                "category": "Trait",
+                "cost": 5,
+                "description": "The blood seeping from your wounds becomes flames but your flesh is not seared. The character gains Fire resonance extra Magnitude on all spells for duration in Rounds equal to Mana spent. Every Round with this ability active the character takes Fire resonance Lasting damage including the Round where the ability is activated. Activating the ability is a free action but it can only be done when threatened or in immediate danger.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 1
+                        }
+                ]
+        },
+        {
+                "id": "c4b85b01-1006-4dba-8b9c-b7bcef6f1443",
+                "name": "Power from Pain",
+                "category": "Trait",
+                "cost": 5,
+                "description": "Gain extra die on a damage roll for melee or ranged muscle powered weapons equal to your level of Vitality damage. Costs one mana to use.",
+                "requiredTraits": [
+                        {
+                                "name": "Chosen of Yminios",
+                                "minimumValue": 3
+                        }
+                ]
+        }
+]

@@ -1,6 +1,6 @@
 [
         {
-                "id": "",
+                "id": "6eb23467-e839-4ff7-b94c-e4c3f92a8d11",
                 "name": "Life Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -25,7 +25,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "452f9993-dfc6-4b44-8b85-295e3126bd80",
                 "name": "Life Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -46,7 +46,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "d01fd855-f38d-4c45-b44a-1ed4ad9c7471",
                 "name": "Life Resonance: third",
                 "category": "Resonance",
                 "cost": 15,
@@ -59,7 +59,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "ff65f377-8b91-411d-8723-4d57d67e02a3",
                 "name": "Water Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -76,7 +76,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "54f62dbd-fcdf-4aec-a19e-78644a18144d",
                 "name": "Water Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -89,7 +89,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "493c43a0-302b-408b-8048-3225f9035734",
                 "name": "Light Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -106,7 +106,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "732ba700-e156-49bb-b168-302d22b705e5",
                 "name": "Light Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -123,7 +123,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "da0e3c79-d59b-4bb1-be5e-0c08b4f5bf23",
                 "name": "Light Resonance: third",
                 "category": "Resonance",
                 "cost": 15,
@@ -140,7 +140,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "b34d7f74-35ad-40b5-a8ba-dfd417e6f684",
                 "name": "Air Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -157,7 +157,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "dc4d0391-1cc4-4836-acb3-8300de0ef6ce",
                 "name": "Earth Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -174,7 +174,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "86f02d8b-e0bc-4049-ae04-1dfe0556e906",
                 "name": "Earth Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -191,7 +191,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "524ac754-4e0b-4ce1-9641-cb10a1df8c51",
                 "name": "Earth Resonance: third",
                 "category": "Resonance",
                 "cost": 15,
@@ -208,7 +208,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "d15845d3-bab8-4563-9bc7-ec817c7a3221",
                 "name": "Fire Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -233,7 +233,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "e6b2e6c2-ce40-4af7-8589-4bcbd3361db9",
                 "name": "Fire Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -254,7 +254,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "0bd931ea-38e9-4bbc-abb8-3489e73859a4",
                 "name": "Fire Resonance: third",
                 "category": "Resonance",
                 "cost": 15,
@@ -275,7 +275,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "b067c3c2-1884-446b-8290-bb0a7d6566c0",
                 "name": "Death Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -288,7 +288,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "eb9a890c-7833-4bd2-9d6c-cb38c5e04039",
                 "name": "Death Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -301,7 +301,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "10fb9e70-14ea-48b5-ab22-ee87fe370590",
                 "name": "Death Resonance: third",
                 "category": "Resonance",
                 "cost": 15,
@@ -314,7 +314,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "7f724406-6265-43bb-914e-90146a5a7f3e",
                 "name": "Darkness Resonance: first",
                 "category": "Resonance",
                 "cost": 5,
@@ -335,7 +335,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "8f98f318-00c3-4fa7-a5bf-250fdb49cd8e",
                 "name": "Darkness Resonance: second",
                 "category": "Resonance",
                 "cost": 10,
@@ -352,7 +352,7 @@
                 ]
         },
         {
-                "id": "",
+                "id": "f9b7bb4c-fff9-4fe1-ac28-af01554d5a78",
                 "name": "Darkness Resonance: third",
                 "category": "Resonance",
                 "cost": 15,
@@ -365,49 +365,6 @@
                         {
                                 "name": "Chosen of Silmaris",
                                 "minimumValue": 4
-                        }
-                ]
-        },
-        {
-                "id": "",
-                "name": "Air 1",
-                "category": "Conjury Sphere",
-                "cost": 5,
-                "description": "First sphere of air magic",
-                "requiredTraits": [
-                        {
-                                "name": "Chosen of Kie'monas",
-                                "minimumValue": 1
-                        },
-                        {
-                                "name": "Chosen of Nhroel",
-                                "minimumValue": 2
-                        }
-                ]
-        },
-        {
-                "id": "",
-                "name": "Body 1",
-                "category": "Conjury Sphere",
-                "cost": 5,
-                "description": "First sphere of body magic",
-                "requiredTraits": [
-                        {
-                                "name": "Chosen of Yminios",
-                                "minimumValue": 2
-                        }
-                ]
-        },
-        {
-                "id": "",
-                "name": "Body 2",
-                "category": "Conjury Sphere",
-                "cost": 10,
-                "description": "Second sphere of body magic",
-                "requiredTraits": [
-                        {
-                                "name": "Chosen of Yminios",
-                                "minimumValue": 3
                         }
                 ]
         }

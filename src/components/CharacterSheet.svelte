@@ -4,6 +4,7 @@
   import CharacterDerivedStats from './CharacterDerivedStats.svelte'
   import CharacterSkills from './CharacterSkills.svelte'
   import CharacterTraits from './CharacterTraits.svelte'
+  import CharacterGifts from './CharacterGifts.svelte'
   import CharacterInventory from './CharacterInventory.svelte'
   import CharacterWeapons from './CharacterWeapons.svelte'
   import CharacterArmours from './CharacterArmours.svelte'
@@ -30,6 +31,9 @@
 </div>
 <div>
         <CharacterTraits />
+</div>
+<div>
+        <CharacterGifts />
 </div>
 <div>
         <CharacterArmours />
